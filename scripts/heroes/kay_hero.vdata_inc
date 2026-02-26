@@ -699,6 +699,11 @@
 		}
 		m_mapScalingStats = 
 		{
+			ELightMeleeDamage = 
+			{
+				eScalingStat = "ETechPower"
+				flScale = 0.300000
+			}
 			EHeavyMeleeDamage = 
 			{
 				eScalingStat = "ETechPower"
@@ -760,7 +765,7 @@
 			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
-		m_eAbilityResourceType = "EResourceType_None"
+		m_eAbilityResourceType = "EResourceType_Rage"
 		m_ShopStatDisplay = 
 		{
 			m_eWeaponStatsDisplay = 
