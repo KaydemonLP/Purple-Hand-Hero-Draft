@@ -110,7 +110,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
-			ESlot_Cosmetic_1 = "cosmetic_item_voting_poster"
+			ESlot_Cosmetic_1 = "ability_kay_cooldown_reduction"
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
 			ESlot_Signature_2 = "ability_kay_whirlwind"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
