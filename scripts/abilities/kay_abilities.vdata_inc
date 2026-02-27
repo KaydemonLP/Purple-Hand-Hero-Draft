@@ -1649,7 +1649,7 @@
 		{
 			AbilityCooldown = 
 			{
-				m_strValue = "21"
+				m_strValue = "10"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cooldown"
 				m_bCanSetTokenOverride = true
@@ -1700,7 +1700,7 @@
 			}
 			AbilityChannelTime = 
 			{
-				m_strValue = "0.35"
+				m_strValue = "0.1"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cast"
 				m_bCanSetTokenOverride = true
@@ -1788,7 +1788,7 @@
 			Damage = 
 			{
 				m_strValue = 45
-				m_strCSSClass = "tech_damage"
+				m_strCSSClass = "melee_damage"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_tech_damage"
@@ -1796,7 +1796,22 @@
 					m_flStatScale = 1.500000
 					m_eSpecificStatScaleType = "ETechPower"
 				}
-				m_bIsAbilityDamageProperty = true
+			}
+			BombDamage = 
+			{
+				m_strValue = 45
+				m_strCSSClass = "tech_damage"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					_my_subclass_name = "damage_scale_bomb"
+					m_flStatScale = 1.500000
+					m_eSpecificStatScaleType = "ETechPower"
+				}
+			}
+			CountsAsLightMelee = 
+			{
+				m_strValue = "0"
 			}
 			EnemyPushForceAway = 
 			{
@@ -1842,28 +1857,9 @@
 			{
 				m_strValue = "2.5m"
 			}
-			BuffDuration = 
-			{
-				m_strValue = "0"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_duration"
-					_my_subclass_name = "buffdurationsf"
-				}
-			}
-			BonusFireRate = 
-			{
-				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_FIRE_RATE"
-			}
 			StaminaRestore = 
 			{
 				m_strValue = "0"
-			}
-			OutgoingDamagePercent = 
-			{
-				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_DAMAGE_PERCENT"
 			}
 			DebuffDuration = 
 			{
@@ -1874,28 +1870,6 @@
 					_my_subclass_name = "debuffdurationsf"
 				}
 				m_strCSSClass = "duration"
-			}
-			BonusDamage = 
-			{
-				m_strValue = "25"
-				m_subclassScaleFunction = subclass:
-				{
-					m_flStatScale = 2.000000
-					_my_subclass_name = "bonusdamagesf"
-					_class = "scale_function_tech_damage"
-				}
-				m_strCSSClass = "tech_damage"
-			}
-			MarkDuration = 
-			{
-				m_strValue = "3"
-				m_strCSSClass = "duration"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_duration"
-					m_flStatScale = 1.000000
-					_my_subclass_name = "markduration"
-				}
 			}
 			Radius = 
 			{
@@ -2006,37 +1980,20 @@
 				m_vecPropertyUpgrades = 
 				[
 					
-					{
-						m_strPropertyName = "AbilityCooldown"
-						m_strBonus = "-6"
-					},
 				]
 			},
 			
 			{
 				m_vecPropertyUpgrades = 
 				[
-					
-					{
-						m_strPropertyName = "StaminaRestore"
-						m_strBonus = "2"
-					},
+
 				]
 			},
 			
 			{
 				m_vecPropertyUpgrades = 
 				[
-					
-					{
-						m_strPropertyName = "OutgoingDamagePercent"
-						m_strBonus = "-35"
-					},
-					
-					{
-						m_strPropertyName = "BonusDamage"
-						m_strBonus = "80"
-					},
+
 				]
 			},
 		]
@@ -2044,9 +2001,8 @@
 		{
 			m_vecAbilityInfoSections = 
 			[
-				
 				{
-					m_strLocString = "#ability_werewolf_kickflip_desc_1"
+					m_strLocString = "Dash forward and grab the first enemy hit, dealing {g:citadel_inline_attribute:'MeleeDamage'} and <span class=\"highlight\">exploding</span> them for {g:citadel_inline_attribute:'SpiritDamage'}."
 					m_vecAbilityPropertiesBlock = 
 					[
 						
@@ -2058,40 +2014,23 @@
 								{
 									m_strImportantProperty = "Damage"
 								},
-								
 								{
-									m_strImportantProperty = "StatusEffectDisarmed"
-									m_strStatusEffectValue = "DisarmDuration"
-									m_bShowPropertyValue = true
+									m_strImportantProperty = "BombDamage"
 								},
 							]
 						},
-					]
-					m_vecBasicProperties = 
-					[
-						"DebuffDuration",
 					]
 				},
 				
 				{
-					m_strLocString = "#ability_werewolf_kickflip_desc_2"
+					m_strLocString = "#citadel_ability_shiv_killing_blow_passive_desc"
 					m_vecAbilityPropertiesBlock = 
 					[
-						
 						{
-							m_strPropertiesTitleLocString = ""
 							m_vecAbilityProperties = 
 							[
-								
-								{
-									m_strImportantProperty = "BonusDamage"
-								},
 							]
 						},
-					]
-					m_vecBasicProperties = 
-					[
-						"MarkDuration",
 					]
 				},
 			]
@@ -2190,15 +2129,6 @@
 		m_flVelocityCarryoverOnMiss = 1.000000
 		m_KickHitSound = soundevent:"Werewolf.Boot.Kick.Hit"
 		m_strAG2SourceName = "werewolf_ability_boot_kick"
-		m_DisarmModifier = subclass:
-		{
-			_class = "modifier_citadel_disarmed"
-			m_bIsHidden = false
-			_my_subclass_name = "disarm"
-			m_strParticleEffect = resource_name:"particles/abilities/werewolf/werewolf_kick_disarm_debuff.vpcf"
-			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
-			m_strParticleEffectConfig = "preview"
-		}
 		m_strPushOffSound = soundevent:""
 		m_BootKickCast = resource_name:"particles/abilities/werewolf/werewolf_boot_kick.vpcf"
 		m_KickHitImpact = resource_name:"particles/abilities/werewolf/werewolf_boot_kick_impact.vpcf"
@@ -2370,16 +2300,6 @@
 		m_PushOffImpact = resource_name:"particles/abilities/werewolf/werewolf_push_off_impact.vpcf"
 		m_strAG2SuccessPendingAction = "ability_boot_kick_success"
 		m_strAG2CastCompletedAction = "ability_boot_kick_cast_completed"
-		m_BuffModifier = subclass:
-		{
-			_class = "modifier_base"
-			m_bIsHidden = true
-			_my_subclass_name = "buff"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-				"BonusFireRate",
-			]
-		}
 		m_DebuffModifier = subclass:
 		{
 			_my_subclass_name = "modifier_citadel_sticky_bomb_attached"
@@ -2418,15 +2338,6 @@
 					_my_subclass_name = "empty"
 				}
 			}
-		}
-		m_MarkModifier = subclass:
-		{
-			_class = "modifier_werewolf_kickflip_bonusdamage"
-			m_bIsHidden = true
-			_my_subclass_name = "bonusdamage"
-			m_strOnBulletHitDamageSound = soundevent:"Werewolf.Boot.Kick.Mark.Proc"
-			m_DamageFX = resource_name:"particles/abilities/werewolf/werewolf_boot_kick_mark_hit.vpcf"
-			m_strParticleEffect = resource_name:"particles/abilities/werewolf/werewolf_boot_kick_mark_debuff.vpcf"
 		}
 		m_bEndChannelStartSequenceOnChannelComplete = false
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
@@ -3228,7 +3139,6 @@
 			]
 		}
 	}
-	
 	citadel_ability_kay_rage_hack = 
 	{
 		_class = "citadel_ability_shiv_killing_blow"
@@ -3628,8 +3538,6 @@
 		m_flGlowMinTime = 0.200000
 		m_strAG2SourceName = "shiv_killing_blow"
 	}
-
-	
 	upgrade_kay_return_aura = 
 	{
 		_class = "upgrade_dps_aura"
