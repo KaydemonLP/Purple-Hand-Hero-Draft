@@ -1412,7 +1412,7 @@
 			}
 			AbilityDuration = 
 			{
-				m_strValue = "0"
+				m_strValue = "2.5"
 				m_strDisableValue = "0"
 				m_strCSSClass = "duration"
 				m_bCanSetTokenOverride = true
@@ -1472,7 +1472,7 @@
 			}
 			AbilityCharges = 
 			{
-				m_strValue = "1"
+				m_strValue = "-1"
 				m_strDisableValue = "-1"
 				m_strCSSClass = "cast"
 				m_bCanSetTokenOverride = true
@@ -1503,7 +1503,7 @@
 			}
 			AbilityResourceCost = 
 			{
-				m_strValue = "2"
+				m_strValue = "0"
 				m_strDisableValue = "0"
 				m_bCanSetTokenOverride = true
 				m_strCSSClass = "cast"
@@ -1562,44 +1562,65 @@
 					m_flStatScale = 1.300000
 				}
 			}
-			DamageShareRadius = 
+			SlowDuration = 
 			{
-				m_strValue = "8m"
-				m_strCSSClass = "distance"
+				m_strValue = "0.01"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "duration"
 				m_subclassScaleFunction = subclass:
 				{
-					_class = "scale_function_tech_range"
-					_my_subclass_name = "linkrange"
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "SlowDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
 				}
 			}
-			DamageSharePercentage = 
+			LifeDrainPerSecond = 
 			{
-				m_strValue = "30"
+				m_strValue = 30
+				m_strCSSClass = "tech_damage"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_tech_damage"
-					m_flStatScale = 0.186000
-					_my_subclass_name = "sharesf"
+					_my_subclass_name = "LifeDrainPerSecond_scale_function"
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.536216
 				}
-				m_strCSSClass = "tech_damage"
 				m_bIsAbilityDamageProperty = true
-			}
-			DebuffDuration = 
-			{
-				m_strValue = "6"
 			}
 			TickRate = 
 			{
-				m_strValue = "0.25"
+				m_strValue = "0.1"
 			}
-			LinkDuration = 
+			LifeDrainHealthMult = 
 			{
-				m_strValue = "0.5"
+				m_strValue = "80"
+				m_strCSSClass = "healing"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "LifeDrainHealthMult_scale_function"
+					m_eSpecificStatScaleType = "EHealingOutput"
+				}
 			}
-			MaxLinks = 
+			MaxRange = 
 			{
-				m_strValue = "6"
-				m_strCSSClass = "cast"
+				m_strValue = "0.001m"
+				m_strCSSClass = "distance"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "MaxRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			BuffDuration = 
+			{
+				m_strValue = "0.1"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "duration_scale_function"
+				}
 			}
 		}
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
@@ -1659,30 +1680,28 @@
 		m_strChannelSound = soundevent:"Fencer.Sigil.Cast.Delay"
 		m_strHitSound = soundevent:"Fencer.Sigil.Hit"
 		m_MarkLingerParticle = resource_name:"particles/abilities/fencer/fencer_sigil_linger.vpcf"
-		m_vecAbilityUpgrades = 
-		[
-			{
-				m_vecPropertyUpgrades = 
-				[
-					{
-						m_strPropertyName = "Damage"
-						m_strBonus = 50.000000
-					},
-					{
-						m_strPropertyName = "HealAmount"
-						m_strBonus = "50"
-					},
-				]
-			},
-		]
 		m_IceGrenadeSlowModifier = subclass:
 		{
-			_class = "modifier_boho_damageshare"
-			_my_subclass_name = "damageshare"
-			m_strParticleEffect = resource_name:"particles/generic/generic_slow_debuff.vpcf"
-			m_TetherParticle = resource_name:"particles/abilities/boho/boho_damageshare_tether.vpcf"
-			m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_CASTER_ONLY"
+			_class = "modifier_life_drain"
+			_my_subclass_name = "modifier_life_drain"
+			m_DrainParticle = resource_name:"particles/abilities/ghost/ghost_life_drain.vpcf"
+			m_bIsHidden = true
+			m_sExpiredSound = soundevent:"Ghost.LifeDrain.End"
+			m_sAmbientLoopingSound = soundevent:"Ghost.LifeDrain.Victim.Lp"
+			m_AG2HeroState = 
+			{
+				m_strParamName = ""
+			}
 		}
+		
+		m_mapDependentAbilities = 
+		{
+			ability_kay_passive_tether = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
+		}
+		
 		m_AbilityTooltipDetails = 
 		{
 			m_vecAbilityInfoSections = 
@@ -1715,14 +1734,356 @@
 					m_vecBasicProperties = 
 					[
 						"SlowDuration",
-						"StaminaCooldownIncrease",
 					]
 				},
 			]
 		}
 		m_strAG2CastingAction = "throw"
 		m_strAG2CastCompletedAction = "throw_completed"
+		m_vecAbilityUpgrades = 
+		[
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "Radius"
+						m_strBonus = "5.5m"
+					},
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "SlowDuration"
+						m_strBonus = 2.5
+					},
+					{
+						m_strPropertyName = "MaxRange"
+						m_strBonus = "12m"
+					},
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "Damage"
+						m_strBonus = 50.000000
+					},
+					{
+						m_strPropertyName = "HealAmount"
+						m_strBonus = "50"
+					},
+					{
+						m_strPropertyName = "LifeDrainPerSecond"
+						m_strBonus = 20
+					},
+				]
+			},
+		]
 	}
+	ability_kay_passive_tether = 
+	{
+		_class = "upgrade_resonant_healing"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = 20
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0.001"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "12m"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "12"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			TotalTetherTargets = 
+			{
+				m_strValue = "0"
+			}
+			LifeDrainPerSecond = 
+			{
+				m_strValue = 30
+				m_strCSSClass = "tech_damage"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					_my_subclass_name = "LifeDrainPerSecond_scale_function"
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.536216
+				}
+				m_bIsAbilityDamageProperty = true
+			}
+			TickRate = 
+			{
+				m_strValue = "0.1"
+			}
+			LifeDrainHealthMult = 
+			{
+				m_strValue = "100"
+				m_strCSSClass = "healing"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "LifeDrainHealthMult_scale_function"
+					m_eSpecificStatScaleType = "EHealingOutput"
+				}
+			}
+			MaxRange = 
+			{
+				m_strValue = "12m"
+				m_strCSSClass = "distance"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "MaxRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Tech"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"tech_upgrade_t3",
+		]
+		m_bStartTrained = false
+		m_eAbilityType = "EAbilityType_Signature"
+		m_nUpgradeSlotCost = 1
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_NONE"
+		m_strCastAnimGraphParam = "e_GenericCast"
+		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_strSelectionNameOverride = "item"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_strAG2SourceName = "item"
+		m_eItemSlotType = "EItemSlotType_Invalid"
+		m_iItemTier = "EModTier_3"
+		m_iUpdateTime = 1747423448
+		m_strCSSClass = "megaSpirit"
+		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_tech/boundless_spirit.psd"
+		m_RegenParticle = resource_name:"particles/generic/generic_lifesteal.vpcf"
+		m_ProcParticle = resource_name:"particles/generic/heal_burst.vpcf"
+		
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_ice_grenade_desc"
+					m_vecBasicProperties = 
+					[
+						"TotalTetherTargets",
+					]
+				},
+			]
+		}
+		
+		m_OnCastModifier = subclass:
+		{
+			_class = "citadel_modifier_tangotether_tether"
+			_my_subclass_name = "citadel_modifier_tangotether_tether"
+			m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_tengu_tether_buff.vpcf"
+			m_sLocalizationName = "citadel_ability_tangotether"
+			m_TetherSound = soundevent:""
+			m_HealSound = soundevent:"Tengu.Tether.Heal"
+			m_HitIndicator = soundevent:""
+			m_GrappleHitSound = soundevent:"Ability.Tengu.Tether.Attach"
+			m_flMinConnectTime = 2.000000
+			m_flDisconnectDistanceBuffer = 100.000000
+			m_flTargetAwayDistance = 250.000000
+			m_flCandidateCloserDistance = 400.000000
+			
+			m_bRequiresTargetFilter = true
+			m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
+			
+			m_BuffModifier = subclass:
+			{
+				_class = "modifier_life_drain"
+				_my_subclass_name = "citadel_modifier_tangotether_tether_receiver"
+				m_bIsHidden = true
+				m_strAttackBuffParticle = resource_name:"particles/abilities/tengu/tengu_tether.vpcf"
+				m_DrainParticle = resource_name:"particles/abilities/ghost/ghost_life_drain.vpcf"
+				m_sAmbientLoopingSound = soundevent:"Ghost.LifeDrain.Victim.Lp"
+				m_TetherSound = soundevent:"Tengu.Tether.Dur.Lp"
+				m_nEnabledStateMask = "MODIFIER_STATE_COOP_TETHER_ACTIVE | MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET"
+				m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+				[
+				]
+			}
+			m_LockedTargetModifier = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "tether_locked_modifier"
+				m_nEnabledStateMask = "MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET"
+				m_bIsHidden = true
+			}
+			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+			m_nStatusEffectPriority = 50
+		}
+		m_eShopFilters = "EShopFilterMagicDamage | EShopFilterMovement | EShopFilterHealing"
+		m_strShopIconLarge = panorama:"file://{images}/items/spirit/radiant_regeneration.psd"
+		m_vecAbilityUpgrades = 
+		[
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "TotalTetherTargets"
+						m_strBonus = "12"
+					},
+					{
+						m_strPropertyName = "AbilityDuration"
+						m_strBonus = 2.5
+					},
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "LifeDrainPerSecond"
+						m_strBonus = 20
+					},
+				]
+			},
+		]
+	}
+	
 	ability_kay_grab = 
 	{
 		_class = "ability_ult_combo"
@@ -2250,6 +2611,27 @@
 		m_strShopIconLarge = panorama:"file://{images}/items/spirit/spirit_snatch.psd"
 		m_vecAbilityUpgrades = 
 		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+
+				]
+			},
 		]
 	}
 	ability_kay_grab_dash = 
@@ -3817,7 +4199,364 @@
 		m_flGlowMinTime = 0.200000
 		m_strAG2SourceName = "shiv_killing_blow"
 	}
-	upgrade_kay_return_aura = 
+
+	ability_return_aura_trigger = 
+	{
+		_class = "citadel_base_trigger_ability"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Hero Werewolf"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 1000.000000
+			m_flBulletDamage = 0.000000
+			m_eDamageType = "CITADEL_DAMAGETYPE_BULLET"
+			m_iBullets = 1
+			m_iSplitShotsMax = -1
+			m_bHitOnceAcrossAllBullets = false
+			m_iBulletsToFullyClaimOrb = 1
+			m_flExplosionRadius = 0.000000
+			m_flExplosionDamageScaleAtMaxRadius = 0.300000
+			m_bAllowExplosionToCollectGold = false
+			m_iClipSize = 0
+			m_flCycleTime = 0.150000
+			m_flBulletCreationDelay = 0.000000
+			m_iBurstShotCount = 1
+			m_flIntraBurstCycleTime = 0.000000
+			m_iAmmoConsumedPerShot = 1
+			m_flRange = 8192.000000
+			m_flRangeWhileZoomed = 0.000000
+			m_flDamageFalloffStartRange = 0.000000
+			m_flDamageFalloffEndRange = 900.000000
+			m_flDamageFalloffBias = 0.500000
+			m_flDamageFalloffStartScale = 1.000000
+			m_flDamageFalloffEndScale = 0.000000
+			m_bDontPassThroughPortals = false
+			m_flPenetrationPercent = 0.000000
+			m_flIronSightsTime = 0.100000
+			m_reloadDuration = 0.000000
+			m_bReloadUseActiveWeaponInfoDuration = false
+			m_bReloadSingleBullets = false
+			m_bReloadSingleBulletsAllowCancel = false
+			m_flReloadSingleBulletsInitialDelay = 0.000000
+			m_bCanCrit = true
+			m_flCritBonusStartRange = 0.000000
+			m_flCritBonusEndRange = 0.000000
+			m_flCritBonusStart = 1.000000
+			m_flCritBonusEnd = 1.000000
+			m_flCritBonusAgainstNPCs = 0.200000
+			m_bAlwaysCritNPCs = false
+			m_bSpinsUp = false
+			m_flMaxSpinCycleTime = -1.000000
+			m_flSpinIncreaseRate = 0.000000
+			m_flSpinDecayRate = 0.000000
+			m_flBuildUpRate = -1.000000
+			m_bIsSemiAuto = false
+			m_flBulletSpeedRandomFactor = 0.000000
+			m_flBulletGravityScale = 1.000000
+			m_flBulletRadius = 0.000000
+			m_flBulletRadiusVsWorld = 0.000000
+			m_flBulletLifetime = 0.000000
+			m_flVerticalAimBias = 0.000000
+			m_flBulletInheritShooterVelocityScale = 0.000000
+			m_bCanZoom = true
+			m_flZoomFOV = 70.000000
+			m_flZoomFOV_Relative = -5.000000
+			m_flZoomMoveSpeedPercent = 0.750000
+			m_flShootMoveSpeedPercent = 0.750000
+			m_flReloadMoveSpeedPercent = 1.000000
+			m_bUsesSpreadPattern = true
+			m_Spread = 0.200000
+			m_bFirstShotPerfectAccuracy = false
+			m_AimingShootSpreadPenalty = 0.000000
+			m_flScatterYawScale = 1.000000
+			m_flShootSpreadPenaltyPerShot = 0.000000
+			m_ShootSpreadPenaltyPerShotNormalization = 
+			{
+				m_bNormalizeSpreadPerShot = false
+				m_FireRatePctRange = 
+				[
+					0.000000,
+					100.000000,
+				]
+				m_SpreadPerShotFactor = 1.000000
+			}
+			m_flShootSpreadPenaltyDecayDelay = -1.000000
+			m_flShootSpreadPenaltyDecay = 1.000000
+			m_flSpreadPenaltyDecay = 3.000000
+			m_flShootingUpSpreadPenalty = 0.000000
+			m_flAutoReplenishClip = 0.000000
+			m_NpcAimingSpread = 0.000000
+			m_vecScatterOffsets = 
+			[
+			]
+			m_flPelletScatterFactor = 1.000000
+			m_flPelletScatterSpreadFactor = 0.500000
+			m_bApplySpreadToFirstPellet = false
+			m_vecOriginOffsets = 
+			[
+			]
+			m_flVerticalPunch = 1.000000
+			m_flHorizontalPunch = 0.500000
+			m_HorizontalRecoil = 
+			{
+				m_Range = 0.000000
+				m_flBurstSlope = 0.000000
+				m_flBurstExponent = 1.000000
+				m_flBurstConstant = 0.000000
+			}
+			m_VerticallRecoil = 
+			{
+				m_Range = 0.000000
+				m_flBurstSlope = 0.000000
+				m_flBurstExponent = 1.000000
+				m_flBurstConstant = 0.000000
+			}
+			m_flRecoilSpeed = 1.000000
+			m_flRecoilRecoveryDelayFactor = 1.000000
+			m_flRecoilRecoverySpeed = 1.000000
+			m_flRecoilShotIndexRecoveryTimeFactor = 0.250000
+			m_nRecoilSeed = 0
+			m_szBulletTravelTracerParticle = resource_name:"particles/weapon_fx/default_tracer.vpcf"
+			m_szSelfBulletTravelTracerParticle = resource_name:""
+			m_szBulletLinkParticle = resource_name:""
+			m_bUseDesatForFriendlyNonHeroTracer = true
+			m_eAttachmentSourceType = "EAttachmentSource_WeaponMuzzles"
+			m_strCustomAttachmentSource = "ability_cast"
+			m_szMuzzleFlashEffectName = resource_name:""
+			m_strWeaponImpactEffect = resource_name:""
+			m_mapImpactEffects = 
+			{
+			}
+			m_strShootSound = soundevent:""
+			m_strFirstShotSound = soundevent:""
+			m_strShotReleaseSound = soundevent:""
+			m_strBulletLoopingSound = soundevent:""
+			m_strBulletWhizSound = soundevent:""
+			m_strBulletImpactSound = soundevent:""
+			m_flBulletWhizDistance = 150.000000
+			m_strReloadSound = soundevent:""
+			m_strReloadEndSound = soundevent:""
+			m_strLocalPlayerBulletImpactSound = soundevent:""
+			m_strLocalPlayerBulletImpactHeavySound = soundevent:""
+			m_strZoomInSound = soundevent:""
+			m_strZoomOutSound = soundevent:""
+			m_strSpinUpSound = soundevent:""
+			m_strSpinDownSound = soundevent:""
+			m_strSpinUpLoopSound = soundevent:""
+			m_flMaxLagCompensation = 340282346638529000000000000000000000000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"ultimate_base",
+		]
+		m_eAbilityType = "EAbilityType_Signature"
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 1
+		m_nAbillityUnlocksCost = 1
+		m_iMaxLevel = 1
+		m_iUpdateTime = 1692734621
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_TRIGGER"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/haze/haze_fixation.psd"
+		m_strMoviePreviewPath = "file://{resources}/videos/hero_abilities/wraith_psychic_supercharge.webm"
+		m_strCastAnimGraphParam = "b_RapidFireAction"
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_werewolf_transformation_trigger_desc"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+							]
+						},
+					]
+					m_vecBasicProperties = 
+					[
+					]
+				},
+			]
+		}
+		m_CastParticle = resource_name:""
+		m_TargetBuffSound = soundevent:""
+		m_RapidFireModifier = subclass:
+		{
+		}
+		m_strAG2SourceName = "wraith_ability_full_auto"
+		m_strAG2CastCompletedAction = "ability_full_auto_cast_completed"
+		m_flMinCancelTime = 0.000000
+		m_AbilityToTrigger = "ability_kay_return_aura"
+		
+		m_mapDependentAbilities = 
+		{
+			ability_kay_return_aura = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
+		}
+		
+		m_vecAbilityUpgrades = 
+		[
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+		]
+	}
+
+	
+	ability_kay_return_aura = 
 	{
 		_class = "upgrade_dps_aura"
 		m_mapAbilityProperties = 

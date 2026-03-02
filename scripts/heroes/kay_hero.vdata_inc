@@ -112,9 +112,9 @@
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
 			ESlot_Cosmetic_1 = "ability_kay_cooldown_reduction"
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
-			ESlot_Signature_2 = "ability_kay_whirlwind"
+			ESlot_Signature_2 = "ability_return_aura_trigger"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
-			ESlot_Signature_4 = "upgrade_kay_return_aura"
+			ESlot_Signature_4 = "ability_kay_return_aura"
 		}
 		m_mapItemSlotInfo = 
 		{
@@ -1205,8 +1205,6 @@
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/violet_card.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/violet_card.psd"
-		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/yamato.svg"
-		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/yamato_localized.svg"
 		m_bUseMainOnlyModelForExperimental = false
 		m_strDeathVOSound = soundevent:"Generated.Yamato.Hero.Death.VO"
 		m_strHeroSearchName = "violet mist"
@@ -1225,7 +1223,7 @@
 			"Demonic",
 		]
 		m_strGunTag = "Explosive"
-		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Hope"
+		m_strHideoutRichPresence = "Holding onto Ruins of Ruins of Hope in the Hideout"
 		m_eHeroType = "ECitadelHeroType_Mystic"
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_yamato.vsndevts"
 		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/yamato_card_critical.psd"
