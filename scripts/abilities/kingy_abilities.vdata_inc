@@ -1,0 +1,1846 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CitadelAbilityVData"
+	ability_kingy_swipe = 
+	{
+		_class = "ability_vampirebat_steallife"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "10"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "10m"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "6"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0.1"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0.4"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			Damage = 
+			{
+				m_strValue = "60"
+				m_subclassScaleFunction = subclass:
+				{
+					m_eSpecificStatScaleType = "EStatsCount"
+					_class = "scale_function_tech_damage"
+					_my_subclass_name = "damagesf"
+					m_flStatScale = 1.000000
+				}
+				m_strCSSClass = "tech_damage"
+				m_bIsAbilityDamageProperty = true
+			}
+			DebuffDuration = 
+			{
+				m_strValue = "0"
+			}
+			TechArmorDamageReduction = 
+			{
+				m_strValue = "0"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_strCSSClass = "tech_armor_down"
+			}
+			TargetingConeAngle = 
+			{
+				m_strValue = "60"
+			}
+			TimeBetweenAttacks = 
+			{
+				m_strValue = "0.04"
+			}
+			MissingHealthDamagePercentage = 
+			{
+				m_strValue = "3"
+				m_strCSSClass = "tech_damage"
+			}
+			MiniJumpVelocity = 
+			{
+				m_strValue = "200"
+			}
+			RakeHealPerKill = 
+			{
+				m_strValue = "30"
+				m_strCSSClass = "healing"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					m_flStatScale = 0.430000
+					_my_subclass_name = "herohealsf"
+				}
+			}
+			TrooperExecuteThreshold = 
+			{
+				m_strValue = "60"
+			}
+			ExtraSweepOffsetBehindCaster = 
+			{
+				m_strValue = "-1.5m"
+			}
+			ExtraSweepRange = 
+			{
+				m_strValue = "2m"
+			}
+			FallSpeedMax = 
+			{
+				m_strValue = "3"
+			}
+			AirSpeedMax = 
+			{
+				m_strValue = "0"
+			}
+			AirDrag = 
+			{
+				m_strValue = "0.2"
+			}
+			FallingDrag = 
+			{
+				m_strValue = "20"
+			}
+			MaxFloatTime = 
+			{
+				m_strValue = "2.5"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_MELEE_DISABLED"
+		_editor = 
+		{
+			folder_name = "Hero VampireBat"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 3000.000000
+			m_flExplosionDamageScaleAtMaxRadius = 0.300000
+			m_flIntraBurstCycleTime = 0.000000
+			m_bReloadUseActiveWeaponInfoDuration = false
+			m_bReloadSingleBullets = false
+			m_bReloadSingleBulletsAllowCancel = false
+			m_flReloadSingleBulletsInitialDelay = 0.000000
+			m_bCanCrit = true
+			m_flCritBonusStartRange = 0.000000
+			m_flCritBonusEndRange = 0.000000
+			m_flCritBonusStart = 1.000000
+			m_flCritBonusEnd = 1.000000
+			m_flCritBonusAgainstNPCs = 0.200000
+			m_bSpinsUp = false
+			m_flMaxSpinCycleTime = -1.000000
+			m_flSpinIncreaseRate = 0.000000
+			m_flSpinDecayRate = 0.000000
+			m_flBuildUpRate = -1.000000
+			m_bIsSemiAuto = false
+			m_bCanZoom = true
+			m_flZoomFOV = 70.000000
+			m_flZoomFOV_Relative = -5.000000
+			m_flReloadMoveSpeedPercent = 1.000000
+			m_Spread = 0.200000
+			m_AimingShootSpreadPenalty = 0.000000
+			m_flScatterYawScale = 1.000000
+			m_flShootSpreadPenaltyPerShot = 0.000000
+			m_flShootSpreadPenaltyDecayDelay = -1.000000
+			m_flShootSpreadPenaltyDecay = 1.000000
+			m_flSpreadPenaltyDecay = 3.000000
+			m_flShootingUpSpreadPenalty = 0.000000
+			m_flAutoReplenishClip = 0.000000
+			m_NpcAimingSpread = 0.000000
+			m_vecScatterOffsets = 
+			[
+			]
+			m_flPelletScatterFactor = 1.000000
+			m_flPelletScatterSpreadFactor = 0.500000
+			m_bApplySpreadToFirstPellet = false
+			m_flVerticalPunch = 1.000000
+			m_flHorizontalPunch = 0.500000
+			m_HorizontalRecoil = 
+			{
+				m_Range = 0.000000
+				m_flBurstSlope = 0.000000
+				m_flBurstExponent = 1.000000
+				m_flBurstConstant = 0.000000
+			}
+			m_VerticallRecoil = 
+			{
+				m_Range = 0.000000
+				m_flBurstSlope = 0.000000
+				m_flBurstExponent = 1.000000
+				m_flBurstConstant = 0.000000
+			}
+			m_flRecoilSpeed = 1.000000
+			m_flRecoilRecoveryDelayFactor = 1.000000
+			m_flRecoilRecoverySpeed = 1.000000
+			m_flRecoilShotIndexRecoveryTimeFactor = 0.250000
+			m_nRecoilSeed = 0
+			m_szBulletTravelTracerParticle = resource_name:"particles/abilities/vampirebat/vampirebat_dagger_proj.vpcf"
+			m_szSelfBulletTravelTracerParticle = resource_name:""
+			m_bUseDesatForFriendlyNonHeroTracer = true
+			m_eAttachmentSourceType = "EAttachmentSource_WeaponMuzzles"
+			m_strCustomAttachmentSource = "ability_cast"
+			m_szMuzzleFlashEffectName = resource_name:""
+			m_strWeaponImpactEffect = resource_name:""
+			m_mapImpactEffects = 
+			{
+				default = 
+				{
+				}
+			}
+			m_strShootSound = soundevent:""
+			m_strFirstShotSound = soundevent:""
+			m_strShotReleaseSound = soundevent:""
+			m_strBulletLoopingSound = soundevent:""
+			m_strBulletWhizSound = soundevent:""
+			m_strBulletImpactSound = soundevent:""
+			m_flBulletWhizDistance = 150.000000
+			m_strReloadSound = soundevent:""
+			m_strReloadEndSound = soundevent:""
+			m_strLocalPlayerBulletImpactSound = soundevent:""
+			m_strLocalPlayerBulletImpactHeavySound = soundevent:""
+			m_strZoomInSound = soundevent:""
+			m_strZoomOutSound = soundevent:""
+			m_strSpinUpSound = soundevent:""
+			m_strSpinDownSound = soundevent:""
+			m_strSpinUpLoopSound = soundevent:""
+			m_flBulletGravityScale = 0.000000
+			m_flPenetrationPercent = 100.000000
+			m_flBulletRadius = 20.000000
+			m_flBulletRadiusVsWorld = 0.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_strAbilityOffCooldownSound = soundevent:""
+		m_strAbilityChargeReadySound = soundevent:""
+		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_iUpdateTime = 0
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_UNIT"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SLIDE_ON_CAST"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
+		m_eTargettingLOSCheck = "ELOSCheck_Bounds_IgnoreObscureBlockers"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/vampirebat/vampirebat_rake.psd"
+		m_strCastSound = soundevent:""
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "RakeHealPerKill"
+						m_strBonus = "20"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "Damage"
+						m_strBonus = 54.000000
+					},
+					
+					{
+						m_strPropertyName = "RakeHealPerKill"
+						m_strBonus = 1.000000
+						m_eUpgradeType = "EAddToScale"
+						m_eScaleStatFilter = "ETechPower"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "MissingHealthDamagePercentage"
+						m_strBonus = 7.000000
+					},
+				]
+			},
+		]
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_vampirebat_steallife_desc"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "Damage"
+								},
+							]
+						},
+						
+						{
+							m_strPropertiesTitleLocString = "#ability_header_on_hero_hit"
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "MissingHealthDamagePercentage"
+								},
+							]
+						},
+					]
+					m_vecBasicProperties = 
+					[
+					]
+				},
+				
+				{
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_strPropertiesTitleLocString = "#ability_header_on_kill"
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "RakeHealPerKill"
+								},
+							]
+						},
+					]
+				},
+			]
+		}
+		m_projectileInfo = 
+		{
+			m_nBehaviors = ""
+			m_flGravityScale = 1.000000
+			m_flFriction = 0.000000
+			m_flElasticity = 0.000000
+			m_flSpeed = 3500.000000
+			m_flUpSpeed = 100.000000
+			m_flMaxLinearRange = 0.000000
+			m_flVerticalAimBias = 0.000000
+			m_eProjectileShape = "Sphere"
+			m_flTriggerRadius = 1.500000
+			m_flPhysicsRadius = 1.500000
+			m_vecCapsulePhysicsCenter1 = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_vecCapsulePhysicsCenter2 = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_flCapsulePhysicsRadius = 1.500000
+			m_vecCapsuleTriggerCenter1 = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_vecCapsuleTriggerCenter2 = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_flCapsuleTriggerRadius = 1.500000
+			m_particle = resource_name:""
+			m_bHideWarningParticle = false
+			m_warningParticle = resource_name:""
+			m_customModel = resource_name:""
+			m_flProjectileModelScale = 1.000000
+			m_HitSound = soundevent:""
+			m_HitTargetSound = soundevent:""
+			m_HitWorldSound = soundevent:""
+			m_DetonateSound = soundevent:""
+			m_LoopingSound = soundevent:""
+			m_WarningSound = soundevent:""
+			m_flTrackingDampingCoefficient = 0.000000
+			m_flTrackingDuration = 0.000000
+			m_flTrackingStartTime = 0.000000
+			m_flTrackingEndTime = 0.000000
+			m_flTrackingStopDuration = -1.000000
+			m_AutoProjectileModifier = subclass:
+			{
+			}
+		}
+		m_ImpactParticle = resource_name:""
+		m_DebuffModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "debuff"
+			m_bIsHidden = true
+			m_strParticleEffect = resource_name:"particles/abilities/nano/nano_ultimate_target_debuff.vpcf"
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"TechArmorDamageReduction",
+			]
+		}
+		m_BonusImpactParticle = resource_name:"particles/abilities/shiv/shiv_thrown_shiv_impact.vpcf"
+		m_eAbilityTargetingShape = "CITADEL_ABILITY_TARGETING_SHAPE_CONE"
+		m_flTargetingConeAngle = 140.000000
+		m_ShootParticle = resource_name:"particles/abilities/vampirebat/vampirebat_steallife_cast.vpcf"
+		m_CastParticle = resource_name:"particles/abilities/vampirebat/vampirebat_steallife_cast.vpcf"
+		m_CastLifeLeechParticle = resource_name:"particles/abilities/vampirebat/vampirebat_steallife_leech.vpcf"
+		m_strSlashSound = soundevent:"VampireBat.Rake.Cast"
+		m_strShootSound = soundevent:"Shiv.ShivDagger.Cast"
+		m_strCastAnimGraphParam = "e_Rake"
+		m_strHitConfirmSound = soundevent:"VampireBat.Rake.Hit.Confirm"
+		m_bUseCameraOffsetsForCone = false
+		m_flTargetingConeHalfWidth = 10.000000
+		m_strKillConfirmSound = soundevent:"VampireBat.Rake.Kill.Confirm.Heal"
+		m_DamageTargetParticle = resource_name:"particles/abilities/vampirebat/vampirebat_steallife_dmg.vpcf"
+		m_FloatingModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "floatingmodifier"
+			m_bIsHidden = true
+			m_AG2BaseState = 
+			{
+				m_nPriority = 0
+				m_strParamName = ""
+			}
+			m_AG2HeroState = 
+			{
+				m_strParamName = "vampirebat_floating"
+				m_nPriority = 2
+			}
+		}
+		m_strAG2CastingAction = "melee"
+	}
+
+	ability_kingy_shield = 
+	{
+		_class = "ability_unicorn_prismaticguard"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "35"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			MaxLifetime = 
+			{
+				m_strValue = "4"
+			}
+			BuffDuration = 
+			{
+				m_strValue = "4"
+				m_strCSSClass = "duration"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "barrierduration"
+				}
+			}
+			ExplodeRadius = 
+			{
+				m_strValue = "14m"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_range"
+					_my_subclass_name = "prismatic_explode_range_sf"
+				}
+				m_strCSSClass = "distance"
+			}
+			DebuffDuration = 
+			{
+				m_strValue = "1.75"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "prismatic_explode_duration_sf"
+				}
+				m_strCSSClass = "duration"
+			}
+			BonusMoveSpeed = 
+			{
+				m_strValue = "1.0m"
+				m_strCSSClass = "move_speed"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+			}
+			CombatBarrier = 
+			{
+				m_strValue = "120"
+				m_strCSSClass = "bullet_armor_up"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BARRIER_HEALTH"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 1.100000
+					_my_subclass_name = "prismatic_guard_barrier_sf"
+				}
+			}
+			BarrierDamagePercentage = 
+			{
+				m_strValue = "50"
+				m_strCSSClass = "tech_damage"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Hero Unicorn"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 1
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_strAbilityOffCooldownSound = soundevent:""
+		m_strAbilityChargeReadySound = soundevent:""
+		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_iUpdateTime = 0
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
+		m_eAbilityTargetingShape = "CITADEL_ABILITY_TARGETING_SHAPE_CONE"
+		m_flTargetingConeAngle = 45.000000
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/unicorn/unicorn_shield.psd"
+		m_HudSharedStyle = resource_name:"panorama/styles/ability_hud_elements/abilities_unicorn.vcss"
+		m_strCastSound = soundevent:"Unicorn.Prismatic.Guard.Cast"
+		m_projectileInfo = 
+		{
+			m_flGravityScale = 0.000000
+			m_flUpSpeed = 0
+			m_flSpeed = 500.000000
+			m_nBehaviors = "PBF_StickToWorld | PBF_DisableTriggerProjectileImpactBehavior"
+			m_AutoProjectileModifier = subclass:
+			{
+				_class = "modifier_intrinsic_base"
+				_my_subclass_name = "modifier_intrinsic_base"
+				m_sExpiredSound = soundevent:"Gigawatt.LightningBall.Proj.Explo"
+			}
+			m_bHideWarningParticle = true
+			m_LoopingSound = soundevent:"Unicorn.Prismatic.Guard.Proj.Lp"
+			m_particle = resource_name:"particles/abilities/unicorn/unicorn_prismatic_projectile.vpcf"
+		}
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "BonusMoveSpeed"
+						m_strBonus = "2.5m"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "CombatBarrier"
+						m_strBonus = "100"
+					},
+					
+					{
+						m_strPropertyName = "CombatBarrier"
+						m_strBonus = "0.7"
+						m_eUpgradeType = "EAddToScale"
+						m_eScaleStatFilter = "ETechPower"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "DebuffDuration"
+						m_strBonus = "2.0"
+					},
+					
+					{
+						m_strPropertyName = "AbilityCooldown"
+						m_strBonus = "-18"
+					},
+				]
+			},
+		]
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_unicorn_prismaticguard_desc"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "BonusMoveSpeed"
+								},
+								
+								{
+									m_strImportantProperty = "CombatBarrier"
+								},
+							]
+							m_strPropertiesTitleLocString = ""
+						},
+					]
+					m_vecBasicProperties = 
+					[
+						"BuffDuration",
+					]
+				},
+				
+				{
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_strPropertiesTitleLocString = "#ability_unicorn_prismaticguard_on_explode_desc"
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "StatusEffectEMP"
+								},
+								
+								{
+									m_strImportantProperty = "DebuffDuration"
+								},
+								
+								{
+									m_strImportantProperty = "BarrierDamagePercentage"
+								},
+							]
+						},
+					]
+					m_vecBasicProperties = 
+					[
+						"ExplodeRadius",
+					]
+				},
+			]
+		}
+		m_BuffModifier = subclass:
+		{
+			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+			_class = "modifier_unicorn_prismatic_guard"
+			_my_subclass_name = "modifier_unicorn_prismatic_guard_buff"
+			m_strParticleEffect = resource_name:""
+			m_BarrierBehavior = "MODIFIER_BARRIER_BEHAVIOR_REMOVE_ON_DESTROY"
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"BonusMoveSpeed",
+				"CombatBarrier",
+			]
+			m_ExplodeParticle = resource_name:"particles/abilities/unicorn/unicorn_prismatic_shield_silence_explode.vpcf"
+			m_strExplodeSound = soundevent:"Unicorn.Prismatic.Guard.Explode"
+			m_sExpiredSound = soundevent:""
+			m_sStartSound = soundevent:"Unicorn.Prismatic.Guard.Mod.Start"
+			m_sAmbientLoopingSound = soundevent:"Unicorn.Prismatic.Guard.Mod.Lp"
+			m_eExplosionTargetingType = "CITADEL_UNIT_TARGET_HERO_ENEMY"
+			m_ShieldParticle = resource_name:"particles/abilities/unicorn/unicorn_prismatic_shield.vpcf"
+			m_strDestroyedSound = soundevent:"Unicorn.Prismatic.Guard.Expired"
+			m_strCrackingSound = soundevent:"Unicorn.Prismatic.Guard.Cracking.Layer"
+			m_BarrierCreateParticle = resource_name:"particles/abilities/unicorn/unicorn_prismatic_barrier_create.vpcf"
+			m_TrackingParams = 
+			{
+				m_ProjectileSpeedCurve = 
+				{
+					m_spline = 
+					[
+						
+						{
+							x = 0.000000
+							y = 1052.059082
+							m_flSlopeIncoming = -3761.611572
+							m_flSlopeOutgoing = -3761.611572
+						},
+						
+						{
+							x = 0.085289
+							y = 731.234985
+							m_flSlopeIncoming = -4041.494873
+							m_flSlopeOutgoing = -4041.494873
+						},
+						
+						{
+							x = 0.161600
+							y = 398.953552
+							m_flSlopeIncoming = -175.029343
+							m_flSlopeOutgoing = -175.029343
+						},
+						
+						{
+							x = 0.478067
+							y = 662.487366
+							m_flSlopeIncoming = -169.758850
+							m_flSlopeOutgoing = -169.758850
+						},
+						
+						{
+							x = 0.628444
+							y = 1223.928589
+							m_flSlopeIncoming = 3071.350342
+							m_flSlopeOutgoing = 3071.350342
+						},
+						
+						{
+							x = 0.783311
+							y = 1600.000000
+							m_flSlopeIncoming = 2428.356445
+							m_flSlopeOutgoing = 2428.356445
+						},
+					]
+					m_tangents = 
+					[
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_FREE"
+							m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_MIRROR"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+					]
+					m_vDomainMins = 
+					[
+						0.000000,
+						250.000000,
+					]
+					m_vDomainMaxs = 
+					[
+						0.800000,
+						1600.000000,
+					]
+				}
+				m_TrackingAmountCurve = 
+				{
+					m_spline = 
+					[
+						
+						{
+							x = 0.000000
+							y = 0.000000
+							m_flSlopeIncoming = 2.016150
+							m_flSlopeOutgoing = 2.016150
+						},
+						
+						{
+							x = 0.155759
+							y = 0.314034
+							m_flSlopeIncoming = 2.000000
+							m_flSlopeOutgoing = 2.000000
+						},
+						
+						{
+							x = 0.500000
+							y = 1.000000
+							m_flSlopeIncoming = -0.028252
+							m_flSlopeOutgoing = -0.028252
+						},
+					]
+					m_tangents = 
+					[
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+							m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+						},
+						
+						{
+							m_nIncomingTangent = "CURVE_TANGENT_FREE"
+							m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+						},
+					]
+					m_vDomainMins = 
+					[
+						0.000000,
+						0.000000,
+					]
+					m_vDomainMaxs = 
+					[
+						0.500000,
+						1.000000,
+					]
+				}
+			}
+			m_bSupressDefaultBarrierBreakParticle = true
+			m_flVerticalBoost = 0.500000
+		}
+		m_strAG2SourceName = "ability_punkgoat_passive_capricious"
+		m_strAG2CastingAction = "ability_capricious_casting"
+		m_strAG2ChannelingAction = "ability_capricious_channeling"
+		m_strAG2CastCompletedAction = "ability_capricious_casting"
+		m_CastParticle = resource_name:"particles/abilities/unicorn/unicorn_prismatic_guard_cast.vpcf"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_NEUTRAL"
+		m_DebuffModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "modifier_unicorn_prismatic_guard_debuff"
+			m_strParticleEffect = resource_name:"particles/modifiers/silenced_debuff.vpcf"
+			m_nEnabledStateMask = "MODIFIER_STATE_SILENCED"
+			m_sLocalizationName = "Citadel_StatusEffectEMP"
+			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+			m_strHintText = "Citadel_StatusEffectEMP"
+			m_bIsHidden = false
+			m_sStartSound = soundevent:"Unicorn.Prismatic.Guard.Proj.Impact"
+		}
+	}
+
+	ability_kingy_passive_hack = 
+	{
+		_class = "citadel_base_ability"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_strAbilityOffCooldownSound = soundevent:""
+		m_strAbilityChargeReadySound = soundevent:""
+		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_iUpdateTime = 1647302636
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_HERO_FRIENDLY"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/bull_beef.psd"
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+				]
+			},
+		]
+		
+		m_mapDependentAbilities = 
+		{
+			ability_kingy_passive = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
+			ability_kingy_passive_slow = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
+		}
+		
+		m_HealParticle = resource_name:"particles/abilities/bull/bull_passive_beefy_heal.vpcf"
+		m_strMoviePreviewPath = "file://{resources}/videos/hero_abilities/atlas_beefiness.webm"
+		m_AbilityTooltipDetails = 
+		{
+		}
+	}
+
+
+	ability_kingy_passive_slow = 
+	{
+		_class = "citadel_item"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "EItemCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			SlowPercent = 
+			{
+				m_strValue = "30"
+				m_strCSSClass = "slow"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			GroundDashReductionPercent = 
+			{
+				m_strValue = "-25"
+				m_strCSSClass = "slow"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_GROUND_DASH_REDUCTION_PERCENT"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			SlowDuration = 
+			{
+				m_strValue = "3.5"
+				m_strCSSClass = "duration"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "duration_scale_function"
+				}
+			}
+			BuildUpDuration = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "duration"
+			}
+			BuildUpPerShot = 
+			{
+				m_strValue = "0"
+				m_eDisplayType = "EBuildUpRate"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "buildup_scale_function"
+					m_eSpecificStatScaleType = "EBuildUpRate"
+				}
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Weapon"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"weapon_upgrade_t2",
+		]
+		m_bStartTrained = false
+		m_eAbilityType = "EAbilityType_Signature"
+		m_nUpgradeSlotCost = 0
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
+		m_strCastAnimGraphParam = "e_GenericCast"
+		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_strSelectionNameOverride = "item"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_strAG2SourceName = "item"
+		m_eItemSlotType = "EItemSlotType_Invalid"
+		m_iItemTier = "EModTier_2"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_HERO_ENEMY"
+		m_strCSSClass = "slowingBullets"
+		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_weapon/slowing_bullets.psd"
+		m_vecTooltipSectionInfo = 
+		[
+			
+			{
+				m_eAbilitySectionType = "EArea_Passive"
+				m_vecSectionAttributes = 
+				[
+					
+					{
+						m_strLocString = "#upgrade_slowing_bullets_desc"
+						m_vecImportantAbilityProperties = 
+						[
+							
+							{
+								m_strImportantProperty = "SlowPercent"
+							},
+						]
+						m_vecAbilityProperties = 
+						[
+							"GroundDashReductionPercent",
+							"SlowDuration",
+							"BuildUpPerShot",
+						]
+					},
+				]
+			},
+		]
+		m_AutoIntrinsicModifiers = 
+		[
+			subclass:
+			{
+				_class = "modifier_slowing_bullets_proc"
+				_my_subclass_name = "modifier_slowing_bullets_proc"
+				m_bIsHidden = true
+				m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_LOCAITON_ALL"
+				m_eHudDisplayLocation = "DISPLAY_HUD_LEFT"
+				m_bProcAppliesBuildup = true
+				m_BuildUpModifier = subclass:
+				{
+					_class = "modifier_citadel_base_buildup"
+					_my_subclass_name = "modifier_slowing_bullets_buildup_modifier"
+					m_strSmallIconCssClass = "slowed_buildup"
+					m_flBuildUpDecayDelay = 2.000000
+					m_eBuildupMode = "BUILDUP_MODE_MAX_FILL_DURATION"
+					m_bBuildupAffectedByEffectiveness = true
+					m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_CASTER_ONLY"
+					m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
+					m_eModifierDisplayLocaiton = "MODIFIER_DISPLAY_HEALTHBAR"
+				}
+				m_DebuffModifier = subclass:
+				{
+					_class = "modifier_slow_base"
+					_my_subclass_name = "slowing_bullets_debuff"
+					m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+					[
+						"SlowPercent",
+						"GroundDashReductionPercent",
+					]
+					m_bIsHidden = true
+				}
+			},
+		]
+		m_eShopFilters = "EShopFilterWeaponDamage | EShopFilterDisruption"
+		m_strShopIconLarge = panorama:"file://{images}/items/weapon/slowing_bullets.psd"
+		m_vecAbilityUpgrades = 
+		[
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "BuildUpDuration"
+						m_strBonus = "5"
+					},
+					{
+						m_strPropertyName = "BuildUpPerShot"
+						m_strBonus = "0.7"
+					},
+				]
+			},
+		]
+	}
+	ability_kingy_passive = 
+	{
+		_class = "upgrade_burst_fire"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = 7
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "EItemCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "3.5"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			ActivatedFireRate = 
+			{
+				m_strValue = "32"
+				m_strCSSClass = "fire_rate"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_FIRE_RATE"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			SlowResistancePercent = 
+			{
+				m_strCSSClass = "move_speed"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE"
+				m_eStatsUsageFlags = ""
+			}
+			BonusMoveSpeed = 
+			{
+				m_strValue = "1.25m"
+				m_strCSSClass = "move_speed"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			BuildUpPerShot = 
+			{
+				m_strValue = "0"
+				m_eDisplayType = "EBuildUpRate"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "buildup_scale_function"
+					m_eSpecificStatScaleType = "EBuildUpRate"
+				}
+			}
+		}
+		_not_pickable = 0
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = ""
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
+		m_strCastAnimGraphParam = "e_GenericCast"
+		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_flBossDamageScale = 1.000000
+		//m_eItemSlotType = "EItemSlotType_Invalid"
+		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd"
+		m_ActivationSound = soundevent:""
+		m_iUpdateTime = 1647302636
+		
+		m_mapDependentAbilities = 
+		{
+			ability_kingy_passive_slow = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
+		}
+		
+		m_IncompatibleFilter = 
+		{
+		}
+		
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				{
+					m_strLocString = "Briefly gain Fire Rate and Move Speed when one of your bullets hits an enemy hero"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "ActivatedFireRate"
+								},
+								
+								{
+									m_strImportantProperty = "BonusMoveSpeed"
+								},
+							]
+							m_strPropertiesTitleLocString = "Passives"
+						},
+					]
+					m_vecBasicProperties = 
+					[
+						"AbilityDuration",
+					]
+				},
+			]
+		}
+		m_BuffModifier = subclass:
+		{
+			_class = "modifier_base"
+			m_strParticleEffect = resource_name:"particles/upgrades/overdrive_buff.vpcf"
+			m_bIsHidden = true
+			_my_subclass_name = "modifier_burst_fire_buff"
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"BonusMoveSpeed",
+			]
+		}
+		m_vecAbilityUpgrades = 
+		[
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "BuildUpPerShot"
+						m_strBonus = "0.7"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+				]
+			},
+		]
+	}
+}
