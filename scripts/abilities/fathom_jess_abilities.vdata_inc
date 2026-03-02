@@ -1978,6 +1978,10 @@
 			_my_subclass_name = "invis"
 			m_flInvisBias = 0.800000
 			m_InvisRevealedParticle = resource_name:"particles/abilities/fathom/fathom_invis_revealed.vpcf"
+			
+			m_nEnabledStateMask = "MODIFIER_STATE_IS_TINY_CHARACTER"
+			m_flModelScale = 0.500000
+			
 			m_cameraSequenceCreated = 
 			{
 				m_vecDistanceOperations = 
