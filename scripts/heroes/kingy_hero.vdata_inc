@@ -114,7 +114,7 @@
 			ESlot_Signature_1 = "ability_kingy_swipe"
 			ESlot_Signature_2 = "ability_kingy_shield"
 			ESlot_Signature_3 = "ability_kingy_passive_hack"
-			ESlot_Signature_4 = "ability_punkgoat_tether"
+			ESlot_Signature_4 = "ability_kingy_transformation"
 		}
 		m_mapItemSlotInfo = 
 		{
