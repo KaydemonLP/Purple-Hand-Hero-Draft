@@ -14,7 +14,7 @@
 		m_nComplexity = 3
 		m_nAllyBotDifficulty = 1
 		m_nEnemyBotDifficulty = 1
-		m_HeroID = 83
+		m_HeroID = 9700
 		m_strModelName = resource_name:"models/heroes_wip/unicorn/unicorn.vmdl"
 		m_strUIShoppingMap = "maps/ui/hero_shop/unicorn_shop.vmap"
 		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/yamato_team_reveal.vmap"

@@ -14,7 +14,7 @@
 		m_nComplexity = 2
 		m_nAllyBotDifficulty = 2
 		m_nEnemyBotDifficulty = 2
-		m_HeroID = 300
+		m_HeroID = 9703
 		m_strModelName = resource_name:"models/heroes_staging/slork/slork.vmdl"
 		m_strUIShoppingMap = "maps/ui/hero_shop/default_shop.vmap"
 		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/default_team_reveal.vmap"

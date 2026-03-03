@@ -14,7 +14,7 @@
 		m_nComplexity = 3
 		m_nAllyBotDifficulty = 1
 		m_nEnemyBotDifficulty = 1
-		m_HeroID = 84
+		m_HeroID = 9701
 		m_strModelName = resource_name:"models/heroes_wip/punkgoat/punkgoat.vmdl"
 		m_strUIShoppingMap = "maps/ui/hero_shop/punkgoat_shop.vmap"
 		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/punkgoat_team_reveal.vmap"
