@@ -2427,6 +2427,7 @@
 			ability_kingy_uppercut_combo = null
 			ability_kingy_charge_combo = null
 			ability_kingy_vortex_web = null
+			cosmetic_item_voting_poster = null
 		}
 		m_cameraSequenceChannelStart = 
 		{
@@ -2524,7 +2525,7 @@
 			m_sExpiredSound = soundevent:"Werewolf.Lycan.Curse.Expire"
 			m_mapWerewolfAbilities = 
 			{
-				ESlot_Weapon_Primary = ""
+				ESlot_Weapon_Primary = "cosmetic_item_voting_poster"
 				ESlot_Signature_1 = "ability_kingy_uppercut_combo"
 				ESlot_Signature_2 = "ability_kingy_charge_combo"
 				ESlot_Signature_3 = "ability_kingy_vortex_web"
@@ -3311,7 +3312,7 @@
 			}
 			AbilityCooldownBetweenCharge = 
 			{
-				m_strValue = "2"
+				m_strValue = "1"
 				m_strDisableValue = "-2"
 				m_strCSSClass = "charge_cooldown"
 				m_bCanSetTokenOverride = true

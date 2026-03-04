@@ -31,8 +31,8 @@
 			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
-			ELightMeleeDamage = 55
-			EHeavyMeleeDamage = 128
+			ELightMeleeDamage = 60
+			EHeavyMeleeDamage = 120
 			EMaxHealth = 725
 			EWeaponPower = 0
 			EReloadSpeed = 1
@@ -99,7 +99,7 @@
 		}
 		m_mapBoundAbilities = 
 		{
-			ESlot_Weapon_Primary = "citadel_weapon_kay_set"
+			ESlot_Weapon_Primary = "citadel_weapon_kay_set2"
 			ESlot_Weapon_Melee = "ability_melee_kay"
 			ESlot_Ability_Mantle = "citadel_ability_mantle"
 			ESlot_Ability_Jump = "citadel_ability_jump"
@@ -112,9 +112,9 @@
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
 			ESlot_Cosmetic_1 = "ability_kay_cooldown_reduction"
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
-			ESlot_Signature_2 = "ability_return_aura_trigger"
+			ESlot_Signature_2 = "ability_fencer_riposte"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
-			ESlot_Signature_4 = "ability_kay_return_aura"
+			ESlot_Signature_4 = "ability_kay_return_aura2"
 		}
 		m_mapItemSlotInfo = 
 		{
