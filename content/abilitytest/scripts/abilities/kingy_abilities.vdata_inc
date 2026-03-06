@@ -2570,7 +2570,7 @@
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL"
 		m_nAbilityTargetFlags = ""
 		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
-		m_bStartTrained = false
+		m_bStartTrained = true
 		m_eAbilityType = "EAbilityType_Signature"
 		m_strAbilityImage = panorama:"file://{images}/hud/abilities/bebop/bebop_uppercut.psd"
 		m_MeleeDamageFlags = "DFLAG_TRIGGER_FLINCH | DFLAG_LIGHT_MELEE"
@@ -2871,7 +2871,7 @@
 			"signature_base",
 		]
 		m_nAbilityPointsCost = 0
-		m_nAbillityUnlocksCost = 1
+		m_nAbillityUnlocksCost = 0
 		m_iMaxLevel = 1
 		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
 		m_strAbilityOffCooldownSound = soundevent:""
@@ -2880,14 +2880,6 @@
 		m_flBossDamageScale = 1.000000
 		m_iUpdateTime = 1693505809
 		m_flMaxPitchUp = -80
-		
-		m_mapDependentAbilities = 
-		{
-			ability_kingy_swipe = 
-			{
-				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
-			}
-		}
 		
 		m_vecAbilityUpgrades = 
 		[
@@ -3505,7 +3497,7 @@
 		[
 			"signature_base",
 		]
-		m_bStartTrained = false
+		m_bStartTrained = true
 		m_nAbilityPointsCost = 0
 		m_nAbillityUnlocksCost = 1
 		m_eAbilityType = "EAbilityType_Signature"
@@ -4226,14 +4218,6 @@
 		m_strSelectedLoopSound = soundevent:"Mods.Tech.Vacuum.Web.Select.Lp"
 		m_strAG2CastingAction = "throw"
 		m_strAG2CastCompletedAction = "throw_completed"
-		
-		m_mapDependentAbilities = 
-		{
-			ability_kingy_passive_hack = 
-			{
-				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
-			}
-		}
 		
 		m_vecAbilityUpgrades = 
 		[

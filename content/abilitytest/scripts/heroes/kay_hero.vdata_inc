@@ -99,7 +99,7 @@
 		}
 		m_mapBoundAbilities = 
 		{
-			ESlot_Weapon_Primary = "citadel_weapon_kay_set2"
+			ESlot_Weapon_Primary = "citadel_weapon_kay_set"
 			ESlot_Weapon_Melee = "ability_melee_kay"
 			ESlot_Ability_Mantle = "citadel_ability_mantle"
 			ESlot_Ability_Jump = "citadel_ability_jump"
@@ -114,7 +114,7 @@
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
 			ESlot_Signature_2 = "ability_fencer_riposte"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
-			ESlot_Signature_4 = "ability_kay_return_aura2"
+			ESlot_Signature_4 = "ability_kay_return_aura"
 		}
 		m_mapItemSlotInfo = 
 		{
