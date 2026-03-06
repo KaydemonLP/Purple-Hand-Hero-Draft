@@ -2398,11 +2398,9 @@
 		[
 			"tech_upgrade_t3",
 		]
-		m_nAbilityPointsCost = 0
-		m_nUpgradeSlotCost = 1
 		m_iMaxLevel = 1
 		m_bStartTrained = true
-		m_eAbilityType = "EAbilityType_Signature"
+		m_eAbilityType = "EAbilityType_Innate"
 		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
 		m_strCastAnimGraphParam = "e_GenericCast"
