@@ -2720,7 +2720,7 @@
 		m_iItemTier = "EModTier_3"
 		m_iUpdateTime = 1732080454
 		m_strCSSClass = "spiritSnatch"
-		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_tech/spirit_snatch.psd"
+		m_strAbilityImage = panorama:""
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
 		m_bShowInPassiveItemsArea = "false"
 		m_vecTooltipSectionInfo = 
@@ -2752,8 +2752,8 @@
 				m_StackingDebuffModifier = subclass:
 				{
 					_class = "modifier_mirage_sand_phantom_passive_victim"
-					_my_subclass_name = "modifier_mirage_sand_phantom_passive_victim"
-					m_sLocalizationName = "modifier_mirage_sand_phantom_passive_victim"
+					_my_subclass_name = "spirit_damage_passive_proc"
+					m_sLocalizationName = "spirit_damage_passive_proc"
 					m_bIsHidden = true
 					m_SlowModifier = subclass:
 					{
