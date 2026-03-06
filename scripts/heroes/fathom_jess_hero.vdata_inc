@@ -15,7 +15,7 @@
 		m_nAllyBotDifficulty = 2
 		m_nEnemyBotDifficulty = 2
 		m_HeroID = 9703
-		m_strModelName = resource_name:"models/heroes_staging/slork/slork.vmdl"
+		m_strModelName = resource_name:"models/heroes_epic/fathom/fathom.vmdl"
 		m_strUIShoppingMap = "maps/ui/hero_shop/default_shop.vmap"
 		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/default_team_reveal.vmap"
 		m_strUIPostgamePortraitMap = "maps/ui/hero_postgame_portrait/default_postgame_portrait.vmap"
