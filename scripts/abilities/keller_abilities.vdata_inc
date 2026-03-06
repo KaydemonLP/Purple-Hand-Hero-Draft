@@ -328,7 +328,7 @@
 		
 		m_mapDependentAbilities = 
 		{
-			ability_keller_empowerbullet_test = 
+			citadel_weapon_keller_passive = 
 			{
 				m_eFlags = "LinkImbues | LinkUpgrades"
 			}
@@ -373,12 +373,12 @@
 	}
 	citadel_weapon_keller_passive = 
 	{
-		_class = "upgrade_burst_fire"
+		_class = "upgrade_express_shot"
 		m_mapAbilityProperties = 
 		{
 			AbilityCooldown = 
 			{
-				m_strValue = 7
+				m_strValue = "1.260000"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cooldown"
 				m_bCanSetTokenOverride = true
@@ -386,12 +386,12 @@
 				{
 					_class = "scale_function_single_stat"
 					_my_subclass_name = "AbilityCooldown_scale_function"
-					m_eSpecificStatScaleType = "EItemCooldown"
+					m_eSpecificStatScaleType = "EFireRate"
 				}
 			}
 			AbilityDuration = 
 			{
-				m_strValue = "3.5"
+				m_strValue = "0"
 				m_strDisableValue = "0"
 				m_strCSSClass = "duration"
 				m_bCanSetTokenOverride = true
@@ -501,30 +501,34 @@
 				m_bCanSetTokenOverride = true
 				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
 			}
-			ActivatedFireRate = 
+			ProcAmmoConsumed = 
 			{
-				m_strValue = "32"
-				m_strCSSClass = "fire_rate"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_FIRE_RATE"
+				m_strValue = "-100"
+				m_bIsNegativeAttribute = true
+			}
+			ProcBulletVelocity = 
+			{
+				m_strLocTokenOverride = "BonusBulletSpeedPercent"
+				m_strValue = "0"
+				m_strCSSClass = "bullet_damage"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
-			BuildUpPerShot = 
+			ProcBaseAttackDamagePercent = 
 			{
+				m_strLocTokenOverride = "BaseAttackDamagePercent"
 				m_strValue = "0"
-				m_eDisplayType = "EBuildUpRate"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "buildup_scale_function"
-					m_eSpecificStatScaleType = "EBuildUpRate"
-				}
+				m_strCSSClass = "bullet_damage"
+				m_eDisplayUnits = "EDisplayUnit_Normal"
+				m_eDisplayType = "EBaseWeaponDamageIncrease"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 		}
-		_not_pickable = 0
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		_editor = 
 		{
-			folder_name = ""
+			folder_name = "Weapon"
 		}
 		m_WeaponInfo = 
 		{
@@ -534,460 +538,96 @@
 		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		_multibase = 
 		[
-			"signature_base",
+			"weapon_upgrade_t3",
 		]
+		
+		m_HUDPanel = 
+		{
+			m_vecHUDElements = 
+			[
+				
+				{
+					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
+					m_strContext = "cast"
+					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
+				},
+				
+				{
+					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
+					m_strContext = "channel"
+					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+					m_bReverseProgress = true
+				},
+			]
+			m_vecButtonHints = 
+			[
+				
+				{
+					m_strLocToken = "#AbilityButtonHint_HatTrickFire"
+					m_eHintSide = "EButtonSide_Right"
+					m_strContext = "hint_speed"
+					m_nButton1 = "IN_ATTACK"
+				},
+			]
+		}
+		
 		m_bStartTrained = true
-		m_nAbilityPointsCost = 0
-		m_nAbillityUnlocksCost = 1
 		m_eAbilityType = "EAbilityType_Innate"
-		m_iMaxLevel = 1
+		m_nUpgradeSlotCost = 1
 		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
 		m_strCastAnimGraphParam = "e_GenericCast"
 		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_strSelectionNameOverride = "item"
 		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
 		m_flBossDamageScale = 1.000000
-		//m_eItemSlotType = "EItemSlotType_Invalid"
-		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd"
-		m_ActivationSound = soundevent:""
-		m_iUpdateTime = 1647302636
-		
-		m_HUDPanel = 
+		m_strAG2SourceName = "item"
+		m_eItemSlotType = "EItemSlotType_Invalid"
+		m_iItemTier = "EModTier_3"
+		m_bShowInPassiveItemsArea = false
+		m_ProcNotificationModifier = subclass:
 		{
-			m_vecHUDElements = 
-			[
-				
-				{
-					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
-					m_strContext = "cast"
-					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
-				},
-				
-				{
-					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
-					m_strContext = "channel"
-					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-					m_bReverseProgress = true
-				},
-			]
-			m_vecButtonHints = 
-			[
-				
-				{
-					m_strLocToken = "#AbilityButtonHint_HatTrickFire"
-					m_eHintSide = "EButtonSide_Right"
-					m_strContext = "hint_speed"
-					m_nButton1 = "IN_ATTACK"
-				},
-			]
+			_class = "modifier_citadel_ui_ability_hud_notification"
+			_my_subclass_name = "notification"
+			m_sStartSound = soundevent:"Mods.Weapon.Express.Shot.Sweetener"
 		}
-		
-		m_IncompatibleFilter = 
-		{
-		}
-		m_BuffModifier = subclass:
-		{
-			_class = "modifier_base"
-			m_strParticleEffect = resource_name:"particles/upgrades/overdrive_buff.vpcf"
-			m_bIsHidden = true
-			_my_subclass_name = "modifier_burst_fire_buff"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-				"",
-			]
-		}
-	}
-
-
-	ability_keller_empowerbullet_test = 
-	{
-		_class = "ability_empower_bullet"
-		m_mapAbilityProperties = 
-		{
-			AbilityCooldown = 
+		flShotDelay = 0.0
+		m_vecTooltipSectionInfo = 
+		[	
 			{
-				m_strValue = "6"
-				m_strDisableValue = "0"
-				m_strCSSClass = "cooldown"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "AbilityCooldown_scale_function"
-					m_eSpecificStatScaleType = "ETechCooldown"
-				}
-			}
-			AbilityDuration = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-				m_strCSSClass = "duration"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "AbilityDuration_scale_function"
-					m_eSpecificStatScaleType = "ETechDuration"
-				}
-			}
-			AbilityCastRange = 
-			{
-				m_strValue = "0"
-				m_eDisplayUnits = "EDisplayUnit_Meters"
-				m_strCSSClass = "range"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "AbilityCastRange_scale_function"
-					m_eSpecificStatScaleType = "ETechRange"
-				}
-			}
-			AbilityUnitTargetLimit = 
-			{
-				m_strValue = "1"
-				m_bCanSetTokenOverride = true
-			}
-			AbilityCastDelay = 
-			{
-				m_strValue = "0.15"
-				m_strDisableValue = "0"
-				m_strCSSClass = "cast"
-				m_bCanSetTokenOverride = true
-			}
-			AbilityChannelTime = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-				m_strCSSClass = "cast"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_multi_stats"
-					_my_subclass_name = "scale_duration"
-					m_vecScalingStats = 
-					[
-						"EChannelDuration",
-						"ETechDuration",
-					]
-				}
-			}
-			AbilityPostCastDuration = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-			}
-			AbilityCharges = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "-1"
-				m_strCSSClass = "cast"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_ability_charges"
-					_my_subclass_name = "AbilityCharges_scale_function"
-				}
-			}
-			AbilityCooldownBetweenCharge = 
-			{
-				m_strValue = "-1.0"
-				m_strDisableValue = "-2"
-				m_strCSSClass = "charge_cooldown"
-				m_bCanSetTokenOverride = true
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_ability_recharge_time"
-					_my_subclass_name = "scale_function_ability_recharge_time"
-				}
-			}
-			ChannelMoveSpeed = 
-			{
-				m_strValue = "0"
-				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
-				m_strCSSClass = "move_speed"
-				m_bCanSetTokenOverride = true
-			}
-			AbilityResourceCost = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-				m_bCanSetTokenOverride = true
-				m_strCSSClass = "cast"
-			}
-			TechPower = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-				m_bCanSetTokenOverride = true
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
-			}
-			WeaponPower = 
-			{
-				m_strValue = "0"
-				m_strDisableValue = "0"
-				m_bCanSetTokenOverride = true
-				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
-			}
-			Damage = 
-			{
-				m_strValue = "100"
-				m_strCSSClass = "bullet_damage"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_damage"
-					_my_subclass_name = "Damage_scale_function"
-					m_flStatScale = 0.930000
-					m_eSpecificStatScaleType = "EWeaponDamageScale"
-				}
-			}
-			DebuffDuration = 
-			{
-				m_strValue = "0"
-				m_strCSSClass = "duration"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "DebuffDuration_scale_function"
-					m_eSpecificStatScaleType = "ETechDuration"
-				}
-			}
-			AbilityCooldownPerHeadshot = 
-			{
-				m_strValue = "0"
-			}
-			BuffDuration = 
-			{
-				m_strValue = "3"
-			}
-			ProcChance = 
-			{
-				m_strValue = "100"
-			}
-			ProcDamagePercentage = 
-			{
-				m_strValue = "100"
-				m_eDisplayType = "ETechPower"
-				m_strCSSClass = "tech_damage"
-			}
-			BonusClip = 
-			{
-				m_strValue = "1"
-			}
-			BulletArmorReduction = 
-			{
-				m_strValue = "0"
-			}
-			BonusMoveSpeed = 
-			{
-				m_strValue = "0"
-				m_strCSSClass = "move_speed"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
-				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
-				m_eStatsUsageFlags = "ConditionallyApplied"
-			}
-		}
-		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
-		_editor = 
-		{
-			folder_name = "Hero Gunslinger"
-		}
-		m_WeaponInfo = 
-		{
-			m_flBulletSpeed = 5000.000000
-			m_szBulletTravelTracerParticle = resource_name:"particles/abilities/astro/astro_trick_shot_fired_projectile.vpcf"
-			m_strBulletWhizSound = soundevent:"Orion.Charged.Shot.Whizby"
-			m_flBulletRadius = 32
-			m_flBulletRadiusVsWorld = 7
-			m_flBulletLifetime = 5
-			m_flBulletGravityScale = 0.300000
-			m_iClipSize = 1
-			m_flRange = 10000
-			m_flDamageFalloffStartRange = -1.000000
-			m_flDamageFalloffEndRange = -1.000000
-			m_mapImpactEffects = 
-			{
-				default = 
-				{
-					m_strSound = soundevent:"Orion.Charged.Shot.Proj.Impact"
-				}
-			}
-		}
-		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
-		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
-		_multibase = 
-		[
-			"signature_base",
-		]
-		m_bStartTrained = true
-		m_nAbilityPointsCost = 0
-		m_nAbillityUnlocksCost = 1
-		m_eAbilityType = "EAbilityType_Innate"
-		m_iMaxLevel = 1
-		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP"
-		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
-		m_strAbilityOffCooldownSound = soundevent:""
-		m_strAbilityChargeReadySound = soundevent:""
-		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
-		m_flBossDamageScale = 1.000000
-		m_iUpdateTime = 1721945369
-		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
-		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
-		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT"
-		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/inferno_molotov.psd"
-		m_strCastAnimGraphParam = "e_GenericThrow"
-		m_vecAbilityUpgrades = 
-		[
-			
-			{
-				m_vecPropertyUpgrades = 
+				m_eAbilitySectionType = "EArea_Passive"
+				m_vecSectionAttributes = 
 				[
 					
 					{
-						m_strPropertyName = "BonusMoveSpeed"
-						m_strBonus = "2m"
-					},
-				]
-			},
-			
-			{
-				m_vecPropertyUpgrades = 
-				[
-					
-					{
-						m_strPropertyName = "DebuffDuration"
-						m_strBonus = "5"
-					},
-					
-					{
-						m_strPropertyName = "BulletArmorReduction"
-						m_strBonus = "25"
-					},
-				]
-			},
-			
-			{
-				m_vecPropertyUpgrades = 
-				[
-					
-					{
-						m_strPropertyName = "ProcDamagePercentage"
-						m_strBonus = "70"
+						m_strLocString = "#upgrade_express_shot_desc"
+						m_vecImportantAbilityProperties = 
+						[
+							
+							{
+								m_strImportantProperty = "ProcBaseAttackDamagePercent"
+							},
+							
+							{
+								m_strImportantProperty = "ProcBaseAttackDamagePercentAltFire"
+							},
+						]
+						m_vecAbilityProperties = 
+						[
+							"ProcBulletVelocity",
+							"ProcAmmoConsumed",
+							"AbilityCooldown",
+						]
 					},
 				]
 			},
 		]
-		m_strCastDelaySound = soundevent:"Archer.GuidedArrow.Cast"
-		m_HUDPanel = 
-		{
-			m_vecHUDElements = 
-			[
-				
-				{
-					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
-					m_strContext = "cast"
-					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
-				},
-				
-				{
-					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
-					m_strContext = "channel"
-					m_Layout = panorama:"file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-					m_bReverseProgress = true
-				},
-			]
-			m_vecButtonHints = 
-			[
-				
-				{
-					m_strLocToken = "#AbilityButtonHint_HatTrickFire"
-					m_eHintSide = "EButtonSide_Right"
-					m_strContext = "hint_speed"
-					m_nButton1 = "IN_ATTACK"
-				},
-			]
-		}
-		m_DebuffModifier = subclass:
-		{
-			_my_subclass_name = "slow"
-			_class = "modifier_diminishing_slow"
-			m_sLocalizationName = "movement_slow"
-			m_bIsHidden = true
-			m_nEnabledStateMask = "MODIFIER_STATE_GLOW_THROUGH_WALLS_TO_PROVIDER | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-			]
-			m_strParticleEffect = resource_name:"particles/generic/generic_slow_debuff.vpcf"
-		}
-		m_strMoviePreviewPath = "file://{resources}/videos/hero_abilities/astro_crackshot.webm"
-		m_AbilityTooltipDetails = 
-		{
-			m_vecAbilityInfoSections = 
-			[
-				
-				{
-					m_strLocString = "#ability_empowerbullet_desc"
-					m_vecAbilityPropertiesBlock = 
-					[
-						
-						{
-							m_vecAbilityProperties = 
-							[
-								
-								{
-									m_strImportantProperty = "ProcDamagePercentage"
-								},
-							]
-						},
-					]
-					m_vecBasicProperties = 
-					[
-						"BuffDuration",
-					]
-				},
-			]
-		}
-		m_EmpowerBulletModifier = subclass:
-		{
-			_class = "modifier_empower_bullet"
-			_my_subclass_name = "empowerbullet_watcher"
-			m_strParticleEffect = resource_name:""
-			m_strParticleEffectConfig = ""
-			m_strParticleStatusEffect = resource_name:""
-			m_strParticleStatusEffectConfig = ""
-			m_strScreenParticleEffect = resource_name:""
-			m_strScreenParticleEffectConfig = ""
-			m_nStatusEffectPriority = 0
-			m_TracerAdditionParticle = resource_name:"particles/abilities/gunslinger/gunslinger_empowerbullet_tracer.vpcf"
-			m_sStartSound = soundevent:""
-			m_sAmbientLoopingSound = soundevent:"Haze.Smoke.Bomb.Modifier.Lp"
-			m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_ALWAYS"
-			m_sExpiredSound = soundevent:""
-			m_OnBulletRolledProcSound = soundevent:"Mods.Tech.MysticShot.Proc"
-			m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
-			m_flMaxBulletsToProcInShot = 1.000000
-			m_bRollOnceForAllBulletsInAShot = false
-			m_bCanBeEvaded = false
-			m_EmpowerWeaponParticle = resource_name:"particles/abilities/gunslinger/gunslinger_weapon_buff.vpcf"
-			m_ShotConfirmationSound = soundevent:"Astro.TargetPractice.Impact.Headshot"
-			m_ExplosionParticle = resource_name:"particles/abilities/gunslinger/gunslinger_empowerbullet_impact.vpcf"
-			m_ExplosionVictimParticle = resource_name:"particles/abilities/astro/astro_crack_shot_impact_victim.vpcf"
-			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
-			m_DebuffModifier = subclass:
-			{
-				_class = "modifier_stomp_debuff"
-				_my_subclass_name = "empowerbullet_debuff"
-				m_bIsHidden = true
-			}
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-				"BonusMoveSpeed",
-			]
-		}
+		m_eShopFilters = "EShopFilterWeaponDamage"
+		m_strShopIconLarge = panorama:"file://{images}/items/weapon/express_shot.psd"
+		m_strOffCooldownSound = soundevent:"Mods.Weapon.Express.Shot.Ready"
+		m_ReadyParticle = resource_name:"particles/upgrades/express_shot_ready.vpcf"
+		m_TracerAdditionParticle = resource_name:"particles/upgrades/express_shot_projectile.vpcf"
 	}
-
-
 	ability_melee_keller = 
 	{
 		_class = "citadel_ability_hold_melee"
