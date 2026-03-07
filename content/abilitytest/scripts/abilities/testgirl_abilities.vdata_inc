@@ -1,0 +1,834 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CitadelAbilityVData"
+	imbue_test = 
+	{
+		_class = "citadel_item"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "18"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "EItemCooldown"
+					m_bFunctionDisabled = true
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			BonusFireRate = 
+			{
+				m_strValue = "10"
+				m_strCSSClass = "fire_rate"
+				m_eDisplayType = "EFireRate"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_FIRE_RATE"
+				m_strConditionalLocTokenOverride = "#Quicksilver_conditional"
+			}
+			BuffDuration = 
+			{
+				m_strValue = "12"
+			}
+			Damage = 
+			{
+				m_strValue = "44"
+				m_strCSSClass = "tech_damage"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					_my_subclass_name = "Damage_scale_function"
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.160000
+				}
+			}
+			AmmoReloadPercent = 
+			{
+				m_strCSSClass = "clipsize"
+				m_strValue = "100"
+			}
+			AbilityChargeUpTime = 
+			{
+				m_strValue = "18"
+				m_eDisplayType = "EStatsCount"
+				m_eDisplayUnits = "EDisplayUnit_Normal"
+				m_strCSSClass = "cooldown"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Tech"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"tech_upgrade_t2",
+		]
+		m_bStartTrained = false
+		m_eAbilityType = "EAbilityType_Signature"
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PASSIVE"
+		m_strCastAnimGraphParam = "e_GenericCast"
+		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_strSelectionNameOverride = "item"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_strAG2SourceName = "item"
+		m_eItemSlotType = "EItemSlotType_Invalid"
+		m_iItemTier = "EModTier_2"
+		m_iUpdateTime = 1700366513
+		m_TargetAbilityEffectsToApply = "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE"
+		m_strCSSClass = "fireRatePlus"
+		m_strAbilityImage = panorama:"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_NO_TARGET"
+		m_bShowInPassiveItemsArea = true
+		
+		m_mapDependentAbilities = 
+		{
+			testgirl_additional_abilities = null
+		}
+		
+		m_vecImbuedAbilities =
+		[
+			0
+		]
+		
+		m_vecTooltipSectionInfo = 
+		[
+			
+			{
+				m_eAbilitySectionType = "EArea_Passive"
+				m_vecSectionAttributes = 
+				[
+					
+					{
+						m_strLocString = "#upgrade_quick_silver_desc"
+						m_vecImportantAbilityProperties = 
+						[
+							
+							{
+								m_strImportantProperty = "Damage"
+							},
+							
+							{
+								m_strImportantProperty = "BonusFireRate"
+							},
+							
+							{
+								m_strImportantProperty = "AmmoReloadPercent"
+							},
+						]
+						m_vecAbilityProperties = 
+						[
+							"AbilityChargeUpTime",
+						]
+					},
+				]
+			},
+		]
+		m_AutoIntrinsicModifiers = 
+		[
+			subclass:
+			{
+				_class = "modifier_quick_silver_watcher"
+				_my_subclass_name = "modifier_quick_silver_watcher"
+				m_bIsHidden = true
+				m_bCanProcByOtherObjects = true
+				m_vecProcDamageTypes = 
+				[
+					"CITADEL_DAMAGETYPE_ABILITY",
+					"CITADEL_DAMAGETYPE_BULLET",
+					"CITADEL_DAMAGETYPE_MELEE",
+				]
+				m_ProcParticle = resource_name:"particles/upgrades/magic_bonus_damage.vpcf"
+				m_BuffModifier = subclass:
+				{
+					_class = "modifier_quick_silver_buff"
+					_my_subclass_name = "modifier_quick_silver_buff"
+					m_sLocalizationName = "modifier_quick_silver_buff"
+					m_RapidFireParticle = resource_name:"particles/upgrades/quicksilver_fire_rate_buff.vpcf"
+					m_bIsHidden = true
+					m_strHudMessageText = "#upgrade_quick_silver"
+					m_sStartSound = soundevent:"Mods.Tech.QuicksilverReload.Proc"
+				}
+				m_bShouldApplyAbilityCooldown = false
+			},
+		]
+		m_eShopFilters = "EShopFilterMagicDamage | EShopFilterFireRate"
+		m_strShopIconLarge = panorama:"file://{images}/items/spirit/quicksilver_reload.psd"
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "BonusFireRate"
+						m_strBonus = "20"
+					},
+					
+					{
+						m_strPropertyName = "Damage"
+						m_strBonus = "56"
+					},
+					
+					{
+						m_strPropertyName = "AbilityChargeUpTime"
+						m_strBonus = "-4"
+					},
+					
+					{
+						m_strPropertyName = "AbilityCooldown"
+						m_strBonus = "-4"
+					},
+				]
+			},
+		]
+	}
+
+	testgirl_additional_abilities = 
+	{
+		_class = "ability_bookworm_dragonfire"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "33"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "5"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0.1"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "1"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "8"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			DPS = 
+			{
+				m_strValue = "30"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					_my_subclass_name = "dpssf"
+					m_flStatScale = 0.300000
+				}
+				m_strCSSClass = "tech_damage"
+				m_bIsAbilityDamageProperty = true
+			}
+			TickRate = 
+			{
+				m_strValue = "0.3"
+			}
+			StartupDelay = 
+			{
+				m_strValue = "0.3"
+			}
+			TechArmorDamageReduction = 
+			{
+				m_strValue = "0"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_strCSSClass = "tech_armor_down"
+			}
+			DebuffDuration = 
+			{
+				m_strLocTokenOverride = "SlowDuration"
+				m_strValue = "1.5"
+				m_strCSSClass = "duration"
+			}
+			DragonSearchRadius = 
+			{
+				m_strValue = "8.5m"
+				m_subclassScaleFunction = subclass:
+				{
+				}
+			}
+			DragonConeRange = 
+			{
+				m_strValue = "5m"
+				m_subclassScaleFunction = subclass:
+				{
+				}
+			}
+			DragonUpwardSpeed = 
+			{
+				m_strValue = "400"
+			}
+			GroundFlameDuration = 
+			{
+				m_strValue = "3.0"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "burnsf"
+				}
+				m_strCSSClass = "duration"
+			}
+			Damage = 
+			{
+				m_strValue = "60"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					m_flStatScale = 1.300000
+					_my_subclass_name = "damagesf"
+				}
+				m_strCSSClass = "tech_damage"
+				m_bIsAbilityDamageProperty = true
+			}
+			Radius = 
+			{
+				m_strValue = "4m"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_range"
+					_my_subclass_name = "range"
+				}
+				m_strCSSClass = "distance"
+			}
+			DragonSearchTickRate = 
+			{
+				m_strValue = "0.1"
+			}
+			GroundAuraSpacing = 
+			{
+				m_strValue = "1m"
+			}
+			AuraLingerDuration = 
+			{
+				m_strValue = "0.1"
+			}
+			DragonTravelRange = 
+			{
+				m_strValue = "20m"
+				m_strCSSClass = "distance"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_range"
+					_my_subclass_name = "travelrangesf"
+				}
+			}
+			DragonRangePerSecond = 
+			{
+				m_strValue = "500"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Hero Bookworm"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 1000.000000
+			m_flBulletLifetime = 0.000000
+			m_flBulletRadiusVsWorld = 2.500000
+			m_flBulletRadius = 2.500000
+			m_flBulletSpeedRandomFactor = 0.000000
+			m_flBulletGravityScale = 1.000000
+			m_flVerticalAimBias = 20.000000
+			m_flBulletInheritShooterVelocityScale = 0.000000
+			m_szBulletTravelTracerParticle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_projectile.vpcf"
+			m_mapImpactEffects = 
+			{
+				default = 
+				{
+				}
+			}
+			m_strBulletLoopingSound = soundevent:"Bookworm.Conjure.Dragon.Proj.Lp"
+			m_strBulletImpactSound = soundevent:"Bookworm.Conjure.Dragon.Impact"
+			m_bAlwaysTraceWorldRadiusAgainstWorld = true
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_strAbilityOffCooldownSound = soundevent:""
+		m_strAbilityChargeReadySound = soundevent:""
+		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_iUpdateTime = 0
+		m_eAbilityTargetingShape = "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE"
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_GROUND"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PRESS"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/bookworm/bookworm_dragon.psd"
+		m_strCastSound = soundevent:"Bookworm.Conjure.Dragon.Cast"
+		
+		m_additionalAbilities = 
+		[
+			"ability_bookworm_aoemagic"
+		]
+		
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "GroundFlameDuration"
+						m_strBonus = "2"
+					},
+					
+					{
+						m_strPropertyName = "Radius"
+						m_strBonus = "1m"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "DragonTravelRange"
+						m_strBonus = "10m"
+					},
+					
+					{
+						m_strPropertyName = "AbilityCooldown"
+						m_strBonus = "-8"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "Damage"
+						m_strBonus = 100
+					},
+					
+					{
+						m_strPropertyName = "DPS"
+						m_strBonus = 30.000000
+					},
+					
+					{
+						m_strPropertyName = "AbilityCharges"
+						m_strBonus = 1
+					},
+				]
+			},
+		]
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_bookworm_dragonfire_desc"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "Damage"
+								},
+								
+								{
+									m_strImportantProperty = "DPS"
+								},
+								
+								{
+									m_strImportantProperty = "GroundFlameDuration"
+								},
+							]
+							m_strPropertiesTitleLocString = ""
+						},
+					]
+					m_vecBasicProperties = 
+					[
+						"DragonTravelRange",
+					]
+				},
+			]
+			m_vecAdditionalHeaderProperties = 
+			[
+			]
+		}
+		m_projectileInfo = 
+		{
+			m_flGravityScale = 0.000000
+			m_flUpSpeed = 0.000000
+			m_warningParticle = resource_name:""
+			m_bHideWarningParticle = true
+			m_flProjectileModelScale = 1.000000
+			m_LoopingSound = soundevent:"Bookworm.Conjure.Dragon.Lp"
+			m_flSpeed = 500.000000
+			m_HitSound = soundevent:""
+			m_nBehaviors = ""
+			m_customModel = resource_name:""
+			m_particle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire.vpcf"
+			m_flPhysicsRadius = 1.500000
+			m_flTriggerRadius = 1.500000
+		}
+		m_DragonCastParticle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_cast.vpcf"
+		m_strExpiredSound = soundevent:"Bookworm.Conjure.Dragon.Expire"
+		m_DragonSpawnParticle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_spawn.vpcf"
+		flSpawnVerticalOffset = 0.000000
+		flIdealSpringLength = 140.000000
+		flDamperConstant = 9.000000
+		flSpringConstant = 40.000000
+		flVelocityImpactOnAngle = 0.002000
+		m_strAG2CastingAction = "throw"
+		m_strAG2CastCompletedAction = "throw_completed"
+		flForwardVelocityCurve = 
+		{
+			m_spline = 
+			[
+				
+				{
+					x = 0.000000
+					y = 0.000000
+					m_flSlopeIncoming = 2.777778
+					m_flSlopeOutgoing = 2.777778
+				},
+				
+				{
+					x = 0.097908
+					y = 0.542407
+					m_flSlopeIncoming = 3.210826
+					m_flSlopeOutgoing = 3.210826
+				},
+				
+				{
+					x = 0.267959
+					y = 0.860370
+					m_flSlopeIncoming = 0.821115
+					m_flSlopeOutgoing = 0.821115
+				},
+				
+				{
+					x = 2.000000
+					y = 1.000000
+					m_flSlopeIncoming = 0.080616
+					m_flSlopeOutgoing = 0.000000
+				},
+			]
+			m_tangents = 
+			[
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_FREE"
+					m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_MIRROR"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_FREE"
+					m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+					m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+				},
+			]
+			m_vDomainMins = 
+			[
+				0.000000,
+				0.000000,
+			]
+			m_vDomainMaxs = 
+			[
+				2.000000,
+				1.000000,
+			]
+		}
+		m_ImpactParticle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_impact.vpcf"
+		bDebug = false
+		m_GroundAuraModifier = subclass:
+		{
+			_class = "modifier_dragonfire_ground_aura"
+			_my_subclass_name = "groundaura"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_bookworm_dragonfire"
+				m_bIsHidden = true
+				m_strParticleEffect = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_debuff.vpcf"
+				m_strParticleStatusEffectConfig = "particles/abilities/bookworm/bookworm_dragonfire_screen_effect.vpcf"
+				_my_subclass_name = "groundaura_burn"
+				m_sStartSound = soundevent:""
+				m_sAmbientLoopingSound = soundevent:"Bookworm.Conjure.Dragon.Burn.Lp"
+				m_sExpiredSound = soundevent:"Bookworm.Conjure.Dragon.Burn.Expire"
+			}
+			m_GroundParticle = resource_name:"particles/abilities/bookworm/bookworm_dragonfire_aura.vpcf"
+		}
+		flPitchOffset = 45.000000
+		m_ProjectileModel = resource_name:"models/heroes_wip/bookworm/bookworm_dragon_fullbody.vmdl"
+		flDotToChangeForwardDirectionBasedOnImpactNormal = 0.500000
+		flForwardTraceRadius = 45.000000
+		m_flGravity = -40.000000
+		flForwardTraceDistance = 100.000000
+		m_flFloorRaycastForward = 30.000000
+		m_flDistanceAboveGround = 0.000000
+		m_flFloatDownRate = 10.000000
+		m_flFloorRaycastDistance = 120.000000
+		m_flStepDownHeight = 0.000000
+		m_flClimbHeight = 24.000000
+		m_flTraceRadius = 2.300000
+		m_flQAngleSmoothRate = 3.000000
+		m_bShouldReflectAgainstWall = true
+		m_strHitConfirmationSound = soundevent:"Bookworm.Conjure.Dragon.Burn.Start"
+	}
+
+}
