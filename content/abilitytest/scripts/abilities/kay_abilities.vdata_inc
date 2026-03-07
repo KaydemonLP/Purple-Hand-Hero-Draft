@@ -325,7 +325,7 @@
 			}
 			m_eAttachmentSourceType = "EAttachmentSource_Custom"
 			m_strCustomAttachmentSource = "attach_sword_fx"
-			m_flVerticalAimBias = 3.000000
+			m_flVerticalAimBias = 5.000000
 		}
 		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
@@ -614,7 +614,7 @@
 		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP"
 		m_strAbilityImage = panorama:"file://{images}/hud/abilities/melee_damage.psd"
 		m_MeleeDamageFlags = "DFLAG_TRIGGER_FLINCH"
-		m_flCollisionDistance = 50.000000
+		m_flCollisionDistance = 75.000000
 		m_cameraSequenceHoldStart = 
 		{
 			m_vecFOVOperations = 
@@ -691,22 +691,23 @@
 			90.000000,
 			-90.000000,
 			1.000000,
-			0.100000,
+			1.00000,
 		]
 		m_mapAttacks = 
 		{
 			EAttackType_Light = 
 			{
 				m_Trigger = "light"
-				m_flCooldownOnHit = 0.750000
-				m_flCooldownOnMiss = 0.750000
+				m_flCooldownOnHit = 0.650000
+				m_flCooldownOnMiss = 0.650000
 				m_MeleeActivateParticle = resource_name:""
 				m_strHitSound = soundevent:"Ability.Melee.Impact.Player"
 				m_MeleeImpactParticle = resource_name:"particles/abilities/melee_impact.vpcf"
-				m_flAttackStateTime = 0.500000
+				m_flAttackStateTime = 0.5
 				m_MeleeSwingParticle = resource_name:"particles/abilities/melee_quick.vpcf"
 				m_strHitDebrisSound = soundevent:"Player.Melee.Hit.Physics"
 				m_strHitHeroSound = soundevent:"Ability.Melee.Impact.Player"
+				m_flReloadPauseDuration = 0.000000
 			}
 			EAttackType_Heavy = 
 			{
@@ -2202,9 +2203,9 @@
 		]
 	}
 	
-	upgrade_kay_melee_passive_test = 
+	ability_kay_melee_passive_test = 
 	{
-		_class = "citadel_item"
+		_class = "citadel_base_ability"
 		m_mapAbilityProperties = 
 		{
 			AbilityCooldown = 
@@ -2772,7 +2773,7 @@
 		
 		m_mapDependentAbilities = 
 		{
-			upgrade_kay_melee_passive_test = 
+			ability_kay_melee_passive_test = 
 			{
 				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
 			}
