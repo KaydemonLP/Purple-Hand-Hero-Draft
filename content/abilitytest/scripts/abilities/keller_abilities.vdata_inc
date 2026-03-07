@@ -503,7 +503,7 @@
 			}
 			ProcAmmoConsumed = 
 			{
-				m_strValue = "-100"
+				m_strValue = "0"
 				m_bIsNegativeAttribute = true
 			}
 			ProcBulletVelocity = 

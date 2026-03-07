@@ -2383,6 +2383,11 @@
 				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
+			DMarkMultiplierPerStack = 
+			{
+				m_strValue = "2"
+				m_strCSSClass = "damage"
+			}
 		}
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		_editor = 
