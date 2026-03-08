@@ -188,7 +188,8 @@
 			m_iBurstShotCount = 1
 			m_flBurstShotCooldown = 0
 			m_flBulletGravityScale = 1
-			m_flBulletRadius = 13.000000
+			m_flBulletRadius = 42.000000
+			m_flBulletRadiusVsWorld = 1.500000
 			m_flBulletReflectScale = 0
 			m_flBulletReflectAmount = 1
 			m_flBulletInheritShooterVelocityScale = 0
@@ -254,7 +255,7 @@
 			m_flShootSpreadPenaltyDecay = 2.000000
 			m_flRecoilShotIndexRecoveryTimeFactor = 0.250000
 			m_bCanZoom = true
-			m_strWeaponImpactEffect = resource_name:"particles/abilities/yamato/yamato_explosive_dart_explode.vpcf"
+			m_strWeaponImpactEffect = resource_name:"particles/weaponfx/violet/violet_explosive_slash_explode.vpcf"
 			m_flReloadMoveSpeed = "10000"
 			m_strLocalPlayerBulletImpactSound = soundevent:"Player.Bullet.Impact.Hero"
 			m_strLocalPlayerBulletImpactHeavySound = soundevent:"Player.Bullet.Impact.Hero.Large"
@@ -363,9 +364,9 @@
 		m_sDisarmedSound = soundevent:"Player.Weapon.Jammed"
 		m_flMinDisarmedSoundInterval = 0.100000
 		m_flBossDamageScale = 1.000000
-		m_strSwipeTracerParticleLeft = resource_name:"particles/weapon_fx/fencer/fencer_tracer_left.vpcf"
-		m_strSwipeTracerParticleRight = resource_name:"particles/weapon_fx/fencer/fencer_tracer_right.vpcf"
-		m_strSwipeTracerParticleRightMove = resource_name:"particles/weapon_fx/fencer/fencer_tracer_right_move.vpcf"
+		m_strSwipeTracerParticleLeft = resource_name:"particles/weaponfx/violet/violet_tracer.vpcf"
+		m_strSwipeTracerParticleRight = resource_name:"particles/weaponfx/violet/violet_tracer.vpcf"
+		m_strSwipeTracerParticleRightMove = resource_name:"particles/weaponfx/violet/violet_tracer.vpcf"
 		m_vecSlashInfos = 
 		[
 			
