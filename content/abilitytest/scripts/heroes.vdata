@@ -7,6 +7,7 @@
 		resource_name:"scripts/heroes/kingy_hero.vdata_inc",
 		resource_name:"scripts/heroes/fathom_jess_hero.vdata_inc",
 		resource_name:"scripts/heroes/keller_hero.vdata_inc",
+		resource_name:"scripts/heroes/ramattra_hero.vdata_inc",
 		resource_name:"scripts/heroes/testgirl_hero.vdata_inc",
     ]
 	hero_base = 
