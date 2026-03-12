@@ -27,8 +27,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats = 
 		{
-			EMaxMoveSpeed = 8.200000
-			ESprintSpeed = 1.600000
+			EMaxMoveSpeed = 6.000000
+			ESprintSpeed = 4.000000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 60
@@ -112,7 +112,7 @@
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
 			ESlot_Cosmetic_1 = "ability_kay_cooldown_reduction"
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
-			ESlot_Signature_2 = "ability_fencer_riposte"
+			ESlot_Signature_2 = "ability_kay_whirlwind"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
 			ESlot_Signature_4 = "ability_kay_return_aura"
 		}

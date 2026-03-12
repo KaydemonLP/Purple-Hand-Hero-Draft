@@ -128,14 +128,68 @@
 				]
 			}
 			EItemSlotType_Armor = 
-			{
-				m_arMaxPurchasesForTier = 
-				[
-					6,
-					6,
-					6,
-				]
-			}
+			[
+				
+				{
+					nGoldThreshold = 800
+					flBonus = 84
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 1600
+					flBonus = 140
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 2400
+					flBonus = 224
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 3200
+					flBonus = 308
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 4800
+					flBonus = 588
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 700
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 840
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 1120
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 1344
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 1568
+					flPercentOnGraph = 12
+				},
+			]
 			EItemSlotType_Tech = 
 			{
 				m_arMaxPurchasesForTier = 

@@ -110,8 +110,8 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
-			ESlot_Signature_1 = "testgirl_additional_abilities"
-			ESlot_Signature_2 = "ability_bookworm_knightbarrier"
+			ESlot_Signature_1 = "ability_testgirl_transformtest"
+			ESlot_Signature_2 = "testgirl_shield"
 			ESlot_Signature_3 = "imbue_test"
 			ESlot_Signature_4 = "ability_bookworm_knightcharge"
 		}
@@ -184,33 +184,63 @@
 			[
 				
 				{
-					m_nTier = 1
-					m_strValue = "7"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+					nGoldThreshold = 800
+					flBonus = 84
+					flPercentOnGraph = 8
 				},
 				
 				{
-					m_nTier = 2
-					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+					nGoldThreshold = 1600
+					flBonus = 140
+					flPercentOnGraph = 8
 				},
 				
 				{
-					m_nTier = 3
-					m_strValue = "9"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+					nGoldThreshold = 2400
+					flBonus = 224
+					flPercentOnGraph = 9
 				},
 				
 				{
-					m_nTier = 4
-					m_strValue = "10"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+					nGoldThreshold = 3200
+					flBonus = 308
+					flPercentOnGraph = 9
 				},
 				
 				{
-					m_nTier = 5
-					m_strValue = "11"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+					nGoldThreshold = 4800
+					flBonus = 588
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 700
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 840
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 1120
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 1344
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 1568
+					flPercentOnGraph = 12
 				},
 			]
 			EItemSlotType_Tech = 
