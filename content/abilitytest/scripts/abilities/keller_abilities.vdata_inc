@@ -1551,14 +1551,15 @@
 		m_flHeavyMeleeMaxTurnRate = 700.000000
 		m_flCameraMaxTurnRate = 720.000000
 	}
+
 	ability_keller_summon_spirit = 
 	{
-		_class = "ability_necro_hauntingskull"
+		_class = "citadel_ability_necro_gravestone"
 		m_mapAbilityProperties = 
 		{
 			AbilityCooldown = 
 			{
-				m_strValue = "28"
+				m_strValue = "35"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cooldown"
 				m_bCanSetTokenOverride = true
@@ -1571,20 +1572,28 @@
 			}
 			AbilityDuration = 
 			{
-				m_strValue = "0"
+				m_strValue = "0.01"
 				m_strDisableValue = "0"
 				m_strCSSClass = "duration"
 				m_bCanSetTokenOverride = true
 				m_subclassScaleFunction = subclass:
 				{
-					_class = "scale_function_single_stat"
+					_class = "scale_function_multi_stats"
 					_my_subclass_name = "AbilityDuration_scale_function"
-					m_eSpecificStatScaleType = "ETechDuration"
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.040000
+					m_flStreetBrawlStatScale = 0.028000
+					m_vecScalingStats = 
+					[
+						"ETechPower",
+						"ETechDuration",
+					]
 				}
+				m_strStreetBrawlValue = "12"
 			}
 			AbilityCastRange = 
 			{
-				m_strValue = "0"
+				m_strValue = "0m"
 				m_eDisplayUnits = "EDisplayUnit_Meters"
 				m_strCSSClass = "range"
 				m_bCanSetTokenOverride = true
@@ -1602,20 +1611,20 @@
 			}
 			AbilityCastDelay = 
 			{
-				m_strValue = "0.15"
+				m_strValue = "0"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cast"
 				m_bCanSetTokenOverride = true
 			}
 			AbilityChannelTime = 
 			{
-				m_strValue = "0"
+				m_strValue = "0.0"
 				m_strDisableValue = "0"
 				m_strCSSClass = "cast"
 				m_bCanSetTokenOverride = true
 				m_subclassScaleFunction = subclass:
 				{
-					_class = "scale_function_multi_stats"
+					_class = ""
 					_my_subclass_name = "scale_duration"
 					m_vecScalingStats = 
 					[
@@ -1631,7 +1640,7 @@
 			}
 			AbilityCharges = 
 			{
-				m_strValue = "3"
+				m_strValue = "0"
 				m_strDisableValue = "-1"
 				m_strCSSClass = "cast"
 				m_bCanSetTokenOverride = true
@@ -1643,8 +1652,8 @@
 			}
 			AbilityCooldownBetweenCharge = 
 			{
-				m_strValue = "6"
-				m_strDisableValue = "-2"
+				m_strValue = "0"
+				m_strDisableValue = "-1"
 				m_strCSSClass = "charge_cooldown"
 				m_bCanSetTokenOverride = true
 				m_subclassScaleFunction = subclass:
@@ -1652,11 +1661,10 @@
 					_class = "scale_function_ability_recharge_time"
 					_my_subclass_name = "scale_function_ability_recharge_time"
 				}
-				m_strStreetBrawlValue = "16"
 			}
 			ChannelMoveSpeed = 
 			{
-				m_strValue = "-1"
+				m_strValue = "0"
 				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
 				m_strCSSClass = "move_speed"
 				m_bCanSetTokenOverride = true
@@ -1674,6 +1682,12 @@
 				m_strDisableValue = "0"
 				m_bCanSetTokenOverride = true
 				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+				m_subclassScaleFunction = subclass:
+				{
+					m_eSpecificStatScaleType = "ELevelUpBoons"
+					m_flStatScale = 1.000000
+				}
+				m_strCSSClass = "tech_damage"
 			}
 			WeaponPower = 
 			{
@@ -1682,267 +1696,293 @@
 				m_bCanSetTokenOverride = true
 				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
 			}
-			SkullCount = 
+			GrowTime = 
+			{
+				m_strValue = "0.0"
+			}
+			BlockerScaleFactor = 
 			{
 				m_strValue = "1"
-				m_strCSSClass = "cast"
 			}
-			SkullLifetime = 
+			KnockupSpeed = 
 			{
-				m_strValue = "10"
+				m_strValue = "0"
+			}
+			KnockupRadius = 
+			{
+				m_strValue = "0m"
+			}
+			KnockupSideRatio = 
+			{
+				m_strValue = "0"
+			}
+			GravestoneHealth = 
+			{
+				m_strValue = "100"
 				m_subclassScaleFunction = subclass:
 				{
-					_class = "scale_function_tech_duration"
-					_my_subclass_name = "durationsf"
-				}
-				m_strCSSClass = "duration"
-			}
-			TickRate = 
-			{
-				m_strValue = "0.2"
-			}
-			TargetSearchRadius = 
-			{
-				m_strValue = "50m"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_range"
-					_my_subclass_name = "rangesf"
-				}
-				m_strCSSClass = "distance"
-			}
-			TargetSearchDelayMax = 
-			{
-				m_strValue = "1.25"
-			}
-			Damage = 
-			{
-				m_strValue = "50"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_damage"
-					m_flStatScale = 0.250000
-					_my_subclass_name = "damagesf"
-				}
-				m_strCSSClass = "tech_damage"
-				m_bIsAbilityDamageProperty = true
-			}
-			TargetSearchDelayMin = 
-			{
-				m_strValue = "1.5"
-			}
-			MaxHits = 
-			{
-				m_strValue = "-1"
-			}
-			SummonHealth = 
-			{
-				m_strValue = "40"
-				m_strLocTokenOverride = "HauntingSkullHealth"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					m_eSpecificStatScaleType = "ELevelUpBoons"
-					m_flStatScale = 1.000000
-					_my_subclass_name = "healthsf"
 				}
 				m_strCSSClass = "health"
 			}
-			SummonBuffDuration = 
+			AuraRadius = 
 			{
-				m_strValue = "0"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_duration"
-					_my_subclass_name = "summonbuffdurationsf"
-				}
-			}
-			SkullImmuneDuration = 
-			{
-				m_strValue = "0.15"
-			}
-			SpawnRadius = 
-			{
-				m_strValue = "2m"
+				m_strValue = "0m"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_tech_range"
-					_my_subclass_name = "spawnradiussf"
-				}
-			}
-			SkullRevives = 
-			{
-				m_strValue = "0"
-				m_strCSSClass = "cast"
-			}
-			DelayBeforeRespawning = 
-			{
-				m_strValue = "1"
-			}
-			TargetDashRadius = 
-			{
-				m_strValue = "5m"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_range"
-					m_flStatScale = 1.000000
-					_my_subclass_name = "dashrangesf"
+					_my_subclass_name = "auraradiussf"
 				}
 				m_strCSSClass = "distance"
 			}
-			SummonTakesDamage = 
+			TickRate = 
+			{
+				m_strValue = "0.1"
+			}
+			SlowPercent = 
+			{
+				m_strValue = "80"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+				m_strCSSClass = "slow"
+			}
+			SlowDuration = 
+			{
+				m_strValue = "1.25"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "slowdurationsf"
+				}
+				m_strCSSClass = "duration"
+			}
+			TechResist = 
+			{
+				m_strValue = "20"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR"
+			}
+			PushForce = 
+			{
+				m_strValue = "0"
+			}
+			MaxGravestones = 
+			{
+				m_strValue = "3"
+			}
+			SummonInitialDelay = 
+			{
+				m_strValue = "0.0"
+			}
+			SummonFrequency = 
+			{
+				m_strValue = "4"
+				m_strCSSClass = "duration"
+			}
+			ZombieChargeOnCast = 
 			{
 				m_strValue = "1"
 			}
-			SkullsOnKill = 
+			BuffDuration = 
+			{
+				m_strValue = "-1"
+			}
+			BonusHealthRegen = 
 			{
 				m_strValue = "0"
-			}
-			SkullsOnPlayerKill = 
-			{
-				m_strValue = "0"
-			}
-			SkullsOnDeath = 
-			{
-				m_strValue = "0"
-			}
-			SkullsOnHeroDeath = 
-			{
-				m_strValue = "0"
-			}
-			ResourceCost = 
-			{
-				m_strValue = "0"
-				m_strLocTokenOverride = "PartCollectionRequired"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_single_stat"
-					_my_subclass_name = "costsf"
-					m_eSpecificStatScaleType = "ETechCooldown"
-					m_flStatScale = 1.000000
-				}
-				m_strCSSClass = "cast"
-			}
-			ResourceGenerationPercent = 
-			{
-				m_strValue = "0"
-			}
-			ResourceRadius = 
-			{
-				m_strValue = "0m"
-				m_strLocTokenOverride = "PartCollectionRadius"
-			}
-			PickupsPerDeath = 
-			{
-				m_strValue = "0"
-			}
-			PickupsPerHeroDeath = 
-			{
-				m_strValue = "0"
-			}
-			AbilityChargesConditionally = 
-			{
-				m_strValue = "0"
-			}
-			HealPerPickup = 
-			{
-				m_strValue = "0"
-				m_strCSSClass = "healing"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_multi_stats"
 					m_flStatScale = 0.000000
-					m_eSpecificStatScaleType = "ETechPower"
-					_my_subclass_name = "healingsf"
 					m_vecScalingStats = 
 					[
 						"ETechPower",
 						"EHealingOutput",
 					]
+					_my_subclass_name = "healsf"
+					m_eSpecificStatScaleType = "ETechPower"
 				}
+				m_eProvidedPropertyType = "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
+				m_strCSSClass = "healing"
 			}
-			BulletArmorDamageReductionPerStack = 
+			CooldownRefundPercent = 
 			{
 				m_strValue = "0"
+			}
+			StackingDebuffTickRate = 
+			{
+				m_strValue = "0.25"
+			}
+			MaxHealthRegen = 
+			{
+				m_strValue = "0"
+			}
+			Damage = 
+			{
+				m_strValue = "150"
+				m_strStreetBrawlValue = "105"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					m_flStatScale = 1.500000
+					m_flStreetBrawlStatScale = 1.050000
+					_my_subclass_name = "damagesf"
+				}
+				m_strCSSClass = "tech_damage"
+			}
+			GravestoneTakesDamage = 
+			{
+				m_strValue = "1"
 			}
 			MaxStacks = 
 			{
-				m_strValue = "0"
+				m_strValue = "40"
 			}
 			StackDuration = 
+			{
+				m_strValue = "5"
+			}
+			SlowPercentPerStack = 
+			{
+				m_strValue = "0.5"
+			}
+			TechArmorDamageReductionPerStack = 
+			{
+				m_strValue = "-0.5"
+			}
+			IncomingDamagePercentFromCasterPerStack = 
+			{
+				m_strValue = "0"
+			}
+			OutgoingDamagePercentPerStack = 
+			{
+				m_strValue = "0"
+			}
+			ReplicateZombieCast = 
+			{
+				m_strValue = "1"
+			}
+			SpiritPerStack = 
+			{
+				m_strValue = "0"
+			}
+			SummonLifetime = 
+			{
+				m_strValue = "20"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_duration"
+					_my_subclass_name = "summonlifetimesf"
+				}
+				m_strCSSClass = "duration"
+			}
+			DecayTickRate = 
+			{
+				m_strValue = "0.1"
+			}
+			DecayDuration = 
+			{
+				m_strValue = "1"
+			}
+			SummonMeleeDamage = 
+			{
+				m_strValue = "40"
+				m_strStreetBrawlValue = "28"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_tech_damage"
+					m_flStatScale = 0.500000
+					m_flStreetBrawlStatScale = 0.350000
+					_my_subclass_name = "meleedamagesf"
+				}
+				m_eProvidedPropertyType = "MODIFIER_VALUE_INVALID"
+				m_strCSSClass = "bullet_damage"
+			}
+			SummonHealth = 
+			{
+				m_strValue = "200"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					m_flStatScale = 12.000000
+					_my_subclass_name = "healthscalingsf"
+					m_eSpecificStatScaleType = "ELevelUpBoons"
+				}
+				m_strCSSClass = "health"
+			}
+			BonusSpiritDamagePercentage = 
+			{
+				m_strValue = "15"
+				m_subclassScaleFunction = subclass:
+				{
+				}
+				m_strCSSClass = "tech_damage"
+			}
+			CombatBarrier = 
+			{
+				m_strValue = "0"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BARRIER_HEALTH"
+			}
+			SummonSearchRadius = 
+			{
+				m_strValue = "150m"
+			}
+			SummonMaxCount = 
+			{
+				m_strValue = "32"
+			}
+			StunDuration = 
 			{
 				m_strValue = "0"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_tech_duration"
-					_my_subclass_name = "stackdurationsf"
+					_my_subclass_name = "stundurationsf"
 				}
 			}
-			SummonFireRate = 
+			ExplodeDelay = 
 			{
-				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_FIRE_RATE"
+				m_strValue = "0.23"
 			}
-			KillTime = 
+			SpawnDuration = 
 			{
-				m_strValue = "0.2"
+				m_strValue = "1.5"
 			}
-			SkullsOnZombieDeath = 
+			ExplosionRadius = 
 			{
-				m_strValue = "0"
-			}
-			ResourcePerPickup = 
-			{
-				m_strValue = "10"
-			}
-			SlowPercent = 
-			{
-				m_strValue = "0"
-				m_strCSSClass = "slow"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
-			}
-			SlowDuration = 
-			{
-				m_strValue = "0"
-			}
-			HealOnHit = 
-			{
-				m_strValue = "0"
-			}
-			PickupsPerBossDeath = 
-			{
-				m_strValue = "5"
-			}
-			PickupsPerNeutralTrooperDeath = 
-			{
-				m_strValue = "2"
-			}
-			SkullKillGold = 
-			{
-				m_strValue = "5"
+				m_strValue = "6.5m"
 				m_subclassScaleFunction = subclass:
 				{
-					_class = "scale_function_single_stat"
-					m_eSpecificStatScaleType = "ELevelUpBoons"
-					m_flStatScale = 0.250000
-					_my_subclass_name = "killgoldsf"
+					_class = "scale_function_tech_range"
+					_my_subclass_name = "explosionradiusf"
 				}
 			}
-			SkullsApplyPassive = 
+			MoveSpeedPercent = 
+			{
+				m_strValue = "0"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT"
+			}
+			BulletResist = 
+			{
+				m_strValue = "12.5"
+			}
+			CurrentHealthDamagePercentage = 
 			{
 				m_strValue = "0"
 			}
-			TargetSearchInitialDelayMin = 
+			SummonBurstCount = 
 			{
-				m_strValue = "0.15"
+				m_strValue = "0"
 			}
-			TargetSearchInitialDelayMax = 
+			SummonBurstFrequency = 
 			{
-				m_strValue = "0.2"
+				m_strValue = "0.1"
 			}
-			TargetSearchInitialStagger = 
+			DamageSlowPercent = 
 			{
-				m_strValue = "0.125"
+				m_strValue = "20"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+			}
+			DamageSlowDuration = 
+			{
+				m_strValue = "0.5"
 			}
 		}
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
@@ -1952,28 +1992,13 @@
 		}
 		m_WeaponInfo = 
 		{
-			m_flBulletSpeed = 1.000000
-			m_flBulletGravityScale = 1.000000
-			m_flBulletRadius = 8.000000
-			m_flBulletRadiusVsWorld = 8.000000
-			m_flVerticalAimBias = 10.000000
-			m_flBulletLifetime = 0.001
-			m_szBulletTravelTracerParticle = resource_name:"particles/abilities/necro/necro_haunting_skull_container_projectile.vpcf"
-			m_mapImpactEffects = 
-			{
-				default = 
-				{
-				}
-			}
-			m_eAttachmentSourceType = "EAttachmentSource_Custom"
-			m_strCustomAttachmentSource = "ability_cast_l"
-			m_strBulletImpactSound = soundevent:"Necro.HauntingDead.Impact"
+			m_flBulletSpeed = 10000.000000
 		}
-		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION | MODIFIER_STATE_LOCKED_AIM_ANGLES"
 		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		_multibase = 
 		[
-			"signature_base",
+			"ultimate_base",
 		]
 		m_bStartTrained = false
 		m_nAbilityPointsCost = 0
@@ -1987,20 +2012,18 @@
 		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
 		m_flBossDamageScale = 1.000000
 		m_iUpdateTime = 0
-		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_NONE"
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
-		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST"
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
-		m_nAbilityTargetFlags = "CITADEL_UNIT_TARGET_FLAG_NO_INVIS"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/necro/necro_skull.psd"
-		m_strCastSound = soundevent:"Necro.HauntingDead.Cast"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/necro/necro_gravestone.psd"
+		m_strSubCastUICSSClass = "subcast_necro"
 		m_vecAbilityUpgrades = 
 		[
 			
 			{
 				m_vecPropertyUpgrades = 
 				[
-				
 				]
 			},
 			
@@ -2017,218 +2040,201 @@
 				]
 			},
 		]
+		m_HUDPanel = 
+		{
+			m_vecHUDElements = 
+			[
+				
+				{
+					m_eType = "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS"
+					m_strContext = "channel"
+					m_Layout = "file://{resources}/layout/ability_hud_elements/element_progress_bar_text.vxml"
+					m_Style = resource_name:"panorama/styles/ability_hud_elements/abilities_necro.vcss"
+					m_bReverseProgress = false
+				},
+			]
+		}
 		m_AbilityTooltipDetails = 
 		{
 			m_vecAbilityInfoSections = 
 			[
 				
 				{
-					m_strLocString = "#ability_necro_hauntingskull_desc"
+					m_strLocString = "#ability_necro_gravestone_desc_1"
 					m_vecAbilityPropertiesBlock = 
 					[
 						
 						{
+							m_strPropertiesTitleLocString = ""
 							m_vecAbilityProperties = 
 							[
-								
-								{
-									m_strImportantProperty = "SkullCount"
-								},
-								
-								{
-									m_strImportantProperty = "Damage"
-								},
 							]
 						},
 					]
 					m_vecBasicProperties = 
 					[
-						"HealOnHit",
-						"TargetSearchRadius",
-						"TargetDashRadius",
-						"SlowPercent",
+					]
+				},
+				
+				{
+					m_strLocString = "#ability_necro_gravestone_desc_2"
+					m_vecBasicProperties = 
+					[
+						"SummonHealth",
+						"SummonMeleeDamage",
+						"SummonLifetime",
 						"SlowDuration",
-						"HealPerPickup",
+						"ExplosionRadius",
+						"SummonFrequency",
+					]
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_strPropertiesTitleLocString = ""
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "Damage"
+								},
+								
+								{
+									m_strImportantProperty = "StatusEffectStun"
+									m_strStatusEffectValue = "StunDuration"
+									m_bShowPropertyValue = true
+								},
+								
+								{
+									m_strImportantProperty = "SlowPercent"
+								},
+							]
+						},
 					]
 				},
 			]
 			m_vecAdditionalHeaderProperties = 
 			[
-				"SkullLifetime",
 			]
-		}
-		m_projectileInfo = 
-		{
-			m_particle = resource_name:"particles/abilities/necro/necro_haunting_skull_projectile.vpcf"
-			m_flUpSpeed = 0.000000
-			m_flSpeed = 100.000000
-			m_flGravityScale = 0.000000
-			m_bHideWarningParticle = true
-			m_DetonateSound = soundevent:"Necro.HauntingDead.Skull.Expire"
-			m_nBehaviors = "PBF_DisableRemoveOnTouchTrackedTarget | PBF_DisableTriggerProjectileImpactBehavior | PBF_DetonateOnLifetimeExpire | PBF_DisableRemoveOnDoneTracking"
-			m_flBulletOnlyTriggerRadius = 20.000000
-			m_LoopingSound = soundevent:"Necro.HauntingDead.Skull.Lp"
-			m_flTriggerRadius = 1.500000
-			m_flPhysicsRadius = 1.500000
 		}
 		m_eAbilityTargetingShape = "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE"
-		m_flCurlNoiseStrength = 3.000000
-		m_flCurlNoiseMaxFrequency = 0.005000
-		m_flCurlNoiseMinFrequency = 0.002500
-		m_JarExplodeParticle = resource_name:"particles/abilities/necro/necro_haunting_skull_container_break.vpcf"
-		m_flDrag = 4.000000
-		m_SkullExplodeParticle = resource_name:"particles/abilities/necro/necro_haunting_dead_dissipate.vpcf"
-		m_flTargetForwardSpeed = 
+		m_GraveStoneModifier = subclass:
 		{
-			m_spline = 
-			[
-				
-				{
-					x = 0.000000
-					y = -418.888947
-					m_flSlopeIncoming = 0.000000
-					m_flSlopeOutgoing = 0.000000
-				},
-				
-				{
-					x = 0.071477
-					y = -418.888947
-					m_flSlopeIncoming = 8801.100586
-					m_flSlopeOutgoing = 8801.100586
-				},
-				
-				{
-					x = 0.388462
-					y = 3000.000000
-					m_flSlopeIncoming = 1167.444824
-					m_flSlopeOutgoing = 1167.444824
-				},
-				
-				{
-					x = 3.000000
-					y = 3000.000000
-					m_flSlopeIncoming = 0.000000
-					m_flSlopeOutgoing = 0.000000
-				},
-			]
-			m_tangents = 
-			[
-				
-				{
-					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
-					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
-				},
-				
-				{
-					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
-					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
-				},
-				
-				{
-					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
-					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
-				},
-				
-				{
-					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
-					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
-				},
-			]
-			m_vDomainMins = 
-			[
-				0.000000,
-				-3000.000000,
-			]
-			m_vDomainMaxs = 
-			[
-				3.000000,
-				3000.000000,
-			]
-		}
-		m_flCurlNoiseStrengthDuringTarget = 20.000000
-		m_flInitialVelocityVariance = 0.700000
-		m_flTargetHitRecoilRatio = 0.100000
-		m_flTargetHitUpVelocity = 60.000000
-		m_SkullHitParticle = resource_name:"particles/abilities/necro/necro_haunting_dead_impact.vpcf"
-		m_SkullHitSound = soundevent:"Necro.HauntingDead.Skull.Hit"
-		m_strSelectedLoopSound = soundevent:"Necro.HauntingDead.Select.Lp"
-		m_JarExplodeSound = soundevent:""
-		m_SkullAttackSound = soundevent:"Necro.HauntingDead.Skull.Emote"
-		m_SkullModel = resource_name:"models/abilities/familiar/familiar_helper_npc.vmdl"
-		m_flSkullScale = 1.000000
-		m_SkullLoopSound = soundevent:"Necro.HauntingDead.Skull.Lp"
-		m_SkullKilledSound = soundevent:"Necro.HauntingDead.Skull.Destroy"
-		m_SkullLoopEndSound = soundevent:"Necro.HauntingDead.Skull.Expire"
-		m_flBobbingFrequency = 3.000000
-		m_flBobbingStrength = 1.000000
-		m_SummonBuffModifier = subclass:
-		{
-			_class = "modifier_base"
-			_my_subclass_name = "summonbuff"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-			]
-			m_strParticleEffect = resource_name:"particles/abilities/necro/necro_haunting_dead_shield.vpcf"
-		}
-		m_SummonModifier = subclass:
-		{
-			_class = "modifier_barrier_tracker"
-			_my_subclass_name = "barriertracker"
-			m_nEnabledStateMask = "MODIFIER_STATE_IGNORED_BY_NPC_TARGETING | MODIFIER_STATE_IS_SMALL_DEPLOYABLE"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-				"SummonFireRate",
-			]
-		}
-		m_strAG2CastingAction = "jar_of_dead_casting"
-		m_strAG2ChannelingAction = "jar_of_dead_channeling"
-		m_strAG2CastCompletedAction = "jar_of_dead_cast_completed"
-		m_AreaModifier = subclass:
-		{
-			_class = "modifier_necro_hauntingskull_area"
-			_my_subclass_name = "area"
+			_class = "modifier_gravestone"
 			m_bIsHidden = true
-			m_PreviewRingParticle = resource_name:"particles/abilities/necro/necro_haunting_dead_aoe.vpcf"
-			m_flInitialRandomVariance = 30.000000
-			m_flSpawnPositionNavMeshSearchRange = 60.000000
-			m_strParticleEffect = resource_name:""
+			_my_subclass_name = "gravestone"
+			m_GravestoneParticle = resource_name:"particles/abilities/necro/necro_gravestone_spawn.vpcf"
+			m_modifierProvidedByAura = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "nearby"
+				m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+				[
+				]
+				m_strParticleEffect = resource_name:""
+				m_bIsHidden = true
+				m_sStartSound = soundevent:""
+				m_nEnabledStateMask = "MODIFIER_STATE_NEAR_HEAVY_PUNCHABLE_DESTROY"
+			}
+			m_sAmbientLoopingSound = soundevent:"Necro.Decree.Gravestone.Lp"
+			m_sExpiredSound = soundevent:"Necro.Decree.Gravestone.Expire"
+			m_SummonModifier = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "summon_buffs"
+				m_eDrawOverheadStatus = "OVERHEAD_DRAW_NEVER"
+				m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+				[
+					"TechResist",
+					"BonusHealthRegen",
+					"MoveSpeedPercent",
+				]
+				m_sAmbientLoopingSound = soundevent:"Necro.Shambler.Lp"
+				m_sStartSound = soundevent:"Necro.Shambler.Spawn"
+				m_bIsHidden = true
+			}
+			m_SummonDecayModifier = subclass:
+			{
+				_class = "modifier_necro_summondecay"
+				_my_subclass_name = "summon_decay"
+				m_bIsHidden = true
+			}
+			m_bDebug = false
+			m_flForwardWalkDistance = 0.000000
+			m_DestroyParticle = resource_name:"particles/abilities/necro/necro_gravestone_destroy.vpcf"
+			m_DestroySound = soundevent:"Necro.Decree.Gravestone.Destroy"
+			m_flZombieSpawnNavMeshSearchDistance = 300.000000
+			m_SpawningInModifier = subclass:
+			{
+				_class = "modifier_base"
+				m_bIsHidden = true
+				_my_subclass_name = "spawningin"
+				m_nEnabledStateMask = "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_COMMAND_RESTRICTED | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_UNIT_STATUS_HIDDEN | MODIFIER_STATE_DO_NOT_DRAW_MODEL"
+				m_strParticleEffect = resource_name:""
+			}
+			m_flSpawningInTime = 0.100000
+			m_strParticleEffect = resource_name:"particles/abilities/necro/necro_gravestone_ambient.vpcf"
+			m_flZombieSpawnForwardOffset = 100.000000
+			m_iAuraSearchType = "CITADEL_UNIT_TARGET_HERO_ENEMY"
+			m_AuraParticle = resource_name:""
+			m_SummonParticle = resource_name:"particles/abilities/necro/necro_shambler_spawn.vpcf"
+			m_bRemoveProvidedModifierOnAuraRemoval = true
+			m_GravestoneCriticalModifier = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "gravestonecritical"
+				m_bIsHidden = true
+				m_strParticleEffect = resource_name:"particles/abilities/necro/necro_gravestone_critical.vpcf"
+				m_sStartSound = soundevent:"Necro.Decree.Gravestone.Damage"
+			}
+			m_nEnabledStateMask = "MODIFIER_STATE_TECH_UNTARGETABLE_BY_ENEMIES | MODIFIER_STATE_IGNORED_BY_NPC_TARGETING"
 		}
-		m_strSelectedSound = soundevent:"Necro.HauntingDead.Select"
-		m_strUnselectedSound = soundevent:"Necro.HauntingDead.Deselect"
-		m_flCurlNoiseStrengthDuringFriendly = 5.000000
-		m_flFriendlyChaseAcceleration = 30.000000
-		m_flFriendlyChaseMaxSpeed = 200.000000
-		m_flFriendlyChaseMinDistance = 200.000000
-		m_flFriendlyChaseMaxDistance = 600.000000
-		m_flFriendlyChaseRandomPositionDistance = 100.000000
-		m_flFriendlyChaseBufferDelay = 0.300000
-		m_flPriorityTargetLingerDuration = 0.300000
-		m_ResourceGainedParticle = resource_name:"particles/abilities/necro/necro_resource_creep.vpcf"
-		m_HeroResourceGainedParticle = resource_name:"particles/abilities/necro/necro_resource_creep.vpcf"
-		m_StackingDebuffModifier = subclass:
+		m_flStonePitchMinOffset = -2.000000
+		m_flStonePitchMaxOffset = 2.000000
+		m_flStoneRollMinOffset = -2.000000
+		m_flStoneRollMaxOffset = 2.000000
+		m_flStoneYawMinOffset = -1.000000
+		m_flStoneYawMaxOffset = 1.000000
+		m_flDropDownRate = 0.000000
+		m_flClimbHeight = 0.000000
+		m_flDistanceAboveGround = 0.000000
+		m_flNavMeshSearchRadius = 300.000000
+		m_projectileInfo = 
 		{
-			_class = "modifier_necro_hauntingskull_stackingdebuff"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-			]
-			_my_subclass_name = "debuff"
-			m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_CASTER_ONLY"
+			m_flSpeed = 1700.000000
+			m_particle = resource_name:"particles/abilities/ghost/ghost_blood_bomb_projectile.vpcf"
+			m_nBehaviors = ""
+			m_warningParticle = resource_name:""
 		}
-		m_SkullTargetFoundParticle = resource_name:""
-		m_SkullTargetDashParticle = resource_name:"particles/abilities/necro/necro_haunting_dead_targetfound.vpcf"
-		m_SlowModifier = subclass:
+		m_strSummonGravestoneSound = soundevent:"Necro.Decree.Cast"
+		m_flStoneSubmergeMaxDepth = 0.000000
+		m_flStoneSubmergeMinDepth = 0.000000
+		m_deploymentInfo = 
 		{
-			_class = "modifier_slow_base"
-			m_strParticleEffect = resource_name:""
-			_my_subclass_name = "slow"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-				"SlowPercent",
-			]
+			m_bRequiresUpNormal = true
+			m_bGroundCheck = true
+			m_bPlaceFlat = true
+			m_bCheckPlayerFit = true
+			m_previewModel = resource_name:"models/particle/blend/necro_gravestone_deploy.vmdl"
+			m_previewParticle = resource_name:""
+			m_bDownCheckIgnoreLos = true
+			m_flGroundCheckHeightOffset = 800.000000
+			m_flGroundCheckHeightOffsetDown = 2500.000000
 		}
-		m_SkullLastHitSound = soundevent:"LastHit.Default"
-		m_flTargetHitRecoilRandomness = 0.250000
+		m_BlockerModel = resource_name:"models/particle/blend/necro_gravestone.vmdl"
+		m_strAG2CastingAction = "gravestone_casting"
+		m_strAG2ChannelingAction = "gravestone_channeling"
+		m_strAG2CastCompletedAction = "gravestone_cast_completed"
+		m_strChannelSound = soundevent:"Necro.Decree.Channel"
+		m_CastWarningParticle = resource_name:"particles/abilities/necro/necro_gravestone_telegraph.vpcf"
+		m_strSelectedLoopSound = soundevent:"Necro.Decree.Select.Lp"
+		m_strSelectedSound = soundevent:"Necro.Decree.Select"
+		m_strUnselectedSound = soundevent:"Necro.Decree.Deselect"
+		m_bAllowStackingDamageFromGun = false
 	}
+
+
+
 	ability_keller_wraith_form = 
 	{
 		_class = "citadel_ability_hornet_leap"

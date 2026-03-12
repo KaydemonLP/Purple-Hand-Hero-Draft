@@ -14,7 +14,7 @@
 		m_nComplexity = 1
 		m_nAllyBotDifficulty = 1
 		m_nEnemyBotDifficulty = 1
-		m_HeroID = 9704
+		m_HeroID = 9703
 		m_strModelName = resource_name:"models/heroes_wip/werewolf/werewolf.vmdl"
 		m_strUIShoppingMap = "maps/ui/hero_shop/werewolf_shop.vmap"
 		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/werewolf_team_reveal.vmap"
@@ -128,6 +128,60 @@
 				]
 			}
 			EItemSlotType_Armor = 
+			{
+				m_arMaxPurchasesForTier = 
+				[
+					6,
+					6,
+					6,
+				]
+			}
+			EItemSlotType_Tech = 
+			{
+				m_arMaxPurchasesForTier = 
+				[
+					6,
+					6,
+					6,
+				]
+			}
+		}
+		m_mapPurchaseBonuses = 
+		{
+			EItemSlotType_WeaponMod = 
+			[
+				
+				{
+					m_nTier = 1
+					m_strValue = "4"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 2
+					m_strValue = "8"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 3
+					m_strValue = "13"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 4
+					m_strValue = "18"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 5
+					m_strValue = "23"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+			]
+			EItemSlotType_Armor = 
 			[
 				
 				{
@@ -188,84 +242,6 @@
 					nGoldThreshold = 28800
 					flBonus = 1568
 					flPercentOnGraph = 12
-				},
-			]
-			EItemSlotType_Tech = 
-			{
-				m_arMaxPurchasesForTier = 
-				[
-					6,
-					6,
-					6,
-				]
-			}
-		}
-		m_mapPurchaseBonuses = 
-		{
-			EItemSlotType_WeaponMod = 
-			[
-				
-				{
-					m_nTier = 1
-					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-				},
-				
-				{
-					m_nTier = 2
-					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-				},
-				
-				{
-					m_nTier = 3
-					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-				},
-				
-				{
-					m_nTier = 4
-					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-				},
-				
-				{
-					m_nTier = 5
-					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-				},
-			]
-			EItemSlotType_Armor = 
-			[
-				
-				{
-					m_nTier = 1
-					m_strValue = "7"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-				},
-				
-				{
-					m_nTier = 2
-					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-				},
-				
-				{
-					m_nTier = 3
-					m_strValue = "9"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-				},
-				
-				{
-					m_nTier = 4
-					m_strValue = "10"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-				},
-				
-				{
-					m_nTier = 5
-					m_strValue = "11"
-					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 			]
 			EItemSlotType_Tech = 
