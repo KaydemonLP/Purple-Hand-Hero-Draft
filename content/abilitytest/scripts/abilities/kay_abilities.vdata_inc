@@ -2783,6 +2783,11 @@
 			{
 				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
 			}
+			
+			ability_melee_kay = 
+			{
+				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
+			}
 		}
 		
 		m_cameraSequenceCastComplete = 
@@ -3198,14 +3203,15 @@
 		m_bEndChannelStartSequenceOnChannelComplete = false
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
 	}
-	ability_kay_whirlwind = 
+
+	ability_kay_test = 
 	{
-		_class = "ability_fencer_riposte"
+		_class = "citadel_base_ability"
 		m_mapAbilityProperties = 
 		{
 			AbilityCooldown = 
 			{
-				m_strValue = "22"
+				m_strValue = 2
 				m_strDisableValue = "0"
 				m_strCSSClass = "cooldown"
 				m_bCanSetTokenOverride = true
@@ -3213,7 +3219,7 @@
 				{
 					_class = "scale_function_single_stat"
 					_my_subclass_name = "AbilityCooldown_scale_function"
-					m_eSpecificStatScaleType = "ETechCooldown"
+					m_eSpecificStatScaleType = "EItemCooldown"
 				}
 			}
 			AbilityDuration = 
@@ -3270,7 +3276,6 @@
 						"ETechDuration",
 					]
 				}
-				m_strLocTokenOverride = "RiposteChannelTime"
 			}
 			AbilityPostCastDuration = 
 			{
@@ -3303,7 +3308,205 @@
 			}
 			ChannelMoveSpeed = 
 			{
-				m_strValue = "300"
+				m_strValue = "-1"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_PARRY_ACTIVE"
+		_editor = 
+		{
+			folder_name = "Tech"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_PARRY_ACTIVE"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_PARRY_ACTIVE"
+		_multibase = 
+		[
+			"tech_upgrade_t3",
+		]
+		m_iMaxLevel = 1
+		m_bStartTrained = true
+		m_eAbilityType = "EAbilityType_Signature"
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED"
+		m_strCastAnimGraphParam = "e_GenericCast"
+		m_strCastAnimSequenceName = "ability_generic_cast"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_strAG2SourceName = "item"
+		m_eItemSlotType = "EItemSlotType_Invalid"
+		m_iItemTier = "EModTier_3"
+		m_iUpdateTime = 1732080454
+		m_strCSSClass = "spiritSnatch"
+		m_strAbilityImage = panorama:""
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
+		m_bShowInPassiveItemsArea = "false"
+		m_AutoIntrinsicModifiers = 
+		[
+
+		]
+		m_eShopFilters = "EShopFilterMagicDamage | EShopFilterMelee"
+		m_strShopIconLarge = panorama:"file://{images}/items/spirit/spirit_snatch.psd"
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+
+				]
+			},
+		]
+	}
+
+
+	ability_kay_whirlwind = 
+	{
+		_class = "ability_fencer_riposte"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = "5"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = "0.6"
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "0"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0.6"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+				m_strLocTokenOverride = "RiposteChannelTime"
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "10"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "0.001"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "200"
 				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
 				m_strCSSClass = "move_speed"
 				m_bCanSetTokenOverride = true
@@ -3331,12 +3534,12 @@
 			}
 			DashSpeed = 
 			{
-				m_strValue = "10"
+				m_strValue = "0"
 				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
 			}
 			DashRange = 
 			{
-				m_strValue = "1m"
+				m_strValue = "0m"
 				m_strCSSClass = "distance"
 				m_subclassScaleFunction = subclass:
 				{
@@ -3347,7 +3550,7 @@
 			}
 			SideMoveSpeed = 
 			{
-				m_strValue = "-100"
+				m_strValue = "100"
 			}
 			TurnRateMax = 
 			{
@@ -3355,7 +3558,7 @@
 			}
 			DashRadius = 
 			{
-				m_strValue = "2.2m"
+				m_strValue = "6.5m"
 			}
 			CounterattackAntiMashDelay = 
 			{
@@ -3363,7 +3566,7 @@
 			}
 			ParryWindow = 
 			{
-				m_strValue = "10.0s"
+				m_strValue = "0.6s"
 			}
 			DamageThreshold = 
 			{
@@ -3378,15 +3581,15 @@
 			}
 			SlashConeAngle = 
 			{
-				m_strValue = "90"
+				m_strValue = "360"
 			}
 			SlashRadius = 
 			{
-				m_strValue = "6m"
+				m_strValue = "12m"
 			}
 			SlashHalfWidth = 
 			{
-				m_strValue = "1m"
+				m_strValue = "12m"
 			}
 			SlowDuration = 
 			{
@@ -3417,15 +3620,6 @@
 				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_LIFESTEAL"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
-			AbilityLifestealDuration = 
-			{
-				m_strValue = "0"
-				m_subclassScaleFunction = subclass:
-				{
-					_class = "scale_function_tech_duration"
-					_my_subclass_name = "AbilityLifesteal_duration_sf"
-				}
-			}
 			StunDuration = 
 			{
 				m_strValue = "0.6"
@@ -3447,31 +3641,66 @@
 			}
 			MoveSpeedMax = 
 			{
-				m_strValue = "4m"
+				m_strValue = "40m"
 				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
 				m_strCSSClass = "slow"
 				m_eDisplayType = "EMaxMoveSpeed"
 			}
-			BulletResistReduction = 
+			MeleeResistReduction = 
 			{
-				m_strValue = "-15"
+				m_strValue = "22"
 				m_strCSSClass = "bullet_armor_down"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_eDisplayType = "EMeleeResist"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
-			BulletResistReductionDuration = 
+			MeleeResistReductionDuration = 
 			{
 				m_strValue = "3.0"
 				m_strCSSClass = "duration"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_single_stat"
-					_my_subclass_name = "BulletResistReductionDuration_scale_function"
+					_my_subclass_name = "MeleeResistReductionDuration_scale_function"
 					m_eSpecificStatScaleType = "ETechDuration"
 				}
 			}
+			
+			// TEST
+			GravityScale = 
+			{
+				m_strValue = "0"
+			}
+			MaxFallSpeed = 
+			{
+				m_strValue = "0"
+			}
+			MaxFlyHeight = 
+			{
+				m_strValue = "1720"
+			}
+			JumpVelocity = 
+			{
+				m_strValue = "1000"
+				m_bIsHidden = true
+			}
+			AirSpeedBonus = 
+			{
+				m_strValue = "0m"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_eDisplayType = "EMaxMoveSpeed"
+				m_strCSSCLass = "move_speed"
+			}
+			AirSideMoveSpeedPercentage = 
+			{
+				m_strValue = "-35"
+			}
+			MinVelocityZ = 
+			{
+				m_strValue = "-20.0"
+			}
 		}
-		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
 		_editor = 
 		{
 			folder_name = "Hero Fencer"
@@ -3480,8 +3709,8 @@
 		{
 			m_flBulletSpeed = 10000.000000
 		}
-		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
-		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
 		_multibase = 
 		[
 			"signature_base",
@@ -3499,19 +3728,18 @@
 		m_flBossDamageScale = 1.000000
 		m_mapDependentAbilities = 
 		{
-			
 		}
-		m_iUpdateTime = 0
+		m_iUpdateTime = 1759190587
 		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
-		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_REFILLS_ALL_CHARGES | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SLIDE_ON_CAST"
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
 		m_strAG2SourceName = "citadel_ability_fencer_riposte"
 		m_strAbilityImage = panorama:"file://{images}/hud/abilities/fencer/fencer_riposte.psd"
 		m_strAvoidDamage = soundevent:""
-		m_strSlashSound = soundevent:"Yamato.A1.PowerSlash.Cast.Max"
-		m_strDashStartSound = soundevent:"Shiv.Ability.ShivDash.Start_Clone"
 		m_strStartParry = soundevent:"Fencer.Riposte.Success"
+		m_strDashStart = soundevent:"Fencer.Riposte.Counterattack.Cast"
+		m_strStunImpactSound = soundevent:"Fencer.Riposte.Counterattack.Impact"
 		m_HUDPanel = 
 		{
 			m_vecHUDElements = 
@@ -3544,8 +3772,8 @@
 				[
 					
 					{
-						m_strPropertyName = "BulletResistReduction"
-						m_strBonus = "-15"
+						m_strPropertyName = "MeleeResistReduction"
+						m_strBonus = "22"
 					},
 				]
 			},
@@ -3597,14 +3825,14 @@
 								},
 								
 								{
-									m_strImportantProperty = "BulletResistReduction"
+									m_strImportantProperty = "MeleeResistReduction"
 								},
 							]
 						},
 					]
 					m_vecBasicProperties = 
 					[
-						"BulletResistReductionDuration",
+						"MeleeResistReductionDuration",
 					]
 				},
 			]
@@ -3615,42 +3843,48 @@
 		}
 		m_AutoChannelModifier = subclass:
 		{
-			_class = "modifier_base"
-			_my_subclass_name = "riposte_cast_modifier"
-			m_strParticleEffect = resource_name:"particles/abilities/fencer/fencer_riposte.vpcf"
+			_class = "modifier_hornet_leap"
+			_my_subclass_name = "modifier_hornet_leap"
+			m_nEnabledStateMask = "MODIFIER_STATE_ABILITY_MOVEMENT | MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DISABLE_AIR_SPREAD_PENALTY | MODIFIER_STATE_UNLIMITED_AIR_DASHES | MODIFIER_STATE_ZIPLINE_DISABLED"
+			m_strHintText = "modifier_hint_vertical_movement"
+			m_sLocalizationName = "modifier_citadel_hornetleap"
 			m_bIsHidden = true
-		}
-		m_SlashEffect = resource_name:"particles/npc/tier1boss/tier1boss_melee_staff_swing.vpcf"
-		m_SlowModifier = subclass:
-		{
-			_class = "modifier_slow_base"
-			_my_subclass_name = "riposte_slow"
+			m_strParticleEffect = resource_name:"particles/abilities/hornet/hornet_leap_buff.vpcf"
 			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
 			[
-				"SlowPercent",
 			]
+			m_sAmbientLoopingSound = soundevent:"Ability.Hornet.Leap.Lp"
+			m_sExpiredSound = soundevent:"Ability.Hornet.Leap.Expire"
+			m_AG2HeroState = 
+			{
+				m_strParamName = ""
+			}
 		}
-		m_BuffModifier = subclass:
+		m_DebuffModifier = subclass:
 		{
 			_class = "modifier_base"
-			_my_subclass_name = "modifier_fencer_riposte_ability_lifesteal"
-			m_sLocalizationName = "modifier_fencer_riposte_ability_lifesteal"
-			m_strHudMessageText = ""
+			_my_subclass_name = "modifier_fencer_riposte_attack_debuff"
 			m_bIsHidden = true
-			m_sAmbientLoopingSound = soundevent:"Mods.Armor.Infuser.Mod.Lp"
-			m_sExpiredSound = soundevent:"Mods.Armor.Infuser.Mod.End"
+			m_strSmallIconCssClass = "bullet_armor_reduction"
+			m_sLocalizationName = "modifier_bullet_armor_reduction"
+			m_strParticleEffect = resource_name:"particles/modifiers/armor_suppressor.vpcf"
 			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
 			[
-				"AbilityLifestealPercentHero",
+				"MeleeResistReduction",
 			]
-			m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_EVERYONE"
-			m_strSmallIconCssClass = "infuser_active"
-			m_strHudIcon = panorama:"file://{images}/upgrades/mods_tech/infuser.psd"
-			m_strParticleEffect = resource_name:""
 		}
 		m_strChannelSound = soundevent:"Fencer.Riposte.Cast"
 		m_DashLineEffect = resource_name:""
-		m_flDashAnimDelay = 0.400000
+		m_flDashAnimDelay = 0.0001
+		m_flVerticalMoveSpeedPercent = 1.000000
+		m_flAirDrag = 1.500000
+		m_flAirAcceleration = 2.500000
+		m_flLaunchTime = 0.500000
+		m_flLaunchAirDrag = 2.000000
+		m_flMoveSpeedAboveBaseScale = 0.500000
+		m_cameraSequenceCastComplete = 
+		{
+		}
 		m_cameraSequenceCastStart = 
 		{
 			m_vecFOVOperations = 
@@ -3663,6 +3897,8 @@
 			[
 			]
 		}
+		m_RiposteDashParticle = resource_name:"particles/abilities/fencer/fencer_riposte_dash.vpcf"
+		m_bUsesFlightControls = true
 	}
 	citadel_ability_kay_rage_hack = 
 	{
