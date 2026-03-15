@@ -2779,12 +2779,11 @@
 		
 		m_mapDependentAbilities = 
 		{
-			ability_kay_melee_passive_test = 
+			ability_melee_kay = 
 			{
 				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
 			}
-			
-			ability_melee_kay = 
+			ability_kay_melee_passive_test = 
 			{
 				m_eFlags = "LinkImbues | LinkUpgrades | DisplayAsSubAbility"
 			}
