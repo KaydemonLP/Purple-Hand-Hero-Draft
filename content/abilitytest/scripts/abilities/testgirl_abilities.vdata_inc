@@ -1,6 +1,719 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	generic_data_type = "CitadelAbilityVData"
+	ability_its_a_motherfucking_jokey = 
+	{
+		_class = "ability_familiar_attach"
+		m_mapAbilityProperties = 
+		{
+			AbilityCooldown = 
+			{
+				m_strValue = 40
+				m_strDisableValue = "0"
+				m_strCSSClass = "cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCooldown_scale_function"
+					m_eSpecificStatScaleType = "ETechCooldown"
+				}
+			}
+			AbilityDuration = 
+			{
+				m_strValue = 5.500000
+				m_strDisableValue = "0"
+				m_strCSSClass = "duration"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "duration_scale_func"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			AbilityCastRange = 
+			{
+				m_strValue = "23m"
+				m_eDisplayUnits = "EDisplayUnit_Meters"
+				m_strCSSClass = "range"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "AbilityCastRange_scale_function"
+					m_eSpecificStatScaleType = "ETechRange"
+				}
+			}
+			AbilityUnitTargetLimit = 
+			{
+				m_strValue = "1"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityCastDelay = 
+			{
+				m_strValue = "0.5"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityChannelTime = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "scale_duration"
+					m_vecScalingStats = 
+					[
+						"EChannelDuration",
+						"ETechDuration",
+					]
+				}
+			}
+			AbilityPostCastDuration = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+			}
+			AbilityCharges = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "-1"
+				m_strCSSClass = "cast"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_charges"
+					_my_subclass_name = "AbilityCharges_scale_function"
+				}
+			}
+			AbilityCooldownBetweenCharge = 
+			{
+				m_strValue = "-1.0"
+				m_strDisableValue = "-2"
+				m_strCSSClass = "charge_cooldown"
+				m_bCanSetTokenOverride = true
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_ability_recharge_time"
+					_my_subclass_name = "scale_function_ability_recharge_time"
+				}
+			}
+			ChannelMoveSpeed = 
+			{
+				m_strValue = "5m"
+				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
+				m_strCSSClass = "move_speed"
+				m_bCanSetTokenOverride = true
+			}
+			AbilityResourceCost = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_strCSSClass = "cast"
+			}
+			TechPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			WeaponPower = 
+			{
+				m_strValue = "0"
+				m_strDisableValue = "0"
+				m_bCanSetTokenOverride = true
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_POWER"
+			}
+			BonusMoveSpeed = 
+			{
+				m_strValue = "4m"
+				m_strCSSClass = "move_speed"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+			}
+			ItemCooldownReducePct = 
+			{
+				m_strValue = "0"
+			}
+			HopOutLockoutDuration = 
+			{
+				m_strValue = "1.0"
+			}
+			HealthRegenDuration = 
+			{
+				m_strValue = "3.0"
+				m_strCSSClass = "duration"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "HealthRegenDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+			HealingPerSecond = 
+			{
+				m_strValue = "-28"
+				m_strCSSClass = "healing"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "HealingPerSecond_scale_function"
+					m_vecScalingStats = 
+					[
+						"ETechPower",
+						"EHealingOutput",
+					]
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.440000
+				}
+			}
+			MissingHealthBurstPct = 
+			{
+				m_strValue = "-15"
+				m_strCSSClass = "health"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_multi_stats"
+					_my_subclass_name = "MissingHealthBurstPct_scale_function"
+					m_vecScalingStats = 
+					[
+						"ETechPower",
+						"EHealingOutput",
+					]
+					m_eSpecificStatScaleType = "ETechPower"
+					m_flStatScale = 0.030000
+				}
+			}
+			BonusHealingAmpPercent = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "healing"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			BonusBarrierAmpPercent = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "healing"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BARRIER_AMP_CAST_PERCENT"
+				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			BonusItemDurationPercent = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "duration"
+			}
+			BonusItemRangePercent = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "distance"
+			}
+			HostDamageTakenPct = 
+			{
+				m_strValue = "0"
+			}
+			CastsRefreshDuration = 
+			{
+				m_strValue = "0"
+			}
+			AllowHostOnEnemies = 
+			{
+				m_strValue = "0"
+			}
+			HopRefreshShadowAbility = 
+			{
+				m_strValue = "0"
+			}
+			BonusSpiritPower = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "tech_damage"
+				m_eDisplayType = "ETechPower"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER"
+			}
+			TechPowerPercent = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "tech_damage"
+				m_eDisplayType = "ETechPower"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_POWER_PERCENT"
+			}
+			HopOffEffecDuration = 
+			{
+				m_strValue = "0"
+				m_strCSSClass = "duration"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "HopOffEffecDuration_scale_function"
+					m_eSpecificStatScaleType = "ETechDuration"
+				}
+			}
+		}
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_editor = 
+		{
+			folder_name = "Hero Familiar"
+		}
+		m_WeaponInfo = 
+		{
+			m_flBulletSpeed = 10000.000000
+		}
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
+		_multibase = 
+		[
+			"signature_base",
+		]
+		m_bStartTrained = false
+		m_nAbilityPointsCost = 0
+		m_nAbillityUnlocksCost = 1
+		m_eAbilityType = "EAbilityType_Signature"
+		m_iMaxLevel = 1
+		m_bitsInterruptingStates = "MODIFIER_STATE_STUNNED"
+		m_PreviewPathParticle = resource_name:"particles/generic/generic_arc.vpcf"
+		m_strAbilityOffCooldownSound = soundevent:""
+		m_strAbilityChargeReadySound = soundevent:""
+		m_skillshotMissParticle = resource_name:"particles/abilities/skillshot_default_miss_owner.vpcf"
+		m_flBossDamageScale = 1.000000
+		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_UNIT"
+		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PRESS"
+		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_ON_CHANNEL_END | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_DO_NOT_ALLOW_SPAM_PROC"
+		m_strAG2CastingAction = "attach_casting"
+		m_strAG2ChannelingAction = "attach_channeling"
+		m_strAG2CastCompletedAction = "attach_cast_complete"
+		m_HudSharedStyle = resource_name:"panorama/styles/ability_hud_elements/abilities_familiar.vcss"
+		m_AbilityTooltipDetails = 
+		{
+			m_vecAbilityInfoSections = 
+			[
+				
+				{
+					m_strLocString = "#ability_familiar_attach_desc"
+					m_vecAbilityPropertiesBlock = 
+					[
+						
+						{
+							m_vecAbilityProperties = 
+							[
+								
+								{
+									m_strImportantProperty = "MissingHealthBurstPct"
+								},
+								
+								{
+									m_strImportantProperty = "HealingPerSecond"
+								},
+								
+								{
+									m_strImportantProperty = "BonusBarrierAmpPercent"
+								},
+								
+								{
+									m_strImportantProperty = "BonusItemDurationPercent"
+								},
+							]
+						},
+					]
+					m_vecBasicProperties = 
+					[
+						"HealthRegenDuration",
+						"TechPowerPercent",
+						"HopOffEffecDuration",
+						"BonusSpiritPower",
+					]
+				},
+			]
+		}
+		m_vecAbilityUpgrades = 
+		[
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "AbilityCooldown"
+						m_strBonus = "-8"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "BonusBarrierAmpPercent"
+						m_strBonus = "25"
+					},
+					
+					{
+						m_strPropertyName = "BonusItemDurationPercent"
+						m_strBonus = "25"
+					},
+					
+					{
+						m_strPropertyName = "BonusItemRangePercent"
+						m_strBonus = "25"
+					},
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					
+					{
+						m_strPropertyName = "TechPowerPercent"
+						m_strBonus = "15"
+					},
+					
+					{
+						m_strPropertyName = "BonusSpiritPower"
+						m_strBonus = "35"
+					},
+					
+					{
+						m_strPropertyName = "HopOffEffecDuration"
+						m_strBonus = "10"
+					},
+				]
+			},
+		]
+		m_projectileInfo = 
+		{
+			m_flGravityScale = 0.000000
+			m_nBehaviors = ""
+			m_particle = resource_name:"particles/abilities/familiar/familiar_tag_along_projectile.vpcf"
+			m_flSpeed = 1100.000000
+			m_flUpSpeed = 900.000000
+			m_bHideWarningParticle = true
+			m_flTriggerRadius = 10.000000
+			m_flTrackingDampingCoefficient = 0.500000
+			m_flVerticalAimBias = 30.000000
+			m_LoopingSound = soundevent:"Familiar.TagAlong.Travel.Proj.Lp"
+		}
+		m_sCamDummyModelName = resource_name:"models/abilities/familiar/familiar_helper_attached.vmdl"
+		m_SpeedModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "speed"
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"BonusMoveSpeed",
+			]
+			m_strParticleStatusEffect = resource_name:""
+		}
+		m_AttachHealModifier = subclass:
+		{
+			_class = "modifier_familiar_attach_heal"
+			_my_subclass_name = "attachheal"
+			m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_CASTER_ONLY"
+			m_strScreenParticleEffect = resource_name:"particles/abilities/familiar/familiar_tagalong_host_screen.vpcf"
+		}
+		m_HopOffBuffModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "hopoutbuff"
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"TechPowerPercent",
+				"BonusSpiritPower",
+			]
+		}
+		m_HopOutLockoutModifier = subclass:
+		{
+			_class = "modifier_familiar_hopoutlockout"
+			_my_subclass_name = "lockout"
+			m_bIsHidden = true
+			m_strParticleEffect = resource_name:"particles/abilities/familiar/familiar_tag_along_hopoff.vpcf"
+			m_strParticleEffectConfig = "preview"
+		}
+		m_AllyLockoutModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "tagalonglockout"
+			m_bIsHidden = false
+			m_eDrawOverheadStatus = "OVERHEAD_DRAW_FOR_CASTER_ONLY"
+			m_eHudDisplayLocation = "DISPLAY_HUD_NONE"
+		}
+		m_AttachedModifier = subclass:
+		{
+			_class = "modifier_familiar_attached"
+			_my_subclass_name = "attached"
+			m_HostModifier = subclass:
+			{
+				_class = "modifier_familiar_attachhost"
+				_my_subclass_name = "host"
+				m_bIsHidden = true
+				m_sStartSound = soundevent:"Familiar.TagAlong.Attach.Host"
+				m_sExpiredSound = soundevent:"Familiar.TagAlong.Detach.Host"
+				m_eDebuffType = "MODIFIER_DEBUFF_NO"
+				m_strParticleStatusEffect = resource_name:""
+				m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+				m_FakeFamiliarParticle = resource_name:"particles/abilities/familiar/familiar_tagalong_entity.vpcf"
+				m_strParticleEffect = resource_name:"particles/abilities/familiar/familiar_tagalong_entity_host.vpcf"
+				m_strParticleEffectConfig = "preview"
+				m_strScreenParticleEffect = resource_name:""
+			}
+			m_ReplicatedBarrierModifier = subclass:
+			{
+				_class = "modifier_citadel_familiar_replicatedbarrier"
+				_my_subclass_name = "familiarbarrier"
+				m_bIsHidden = true
+				m_sStartSound = soundevent:""
+			}
+			m_AttachEndingModifier = subclass:
+			{
+				_class = "modifier_base"
+				_my_subclass_name = "attachending"
+				m_bIsHidden = true
+				m_sAmbientLoopingSound = soundevent:"Familiar.TagAlong.Attach.Rampup"
+				m_sStartSound = soundevent:""
+				m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER"
+			}
+			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
+			[
+				"BonusHealingAmpPercent",
+				"BonusBarrierAmpPercent",
+				"TechPowerPercent",
+				"BonusSpiritPower",
+			]
+			m_flEndingWarningDuration = 5.000000
+			m_bIsHidden = false
+			m_strParticleEffect = resource_name:""
+			m_sStartSound = soundevent:"Familiar.TagAlong.Attach"
+			m_sExpiredSound = soundevent:"Familiar.TagAlong.Detach"
+			m_eDebuffType = "MODIFIER_DEBUFF_NO"
+			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
+			m_sLocalizationName = "ability_familiar_attach"
+			m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+			m_sAmbientLoopingSound = soundevent:""
+			m_strForceDetachSound = soundevent:"Familiar.TagAlong.Force.Detach"
+			m_strScreenParticleEffect = resource_name:""
+			m_ItemUsedParticle = resource_name:"particles/abilities/familiar/familiar_tagalong_item_used.vpcf"
+		}
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/familiar/familiar_tag_along.psd"
+		m_CameraDummyModifier = subclass:
+		{
+			_class = "modifier_familiar_camdummy"
+			_my_subclass_name = "cameradummy"
+			m_bIsHidden = true
+		}
+		m_MovingToAttachModifier = subclass:
+		{
+			_class = "modifier_familiar_movingtoattach"
+			_my_subclass_name = "movingtoattach"
+			m_bIsHidden = true
+			m_nAmbientLoopingSoundRecipients = "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER"
+			m_sAmbientLoopingSound = soundevent:"Familiar.TagAlong.Travel.Lp"
+			m_strScreenParticleEffect = resource_name:"particles/abilities/familiar/familiar_tagalong_screen.vpcf"
+			m_cameraSequenceCreated = 
+			{
+				m_vecDistanceOperations = 
+				[
+					
+					{
+						m_flApproachSpeed = 500.000000
+						m_flApproachAcceleration = 100.000000
+						m_flApproachTarget = 350.000000
+					},
+					
+					{
+						m_eCameraOperation = "k_ECameraOp_Maintain"
+					},
+				]
+			}
+			m_sStartSound = soundevent:"Familiar.TagAlong.Cast"
+		}
+		m_AutoCastDelayModifier = subclass:
+		{
+			_class = "modifier_base"
+			_my_subclass_name = "castdelay"
+			m_bIsHidden = true
+			m_cameraSequenceCreated = 
+			{
+				m_vecDistanceOperations = 
+				[
+					
+					{
+						m_flApproachTarget = 200.000000
+						m_flApproachSpeed = 100.000000
+						m_flApproachAcceleration = 200.000000
+					},
+					
+					{
+						m_eCameraOperation = "k_ECameraOp_Maintain"
+					},
+				]
+			}
+			m_strParticleEffect = resource_name:"particles/abilities/familiar/familiar_tag_along_channel.vpcf"
+			m_strParticleEffectConfig = "preview"
+		}
+		m_FakeFamiliarParticle = resource_name:"particles/abilities/familiar/familiar_tagalong_entity.vpcf"
+		m_flDetachForce = 350.000000
+		m_flDetachForceUp = 400.000000
+		m_flTriggeredDetachForce = 700
+		m_flTriggeredDetachForceUp = 110
+		m_HUDPanel = 
+		{
+			m_vecButtonHints = 
+			[
+				
+				{
+					m_strLocToken = "#AbilityButtonHint_TagAlongHop"
+					m_eHintSide = "EButtonSide_Right"
+					m_strContext = "hop"
+					m_nButton1 = "IN_MANTLE"
+				},
+			]
+		}
+		m_mapDependentAbilities = 
+		{
+			ability_familiar_attach_trigger = null
+		}
+		m_LaunchedSelfModifier = subclass:
+		{
+			_class = "citadel_modifier_familiar_speedlines"
+			_my_subclass_name = "launch"
+			m_bIsHidden = true
+			m_strScreenParticleEffect = resource_name:"particles/abilities/familiar/familiar_tagalong_screen.vpcf"
+			m_sAmbientLoopingSound = soundevent:""
+			m_eDebuffType = "MODIFIER_DEBUFF_NO"
+			m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+		}
+		m_MovingToAttachProjectileSpeedCurve = 
+		{
+			m_spline = 
+			[
+				
+				{
+					x = 0.000000
+					y = 1.000000
+					m_flSlopeIncoming = 34293.601562
+					m_flSlopeOutgoing = 34293.601562
+				},
+				
+				{
+					x = 0.088843
+					y = 1159.924561
+					m_flSlopeIncoming = 649.500000
+					m_flSlopeOutgoing = 649.500000
+				},
+				
+				{
+					x = 2.000000
+					y = 1300.000000
+					m_flSlopeIncoming = 73.293510
+					m_flSlopeOutgoing = 73.293510
+				},
+			]
+			m_tangents = 
+			[
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_FREE"
+					m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+			]
+			m_vDomainMins = 
+			[
+				0.000000,
+				1.000000,
+			]
+			m_vDomainMaxs = 
+			[
+				2.000000,
+				1300.000000,
+			]
+		}
+		m_DeathBarrierModifier = subclass:
+		{
+			_class = "modifier_citadel_familiar_replicatedbarrier"
+			_my_subclass_name = "deathbarrier"
+			m_strParticleStatusEffect = resource_name:""
+			m_sStartSound = soundevent:"Player.Barrier.Activate"
+		}
+		m_LaunchAngleRemap = 
+		{
+			m_spline = 
+			[
+				
+				{
+					x = -90.000000
+					y = -90.000000
+					m_flSlopeIncoming = 0.000001
+					m_flSlopeOutgoing = 0.000001
+				},
+				
+				{
+					x = 0.039753
+					y = -31.946215
+					m_flSlopeIncoming = 0.509244
+					m_flSlopeOutgoing = 0.101894
+				},
+				
+				{
+					x = 90.000000
+					y = -22.779827
+					m_flSlopeIncoming = 0.101894
+					m_flSlopeOutgoing = 0.101894
+				},
+			]
+			m_tangents = 
+			[
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_FREE"
+					m_nOutgoingTangent = "CURVE_TANGENT_MIRROR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_FREE"
+					m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+			]
+			m_vDomainMins = 
+			[
+				-90.000000,
+				-90.000000,
+			]
+			m_vDomainMaxs = 
+			[
+				90.000000,
+				90.000000,
+			]
+		}
+		m_strCastDelayLoopSound = soundevent:"Familiar.TagAlong.Cast.Delay"
+		m_eAbilityTargetingShape = "CITADEL_ABILITY_TARGETING_SHAPE_CONE"
+		m_flTargetingConeAngle = 45.000000
+		m_flTargetingConeHalfWidth = 60.000000
+	}
+
+
 	imbue_test = 
 	{
 		_class = "citadel_item"
