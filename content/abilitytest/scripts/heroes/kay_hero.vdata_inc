@@ -1203,17 +1203,17 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_strIconImageSmall = panorama:"file://{images}/heroes/violet_card.psd"
-		m_strMinimapImage = panorama:"file://{images}/heroes/violet_card.psd"
+		m_strIconImageSmall = panorama:"file://{images}/heroes/violet_card.png"
+		m_strMinimapImage = panorama:"file://{images}/heroes/violet_card.png"
 		m_bUseMainOnlyModelForExperimental = false
 		m_strDeathVOSound = soundevent:"Generated.Yamato.Hero.Death.VO"
 		m_strHeroSearchName = "violet mist"
 		m_hGameSoundEventScript = resource_name:"soundevents/hero/yamato.vsndevts"
 		m_strRosterSelectedSound = soundevent:"Generated.Yamato.Hero.Pick.VO"
-		m_strIconHeroCard = panorama:"file://{images}/heroes/violet_card.psd"
+		m_strIconHeroCard = panorama:"file://{images}/heroes/violet_card.png"
 		m_strRosterRemovedSound = soundevent:"Generated.Yamato.Hero.Remove.VO"
 		m_strUIPortraitMap = "maps/ui/hero_prefabs/yamato.vmap"
-		m_strTopBarVertical = panorama:"file://{images}/heroes/yamato_vertical.psd"
+		m_strTopBarVertical = panorama:"file://{images}/heroes/violet_card.png"
 		m_strPostGameDefeatSound = soundevent:"Yamato.Progession.Page.Lose.VO"
 		m_strPostGameVictorySound = soundevent:"Yamato.Progession.Page.Win.VO"
 		m_vecHeroTags = 
@@ -1226,8 +1226,8 @@
 		m_strHideoutRichPresence = "Holding onto Ruins of Ruins of Hope in the Hideout"
 		m_eHeroType = "ECitadelHeroType_Mystic"
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_yamato.vsndevts"
-		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/yamato_card_critical.psd"
-		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/yamato_card_gloat.psd"
+		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/violet_card_critical.png"
+		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/violet_card.png"
 	}
 
 }

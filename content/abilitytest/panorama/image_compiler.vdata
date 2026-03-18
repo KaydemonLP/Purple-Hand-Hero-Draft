@@ -3,6 +3,7 @@
 	generic_data_type = "panorama_image_list"
 	image_list = 
 	[
-		panorama:"file://{images}/heroes/violet_card_psd.png"
+		panorama:"file://{images}/heroes/violet_card.png",
+		panorama:"file://{images}/heroes/violet_card_critical.png"
 	]
 }
