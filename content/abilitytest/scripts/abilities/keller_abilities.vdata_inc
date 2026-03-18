@@ -2416,7 +2416,7 @@
 			}
 			MagicDamagePerBullet = 
 			{
-				m_strValue = 10
+				m_strValue = 0
 				m_strCSSClass = "tech_damage"
 				m_bDamageAffectedByEffectiveness = true
 				m_subclassScaleFunction = subclass:
@@ -2432,6 +2432,14 @@
 				m_strValue = "0"
 				m_eProvidedPropertyType = "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
 				m_eStatsUsageFlags = "ConditionallyApplied"
+			}
+			BonusMoveSpeed = 
+			{
+				m_strValue = "0.0m"
+				m_eDisplayType = "EMaxMoveSpeed"
+				m_strCSSClass = "move_speed"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+				m_eStatsUsageFlags = ""
 			}
 		}
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
@@ -2473,21 +2481,24 @@
 			{
 				m_vecPropertyUpgrades = 
 				[
-					
-					{
-						m_strPropertyName = "BonusClipSizePercent"
-						m_strBonus = "50"
-					},
-				]
-			},
-			
-			{
-				m_vecPropertyUpgrades = 
-				[
-					
 					{
 						m_strPropertyName = "AbilityDuration"
-						m_strBonus = "8"
+						m_strBonus = "5"
+					},
+					{
+						m_strPropertyName = "AbilityPostCastDuration"
+						m_strBonus = "5"
+					},
+					
+				]
+			},
+			
+			{
+				m_vecPropertyUpgrades = 
+				[
+					{
+						m_strPropertyName = "BonusMoveSpeed"
+						m_strBonus = "5m"
 					},
 				]
 			},
@@ -2495,11 +2506,6 @@
 			{
 				m_vecPropertyUpgrades = 
 				[
-					
-					{
-						m_strPropertyName = "MagicDamagePerBullet"
-						m_strBonus = 12.599999
-					},
 				]
 			},
 		]
@@ -2542,6 +2548,7 @@
 			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
 			[
 				"FloatMoveSpeed",
+				"BonusMoveSpeed"
 			]
 		}
 		m_DustParticle = resource_name:"particles/abilities/hornet/hornet_leap.vpcf"
@@ -2569,25 +2576,8 @@
 		{
 			m_vecAbilityInfoSections = 
 			[
-				
 				{
 					m_strLocString = "#citadel_ability_hornet_leap_desc"
-					m_vecAbilityPropertiesBlock = 
-					[
-						
-						{
-							m_vecAbilityProperties = 
-							[
-								
-								{
-									m_strImportantProperty = "MagicDamagePerBullet"
-								},
-							]
-						},
-					]
-					m_vecBasicProperties = 
-					[
-					]
 				},
 			]
 		}
@@ -3171,7 +3161,7 @@
 			}
 			SpawnRadius = 
 			{
-				m_strValue = "2m"
+				m_strValue = "20m"
 				m_subclassScaleFunction = subclass:
 				{
 					_class = "scale_function_tech_range"
@@ -3408,20 +3398,30 @@
 			{
 				m_vecPropertyUpgrades = 
 				[
-				
+					{
+						m_strPropertyName = "SkullLifetime"
+						m_strBonus = "10"
+					},
 				]
 			},
 			
 			{
 				m_vecPropertyUpgrades = 
 				[
-
+					{
+						m_strPropertyName = "SkullCount"
+						m_strBonus = "10"
+					},
 				]
 			},
 			
 			{
 				m_vecPropertyUpgrades = 
 				[
+					{
+						m_strPropertyName = "TargetSearchRadius"
+						m_strBonus = "100m"
+					},
 				]
 			},
 		]
