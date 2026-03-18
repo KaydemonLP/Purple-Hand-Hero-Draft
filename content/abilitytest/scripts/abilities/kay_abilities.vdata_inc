@@ -2074,6 +2074,22 @@
 					m_eSpecificStatScaleType = "ETechRange"
 				}
 			}
+			ShareWithFriendsRadius = 
+			{
+				m_strValue = "0.001m"
+				m_strCSSClass = "distance"
+				m_subclassScaleFunction = subclass:
+				{
+					_class = "scale_function_single_stat"
+					_my_subclass_name = "ShareWithFriendsRadius_scale_function"
+					m_eSpecificStatScaleType = "ETechRadius"
+				}
+			}
+			AuraLingerDuration = 
+			{
+				m_strValue = "1.0"
+				m_bIsHidden = true
+			}
 		}
 		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_BUSY_WITH_ACTION"
 		_editor = 
@@ -2130,23 +2146,17 @@
 		
 		m_OnCastModifier = subclass:
 		{
-			_class = "citadel_modifier_tangotether_tether"
-			_my_subclass_name = "citadel_modifier_tangotether_tether"
-			m_strParticleStatusEffect = resource_name:"particles/status_fx/status_fx_tengu_tether_buff.vpcf"
-			m_sLocalizationName = "citadel_ability_tangotether"
-			m_TetherSound = soundevent:""
-			m_HealSound = soundevent:"Tengu.Tether.Heal"
-			m_HitIndicator = soundevent:""
-			m_GrappleHitSound = soundevent:"Ability.Tengu.Tether.Attach"
-			m_flMinConnectTime = 2.000000
-			m_flDisconnectDistanceBuffer = 100.000000
-			m_flTargetAwayDistance = 250.000000
-			m_flCandidateCloserDistance = 400.000000
-			
-			m_bRequiresTargetFilter = true
-			m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
-			
-			m_BuffModifier = subclass:
+			_class = "modifier_nikuman"
+			_my_subclass_name = "modifier_nikuman"
+			m_SelfParticle = resource_name:""
+			m_AOEFriendParticle = resource_name:""
+			m_bIsHidden = true
+			m_sAmbientLoopingSound = soundevent:""
+			m_sStartSound = soundevent:""
+			m_sExpiredSound = soundevent:""
+			m_bDurationCanBeTimeScaled = true
+			m_strAmbientLoopingLocalPlayerSound = soundevent:""
+			m_modifierProvidedByAura = subclass:
 			{
 				_class = "modifier_life_drain"
 				_my_subclass_name = "citadel_modifier_tangotether_tether_receiver"
@@ -2156,19 +2166,7 @@
 				m_sAmbientLoopingSound = soundevent:"Ghost.LifeDrain.Victim.Lp"
 				m_TetherSound = soundevent:"Tengu.Tether.Dur.Lp"
 				m_nEnabledStateMask = "MODIFIER_STATE_COOP_TETHER_ACTIVE | MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET"
-				m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-				[
-				]
 			}
-			m_LockedTargetModifier = subclass:
-			{
-				_class = "modifier_base"
-				_my_subclass_name = "tether_locked_modifier"
-				m_nEnabledStateMask = "MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET"
-				m_bIsHidden = true
-			}
-			m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
-			m_nStatusEffectPriority = 50
 		}
 		m_eShopFilters = "EShopFilterMagicDamage | EShopFilterMovement | EShopFilterHealing"
 		m_strShopIconLarge = panorama:"file://{images}/items/spirit/radiant_regeneration.psd"
@@ -2185,6 +2183,10 @@
 					{
 						m_strPropertyName = "TotalTetherTargets"
 						m_strBonus = "12"
+					},
+					{
+						m_strPropertyName = "ShareWithFriendsRadius"
+						m_strBonus = "12m"
 					},
 					{
 						m_strPropertyName = "AbilityDuration"
@@ -3308,7 +3310,7 @@
 			}
 			ChannelMoveSpeed = 
 			{
-				m_strValue = "200"
+				m_strValue = "18m"
 				m_eDisplayUnits = "EDisplayUnit_MetersPerSecond"
 				m_strCSSClass = "move_speed"
 				m_bCanSetTokenOverride = true
@@ -3502,7 +3504,7 @@
 				m_strValue = "-20.0"
 			}
 		}
-		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
+		m_bitsPostCastEnabledStateMask = "MODIFIER_STATE_ABILITY_MOVEMENT"
 		_editor = 
 		{
 			folder_name = "Hero Fencer"
@@ -3511,8 +3513,8 @@
 		{
 			m_flBulletSpeed = 10000.000000
 		}
-		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
-		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_SHOOTING_DISABLED"
+		m_bitsChannelEnabledStateMask = "MODIFIER_STATE_ABILITY_MOVEMENT"
+		m_bitsPreCastEnabledStateMask = "MODIFIER_STATE_ABILITY_MOVEMENT"
 		_multibase = 
 		[
 			"signature_base",
@@ -3531,10 +3533,11 @@
 		m_mapDependentAbilities = 
 		{
 		}
-		m_iUpdateTime = 1759190587
+		
+		m_iUpdateTime = 1706302943
 		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_SELF"
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
-		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_REFILLS_ALL_CHARGES | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SLIDE_ON_CAST"
+		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_REFILLS_ALL_CHARGES | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SLIDE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_MOVEMENT"
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_ENEMY"
 		m_strAG2SourceName = "citadel_ability_fencer_riposte"
 		m_strAbilityImage = panorama:"file://{images}/hud/abilities/fencer/fencer_riposte.psd"
@@ -3645,22 +3648,6 @@
 		}
 		m_AutoChannelModifier = subclass:
 		{
-			_class = "modifier_hornet_leap"
-			_my_subclass_name = "modifier_hornet_leap"
-			m_nEnabledStateMask = "MODIFIER_STATE_ABILITY_MOVEMENT | MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DISABLE_AIR_SPREAD_PENALTY | MODIFIER_STATE_UNLIMITED_AIR_DASHES | MODIFIER_STATE_ZIPLINE_DISABLED"
-			m_strHintText = "modifier_hint_vertical_movement"
-			m_sLocalizationName = "modifier_citadel_hornetleap"
-			m_bIsHidden = true
-			m_strParticleEffect = resource_name:"particles/abilities/hornet/hornet_leap_buff.vpcf"
-			m_vecAutoRegisterModifierValueFromAbilityPropertyName = 
-			[
-			]
-			m_sAmbientLoopingSound = soundevent:"Ability.Hornet.Leap.Lp"
-			m_sExpiredSound = soundevent:"Ability.Hornet.Leap.Expire"
-			m_AG2HeroState = 
-			{
-				m_strParamName = ""
-			}
 		}
 		m_DebuffModifier = subclass:
 		{
