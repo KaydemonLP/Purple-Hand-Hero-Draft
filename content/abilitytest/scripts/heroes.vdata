@@ -751,7 +751,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 69.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 75.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -794,6 +794,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -893,61 +894,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -986,31 +987,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -2644,7 +2645,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.088000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 46.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 51.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -2689,6 +2690,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -2788,61 +2790,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -2881,31 +2883,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -4570,7 +4572,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.374000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 48.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 53.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -4615,6 +4617,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -4714,61 +4717,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -4807,31 +4810,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -6503,7 +6506,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.495000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 35.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 39.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -6548,6 +6551,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -6647,61 +6651,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -6740,31 +6744,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -8431,7 +8435,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.946000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 59.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 64.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -8476,6 +8480,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -8575,61 +8580,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -8668,31 +8673,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -10354,8 +10359,8 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.100000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
-			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 62.000000
+			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.738000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
@@ -10400,6 +10405,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -10499,61 +10505,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -10592,31 +10598,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -12284,7 +12290,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.140000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 42.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 47.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -12330,6 +12336,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -12429,61 +12436,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -12522,31 +12529,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -14209,9 +14216,9 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.150000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.160000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 60.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 65.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -14257,6 +14264,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -14356,61 +14364,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -14449,31 +14457,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -16139,7 +16147,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.242000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 53.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 58.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -16184,6 +16192,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -16283,61 +16292,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -16376,31 +16385,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -18066,7 +18075,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.500000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 68.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 74.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -18111,6 +18120,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -18210,61 +18220,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -18303,31 +18313,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -19989,7 +19999,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.418000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 67.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 73.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -20034,6 +20044,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -20133,61 +20144,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -20226,31 +20237,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -21917,7 +21928,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.143000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 40.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 45.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -21962,6 +21973,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -22061,61 +22073,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -22154,31 +22166,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -23842,7 +23854,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 1.144000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 48.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 53.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -23887,6 +23899,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -23986,61 +23999,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -24079,31 +24092,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -25764,7 +25777,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.154000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 60.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 65.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 59
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -25810,6 +25823,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -25909,61 +25923,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -26002,31 +26016,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -27691,7 +27705,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.043000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 44.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 49.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -27736,6 +27750,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -27835,61 +27850,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -27928,31 +27943,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -29623,7 +29638,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 1.001000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 45.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 50.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -29668,6 +29683,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -29767,61 +29783,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -29860,31 +29876,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -31546,7 +31562,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.077000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 72.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 78.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -31591,6 +31607,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -31690,61 +31707,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -31783,31 +31800,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -32767,9 +32784,9 @@
 			EReloadSpeed = 1
 			EWeaponPowerScale = 1
 			EProcBuildUpRateScale = 1
-			EStamina = 2
+			EStamina = 3
 			EBaseHealthRegen = 2.000000
-			EStaminaRegenPerSecond = 0.222222
+			EStaminaRegenPerSecond = 0.181810
 			EAbilityResourceMax = 0
 			EAbilityResourceRegenPerSecond = 0
 			ECritDamageReceivedScale = 1.000000
@@ -33475,7 +33492,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.165000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 53.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 58.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -33520,6 +33537,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -33619,61 +33637,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -33712,31 +33730,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -35398,7 +35416,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.080000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 52.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -35443,6 +35461,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -35542,61 +35561,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -35635,31 +35654,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -37323,7 +37342,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -37366,6 +37385,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -37465,61 +37485,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -37558,31 +37578,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -39231,7 +39251,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.380000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 67.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 73.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -39276,6 +39296,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -39375,61 +39396,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -39468,31 +39489,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -41159,7 +41180,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.154000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.700000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 52.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -41204,6 +41225,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -41303,61 +41325,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -41396,31 +41418,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -43083,7 +43105,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.341000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 58.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 63.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -43128,6 +43150,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -43227,61 +43250,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -43320,31 +43343,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -45006,7 +45029,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.360000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 1.600000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 52.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -45051,6 +45074,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -45150,61 +45174,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -45243,31 +45267,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -46932,7 +46956,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.924000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -46975,6 +46999,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -47074,61 +47099,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -47167,31 +47192,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -48830,7 +48855,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -48873,6 +48898,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -48972,61 +48998,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -49065,31 +49091,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -50729,7 +50755,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 69.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 75.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -50772,6 +50798,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -50871,61 +50898,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -50964,31 +50991,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -52628,7 +52655,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.418000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -52671,6 +52698,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -52770,61 +52798,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -52863,31 +52891,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -54528,7 +54556,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.770000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -54572,6 +54600,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -54671,61 +54700,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -54764,31 +54793,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -56433,7 +56462,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -56476,6 +56505,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -56575,61 +56605,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -56668,31 +56698,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -58333,7 +58363,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.220000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 43.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 48.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -58378,6 +58408,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -58477,61 +58508,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -58570,31 +58601,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -60255,7 +60286,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -60298,6 +60329,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -60397,61 +60429,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -60490,31 +60522,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -62154,7 +62186,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.300000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 52.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -62199,6 +62231,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -62298,61 +62331,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -62391,31 +62424,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -64077,7 +64110,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.220000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 62.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 67.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -64122,6 +64155,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -64221,61 +64255,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -64314,31 +64348,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -65981,7 +66015,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -66024,6 +66058,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -66123,61 +66158,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -66216,31 +66251,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -67880,7 +67915,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.000000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 69.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 75.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -67923,6 +67958,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -68022,61 +68058,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -68115,31 +68151,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -69780,7 +69816,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.077000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -69823,6 +69859,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -69922,61 +69959,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -70015,31 +70052,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -71675,7 +71712,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.077000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -71718,6 +71755,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -71817,61 +71855,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -71910,31 +71948,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -73575,7 +73613,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.198000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 42.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 47.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -73620,6 +73658,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -73719,61 +73758,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -73812,31 +73851,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -75499,7 +75538,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.242000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 61.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 66.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -75544,6 +75583,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -75643,61 +75683,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -75736,31 +75776,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -77410,7 +77450,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.550000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 45.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 50.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -77455,6 +77495,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -77554,61 +77595,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -77647,31 +77688,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -79333,7 +79374,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.220000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 75.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 81.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -79378,6 +79419,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -79477,61 +79519,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -79570,31 +79612,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -81239,7 +81281,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.803000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 59.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 64.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -81283,6 +81325,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -81382,61 +81425,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -81475,31 +81518,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -83142,7 +83185,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.275000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 34.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 38.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -83187,6 +83230,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -83286,61 +83330,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -83379,31 +83423,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -85066,7 +85110,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.616000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 46.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 51.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -85111,6 +85155,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -85210,61 +85255,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -85303,31 +85348,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -86999,7 +87044,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.270000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 45.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 50.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.700000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -87044,6 +87089,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -87143,61 +87189,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -87236,31 +87282,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -88225,8 +88271,8 @@
 			ETechDuration = 1
 			ETechRange = 1
 			ECritDamageBonusScale = 1.000000
-			EHeroSpiritLifestealEffectiveness = 1.000000
-			EHeroBulletLifestealEffectiveness = 1.000000
+			EHeroSpiritLifestealEffectiveness = 0.700000
+			EHeroBulletLifestealEffectiveness = 0.700000
 			EGroundDashDistanceInMeters = 10.000000
 			EGroundDashDuration = 0.700000
 			EAirDashDistanceInMeters = 8.000000
@@ -88929,7 +88975,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.330000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 46.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 55.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -88974,6 +89020,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -89073,61 +89120,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -89166,31 +89213,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -90857,7 +90904,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.520000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 35.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 39.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.200000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -90902,6 +90949,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -91001,61 +91049,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -91094,31 +91142,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -92782,7 +92830,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.495000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 69.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 75.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -92827,6 +92875,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -92926,61 +92975,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -93019,31 +93068,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -94691,7 +94740,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 1.100000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 49.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 54.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -94736,6 +94785,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -94835,61 +94885,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -94928,31 +94978,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -96619,7 +96669,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.440000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 59.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 64.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -96664,6 +96714,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -96763,61 +96814,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -96856,31 +96907,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -98525,7 +98576,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.275000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 68.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 74.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -98570,6 +98621,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -98669,61 +98721,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -98762,31 +98814,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -100431,7 +100483,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.165000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 50.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 55.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -100476,6 +100528,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -100575,61 +100628,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -100668,31 +100721,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -102356,7 +102409,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.124929
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 48.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 53.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -102399,6 +102452,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -102498,61 +102552,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -102591,31 +102645,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -104259,7 +104313,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.250000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 37.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 41.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -104304,6 +104358,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -104403,61 +104458,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -104496,31 +104551,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -106176,7 +106231,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.180000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 42.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 47.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -106222,6 +106277,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -106321,61 +106377,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -106414,31 +106470,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -108098,7 +108154,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.060000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 40.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 45.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -108143,6 +108199,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -108242,61 +108299,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -108335,31 +108392,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -110023,7 +110080,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.750000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.500000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 52.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 57.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -110068,6 +110125,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -110167,61 +110225,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -110260,31 +110318,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -111947,7 +112005,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.200000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 46.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 51.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -111992,6 +112050,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -112091,61 +112150,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -112184,31 +112243,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -113854,7 +113913,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.340000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 35.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 39.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -113899,6 +113958,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -113998,61 +114058,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -114091,31 +114151,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -115773,7 +115833,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.120600
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.819000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 35.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 39.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -115818,6 +115878,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -115917,61 +115978,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -116010,31 +116071,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -117007,7 +117068,7 @@
 			EGroundDashDuration = 0.620000
 			EAirDashDistanceInMeters = 8.000000
 			EAirDashDuration = 0.430000
-			EBulletArmorDamageReduction = -6
+			EBulletArmorDamageReduction = -8
 		}
 		m_groundDashPositionCurve = 
 		{
@@ -117698,9 +117759,9 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.600000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.700000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 42.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 47.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -117745,6 +117806,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -117844,61 +117906,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -117937,31 +117999,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -118879,7 +118941,6 @@
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/unicorn.svg"
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/unicorn_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Unicorn"
-		m_bNAGunFalloffRange = true
 	}
 	hero_opera = 
 	{
@@ -119625,7 +119686,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.070000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 70.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 76.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -119668,6 +119729,7 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -119767,61 +119829,61 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 84
+					flBonus = 8
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 1600
-					flBonus = 140
+					flBonus = 10
 					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 2400
-					flBonus = 224
+					flBonus = 13
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 3200
-					flBonus = 308
+					flBonus = 17
 					flPercentOnGraph = 9
 				},
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 588
+					flBonus = 34
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 700
+					flBonus = 39
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 840
+					flBonus = 44
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 1120
+					flBonus = 48
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 1344
+					flBonus = 52
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 1568
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 			]
@@ -119860,31 +119922,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
@@ -120775,5 +120837,1928 @@
 		}
 		_base = "hero_base"
 		m_strHeroSearchName = "#hero_opera_search"
+	}
+	hero_testhero = 
+	{
+		_class = "CitadelHeroData_t"
+		m_bPlayerSelectable = true
+		m_bDisabled = true
+		m_bInDevelopment = true
+		m_bNeedsTesting = false
+		m_bAssignedPlayersOnly = false
+		m_bLimitedTesting = false
+		m_bPrereleaseOnly = false
+		m_nComplexity = 2
+		m_nAllyBotDifficulty = 1
+		m_nEnemyBotDifficulty = 1
+		m_HeroID = 83
+		m_strModelName = resource_name:"models/heroes_staging/nano/nano_v2/nano.vmdl"
+		m_strUIShoppingMap = "maps/ui/hero_shop/nano_shop.vmap"
+		m_strUITeamRevealMap = "maps/ui/team_reveal_hero/nano_team_reveal.vmap"
+		m_strUIPostgamePortraitMap = "maps/ui/hero_postgame_portrait/nano_postgame_portrait.vmap"
+		m_hDamageTakenParticle = resource_name:"particles/generic/player_damage_screen.vpcf"
+		m_hGroundDamageTakenParticle = resource_name:"particles/generic/player_ground_damage_screen.vpcf"
+		m_hDeathParticle = resource_name:"particles/generic/player_death_screen.vpcf"
+		m_hLowHealthParticle = resource_name:"particles/generic/player_low_health_screen.vpcf"
+		m_hRespawnParticle = resource_name:"particles/generic/player_respawn_deploy.vpcf"
+		m_nModelSkin = 0
+		m_mapStartingStats = 
+		{
+			EMaxMoveSpeed = 6.800000
+			ESprintSpeed = 1.600000
+			ECrouchSpeed = 4.750000
+			EMoveAcceleration = 4
+			ELightMeleeDamage = 63
+			EHeavyMeleeDamage = 116
+			EMaxHealth = 740
+			EWeaponPower = 0
+			EReloadSpeed = 1
+			EWeaponPowerScale = 1
+			EProcBuildUpRateScale = 1
+			EStamina = 3
+			EBaseHealthRegen = 2.000000
+			EStaminaRegenPerSecond = 0.222222
+			EAbilityResourceMax = 0
+			EAbilityResourceRegenPerSecond = 0
+			ECritDamageReceivedScale = 1.000000
+			ETechDuration = 1
+			ETechRange = 1
+			ECritDamageBonusScale = 1.000000
+			EHeroSpiritLifestealEffectiveness = 1.000000
+			EHeroBulletLifestealEffectiveness = 1.000000
+			EGroundDashDistanceInMeters = 10.000000
+			EGroundDashDuration = 0.620000
+			EAirDashDistanceInMeters = 8.000000
+			EAirDashDuration = 0.430000
+		}
+		m_groundDashPositionCurve = 
+		{
+			m_spline = 
+			[
+				
+				{
+					x = 0.000000
+					y = 0.000000
+					m_flSlopeIncoming = 1.000000
+					m_flSlopeOutgoing = 1.000000
+				},
+				
+				{
+					x = 1.000000
+					y = 1.000000
+					m_flSlopeIncoming = 1.000000
+					m_flSlopeOutgoing = 1.000000
+				},
+			]
+			m_tangents = 
+			[
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+				
+				{
+					m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+					m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+				},
+			]
+			m_vDomainMins = 
+			[
+				0.000000,
+				0.000000,
+			]
+			m_vDomainMaxs = 
+			[
+				1.000000,
+				1.000000,
+			]
+		}
+		m_mapBoundAbilities = 
+		{
+			ESlot_Weapon_Primary = "citadel_weapon_testhero_set"
+			ESlot_Weapon_Melee = "ability_melee_testhero"
+			ESlot_Ability_Mantle = "citadel_ability_mantle"
+			ESlot_Ability_Jump = "citadel_ability_jump"
+			ESlot_Ability_Slide = "citadel_ability_slide"
+			ESlot_Ability_ZipLine = "citadel_ability_zip_line"
+			ESlot_Ability_ZipLineBoost = "citadel_ability_zipline_boost"
+			ESlot_Ability_ClimbRope = "citadel_ability_climb_rope"
+			ESlot_Ability_Innate_1 = "citadel_ability_dash"
+			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
+			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Signature_1 = "ability_testhero_wallcling"
+			ESlot_Signature_2 = "ability_testhero_ability02"
+			ESlot_Signature_3 = "ability_testhero_ability03"
+			ESlot_Signature_4 = "ability_testhero_ult"
+		}
+		m_mapItemSlotInfo = 
+		{
+			EItemSlotType_WeaponMod = 
+			{
+				m_arMaxPurchasesForTier = 
+				[
+					6,
+					6,
+					6,
+				]
+			}
+			EItemSlotType_Armor = 
+			{
+				m_arMaxPurchasesForTier = 
+				[
+					6,
+					6,
+					6,
+				]
+			}
+			EItemSlotType_Tech = 
+			{
+				m_arMaxPurchasesForTier = 
+				[
+					6,
+					6,
+					6,
+				]
+			}
+		}
+		m_mapPurchaseBonuses = 
+		{
+			EItemSlotType_WeaponMod = 
+			[
+				
+				{
+					m_nTier = 1
+					m_strValue = "4"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 2
+					m_strValue = "8"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 3
+					m_strValue = "13"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 4
+					m_strValue = "18"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+				
+				{
+					m_nTier = 5
+					m_strValue = "23"
+					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				},
+			]
+			EItemSlotType_Armor = 
+			[
+				
+				{
+					m_nTier = 1
+					m_strValue = "7"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+				},
+				
+				{
+					m_nTier = 2
+					m_strValue = "8"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+				},
+				
+				{
+					m_nTier = 3
+					m_strValue = "9"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+				},
+				
+				{
+					m_nTier = 4
+					m_strValue = "10"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+				},
+				
+				{
+					m_nTier = 5
+					m_strValue = "11"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+				},
+			]
+			EItemSlotType_Tech = 
+			[
+				
+				{
+					m_nTier = 1
+					m_strValue = "4"
+					m_ValueType = "MODIFIER_VALUE_TECH_POWER"
+				},
+				
+				{
+					m_nTier = 2
+					m_strValue = "7"
+					m_ValueType = "MODIFIER_VALUE_TECH_POWER"
+				},
+				
+				{
+					m_nTier = 3
+					m_strValue = "10"
+					m_ValueType = "MODIFIER_VALUE_TECH_POWER"
+				},
+				
+				{
+					m_nTier = 4
+					m_strValue = "13"
+					m_ValueType = "MODIFIER_VALUE_TECH_POWER"
+				},
+				
+				{
+					m_nTier = 5
+					m_strValue = "16"
+					m_ValueType = "MODIFIER_VALUE_TECH_POWER"
+				},
+			]
+		}
+		m_mapLevelInfo = 
+		{
+			"1" = 
+			{
+				m_unRequiredGold = 0
+				m_mapBonusCurrencies = 
+				{
+					EAbilityUnlocks = 1
+				}
+			}
+			"2" = 
+			{
+				m_unRequiredGold = 300
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"3" = 
+			{
+				m_unRequiredGold = 600
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityUnlocks = 1
+				}
+			}
+			"4" = 
+			{
+				m_unRequiredGold = 900
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"5" = 
+			{
+				m_unRequiredGold = 1500
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityUnlocks = 1
+				}
+			}
+			"6" = 
+			{
+				m_unRequiredGold = 2200
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"7" = 
+			{
+				m_unRequiredGold = 3000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityUnlocks = 1
+				}
+			}
+			"8" = 
+			{
+				m_unRequiredGold = 3800
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"9" = 
+			{
+				m_unRequiredGold = 4600
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"10" = 
+			{
+				m_unRequiredGold = 5400
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"11" = 
+			{
+				m_unRequiredGold = 6200
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"12" = 
+			{
+				m_unRequiredGold = 7100
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"13" = 
+			{
+				m_unRequiredGold = 8000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"14" = 
+			{
+				m_unRequiredGold = 9000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"15" = 
+			{
+				m_unRequiredGold = 10000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"16" = 
+			{
+				m_unRequiredGold = 11000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"17" = 
+			{
+				m_unRequiredGold = 12000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"18" = 
+			{
+				m_unRequiredGold = 13200
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"19" = 
+			{
+				m_unRequiredGold = 15000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"20" = 
+			{
+				m_unRequiredGold = 17000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"21" = 
+			{
+				m_unRequiredGold = 19000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"22" = 
+			{
+				m_unRequiredGold = 21000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"23" = 
+			{
+				m_unRequiredGold = 23000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"24" = 
+			{
+				m_unRequiredGold = 25000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"25" = 
+			{
+				m_unRequiredGold = 27000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"26" = 
+			{
+				m_unRequiredGold = 29000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"27" = 
+			{
+				m_unRequiredGold = 31000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"28" = 
+			{
+				m_unRequiredGold = 33000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"29" = 
+			{
+				m_unRequiredGold = 35000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"30" = 
+			{
+				m_unRequiredGold = 37000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"31" = 
+			{
+				m_unRequiredGold = 39000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"32" = 
+			{
+				m_unRequiredGold = 41000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"33" = 
+			{
+				m_unRequiredGold = 43000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"34" = 
+			{
+				m_unRequiredGold = 45000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"35" = 
+			{
+				m_unRequiredGold = 47000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+			"36" = 
+			{
+				m_unRequiredGold = 49000
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityPoints = 1
+				}
+			}
+		}
+		m_flStealthSpeedMetersPerSecond = 4
+		m_vecAnimGraphDefaultValueOverrides = 
+		[
+			
+			{
+				m_strParamName = "e_SWITCH_4wayRoll_ON/OFF"
+				m_strParamValue = "0"
+			},
+			
+			{
+				m_strParamName = "e_SWITCH_Recoil_ON/OFF"
+				m_strParamValue = "0"
+			},
+			
+			{
+				m_strParamName = "e_SWITCH_ZiplinePhysicsSway_ON/OFF"
+				m_strParamValue = "0"
+			},
+			
+			{
+				m_strParamName = "e_SWITCH_ShootStyle"
+				m_strParamValue = "0"
+			},
+		]
+		m_strLastHitSound = soundevent:"LastHit.Default"
+		m_strLowHealthSound = soundevent:"PlayerAlert.LowHealth"
+		m_colorUI = 
+		[
+			98,
+			15,
+			214,
+		]
+		m_vecAmbientParticleSettings = 
+		[
+			
+			{
+				m_eAttachmentType = "PATTACH_ABSORIGIN_FOLLOW"
+				m_nCP = 0
+			},
+			
+			{
+				m_nCP = 1
+				m_eAttachmentType = "PATTACH_POINT_FOLLOW"
+				m_strAttachmentName = "ability_apply"
+			},
+		]
+		m_heroStatsUI = 
+		{
+			m_vecDisplayStats = 
+			[
+				
+				{
+					m_eStatType = "EMaxHealth"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "EBaseHealthRegen"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "EBulletArmorDamageReduction"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "ETechArmorDamageReduction"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "ETechPower"
+					m_eStatCategory = "ECitadelStat_Spirit"
+				},
+				
+				{
+					m_eStatCategory = "ECitadelStat_Weapon"
+					m_eStatType = "EWeaponDPS"
+				},
+				
+				{
+					m_eStatType = "EBulletDamage"
+					m_eStatCategory = "ECitadelStat_Weapon"
+				},
+				
+				{
+					m_eStatType = "EClipSize"
+					m_eStatCategory = "ECitadelStat_Weapon"
+				},
+				
+				{
+					m_eStatType = "ERoundsPerSecond"
+					m_eStatCategory = "ECitadelStat_Weapon"
+				},
+				
+				{
+					m_eStatType = "ELightMeleeDamage"
+					m_eStatCategory = "ECitadelStat_Weapon"
+				},
+				
+				{
+					m_eStatType = "EHeavyMeleeDamage"
+					m_eStatCategory = "ECitadelStat_Weapon"
+				},
+				
+				{
+					m_eStatType = "EMaxMoveSpeed"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "ESprintSpeed"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+				
+				{
+					m_eStatType = "EStamina"
+					m_eStatCategory = "ECitadelStat_Vitality"
+				},
+			]
+			m_eWeaponStatDisplay = "EMeleeDamage_DEPRECATED"
+		}
+		m_mapScalingStats = 
+		{
+		}
+		m_heroStatsDisplay = 
+		{
+			m_vecHealthHeaderStats = 
+			[
+				"EMaxHealth",
+				"EBaseHealthRegen",
+			]
+			m_vecHealthStats = 
+			[
+				"EBulletArmorDamageReduction",
+				"ETechArmorDamageReduction",
+				"EBulletShieldHealth",
+				"EBulletLifesteal",
+				"ETechLifesteal",
+				"EMaxMoveSpeed",
+				"ESprintSpeed",
+				"EStamina",
+				"EHealingOutput",
+			]
+			m_vecWeaponHeaderStats = 
+			[
+				"EWeaponDPS",
+				"EBulletDamage",
+			]
+			m_vecWeaponStats = 
+			[
+				"ELightMeleeDamage",
+				"EHeavyMeleeDamage",
+				"EFireRate",
+				"EClipSize",
+			]
+			m_vecMagicHeaderStats = 
+			[
+				"ETechPower",
+			]
+			m_vecMagicStats = 
+			[
+				"ETechCooldown",
+				"ETechRange",
+				"ETechDuration",
+			]
+		}
+		m_mapStandardLevelUpUpgrades = 
+		{
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.043000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 49.000000
+			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
+			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
+			MODIFIER_VALUE_BOON_COUNT = 1
+			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_POWER = 1.100000
+		}
+		m_eAbilityResourceType = "EResourceType_None"
+		m_ShopStatDisplay = 
+		{
+			m_eWeaponStatsDisplay = 
+			{
+				m_vecDisplayStats = 
+				[
+					"EBulletDamage",
+					"EBaseWeaponDamageIncrease",
+					"ERoundsPerSecond",
+					"EFireRate",
+					"EClipSize",
+					"EClipSizeIncrease",
+					"EReloadTime",
+					"EReloadSpeed",
+					"EBulletSpeed",
+					"EBulletSpeedIncrease",
+					"EBulletLifesteal",
+					"ECritDamageBonusScale",
+				]
+				m_vecOtherDisplayStats = 
+				[
+					"ELightMeleeDamage",
+					"EHeavyMeleeDamage",
+				]
+				m_eWeaponAttributes = "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/nano_gun.psd"
+			}
+			m_eVitalityStatsDisplay = 
+			{
+				m_vecDisplayStats = 
+				[
+					"EMaxHealth",
+					"EBaseHealthRegen",
+					"EHealingOutput",
+					"EOOCHealthRegen",
+					"EHeroSpiritLifestealEffectiveness",
+					"EBulletArmorDamageReduction",
+					"ETechArmorDamageReduction",
+					"EMeleeResist",
+					"EDebuffResist",
+					"ECritDamageReceivedScale",
+				]
+				m_vecOtherDisplayStats = 
+				[
+					"EMaxMoveSpeed",
+					"ESprintSpeed",
+					"EStaminaCooldown",
+					"EStaminaRegenIncrease",
+					"EStamina",
+					"EDashSpeedInMeters",
+				]
+			}
+			m_eSpiritStatsDisplay = 
+			{
+				m_vecDisplayStats = 
+				[
+					"ETechCooldown",
+					"ETechDuration",
+					"ETechRange",
+					"ETechLifesteal",
+					"EMaxChargesIncrease",
+					"ETechCooldownBetweenChargeUses",
+				]
+			}
+		}
+		m_MapModCostBonuses = 
+		{
+			EItemSlotType_WeaponMod = 
+			[
+				
+				{
+					nGoldThreshold = 800
+					flBonus = 7
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 1600
+					flBonus = 9
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 2400
+					flBonus = 13
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 3200
+					flBonus = 20
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 4800
+					flBonus = 49
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 60
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 80
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 95
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 115
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 135
+					flPercentOnGraph = 12
+				},
+			]
+			EItemSlotType_Armor = 
+			[
+				
+				{
+					nGoldThreshold = 800
+					flBonus = 8
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 1600
+					flBonus = 10
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 2400
+					flBonus = 13
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 3200
+					flBonus = 17
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 4800
+					flBonus = 34
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 39
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 44
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 48
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 52
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 56
+					flPercentOnGraph = 12
+				},
+			]
+			EItemSlotType_Tech = 
+			[
+				
+				{
+					nGoldThreshold = 800
+					flBonus = 7
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 1600
+					flBonus = 11
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 2400
+					flBonus = 15
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 3200
+					flBonus = 19
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 4800
+					flBonus = 38
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 48
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 57
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 66
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 75
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 100
+					flPercentOnGraph = 12
+				},
+			]
+		}
+		m_strDeathSound = soundevent:"Damage.Receive.Lethal"
+		m_mapItemDraftBucketing = 
+		{
+			upgrade_ability_power_shard = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_ability_refresher = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_absorbing_armor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_acolytes_glove = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_active_reload = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_aerial_supremacy = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_ancient_shield = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_aoe_root = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_apex_combat = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_aprounds = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_arcane_extension = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_arcane_surge = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_arctic_blast = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_banshee_slugs = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_berserker = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_blitz_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_blood_tribute = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_boundless_spirit = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_boxing_glove = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_bullet_armor_reduction_aura = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_bullet_resist_shredder = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_bulletshredimbue = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_burst_fire = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_capacitor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_cardio_calibrator = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_celestial_guidance = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_chain_lightning = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_cheat_death = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_chonky = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_clip_size = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_cloak_of_opportunity = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_cloaking_device_active = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_close_quarter_combat = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_close_range = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_cold_front = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_colossus = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_containment = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_cooldown_reduction = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_counterspell = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_crackshot = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_critshot = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_crushing_fists = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_damage_recycler = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_debuff_reducer = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_deflecting_armor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_discord = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_divine_barrier = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_diviners_kevlar = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_dps_aura = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_eldritch_shot = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_electric_slippers = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_enchanted_holsters = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_endurance = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 0.400000
+			}
+			upgrade_escalating_exposure = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_eternal_gift = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_ethereal_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_express_shot = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_extra_charge = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_fervor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_fleetfoot_boots = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_focus_lens = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_fury_trance = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_glass_cannon = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_glitch = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_greater_withering_whip = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_guardian_ward = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_haunting_scream = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_headhunter = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_headshot_booster = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_headshot_booster2 = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_healbane = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_healbuff = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_healing_booster = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_health = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_health_nova = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_health_stealing_magic = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_health_stimpak = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_high_velocity_mag = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_hollow_point_rounds = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_icarus_wings = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_imbued_duration_extender = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_improved_bullet_armor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_improved_spirit = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_improved_stamina = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_infinite_rounds = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_infuser = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_inhibitor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_intensifying_clip = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_juggernaut = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_kinetic_sash = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_lifestrike_gauntlets = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_long_range = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_burst = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_carpet = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_reach = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_shield = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_shock = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_slow = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_storm = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_tempo = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_magic_vulnerability = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_medic_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_melee_charge = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_melee_rebuttal = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_metal_skin = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_mystic_regeneration = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_mystic_reverb = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_mystical_piano = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_non_player_bonus = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_non_player_bonus_sacrifice = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_nullification_aura = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_omnicharge_pendant = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_patrons_blessing = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_phantom_strike = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_prism_blast = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_pristine_emblem = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_proc_silence = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_quick_silver = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rapid_recharge = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rapid_rounds = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rechargingbullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_reduce_debuff_duration = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_regenerating_bullet_shield = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_reinforcing_casings = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rescue_beam = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_resonant_healing = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_restorative_locket = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_return_fire = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_ricochet = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rocket_booster = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_runed_gauntlets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_rupture = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_self_bubble = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_shadow_step = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_shadow_strike = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_sharpshooter = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_shivas_bracelet = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_shrink_ray = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 0.300000
+			}
+			upgrade_siphon_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_slowing_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_soaring_spirit = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_spellbreaker = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_spellslinger_headshots = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_spirit_bubble = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_spirit_burn = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_spirit_sap = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_spirit_snatch = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_split_shot = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_sprint_booster = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_superior_stamina = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_suppressor = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_surging_power = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_target_stun = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_targeted_silence = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_tech_damage_pulse = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_tech_defense_shredders = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_tech_overflow = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_tech_purge = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_tech_range = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_thermal_detonator = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_timeless_emblem = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_titan_round = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_toxic_bullets = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_transcendent_cooldown = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_trophy_collector = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_ultimate_burst = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_unstable_concoction = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_unstoppable = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_vampire = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_veil_walker = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_vex_barrier = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_warp_stone = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_weapon_backstabber = 
+			{
+				m_strBucket = "Good"
+				m_flWeight = 1.000000
+			}
+			upgrade_weapon_shielding = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_weighted_shots = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_withering_whip = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+		}
+		_base = "hero_base"
+		m_strIconImageSmall = panorama:"file://{images}/heroes/nano_sm.psd"
+		m_strMinimapImage = panorama:"file://{images}/heroes/nano_mm.psd"
+		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/calico.svg"
+		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/calico_localized.svg"
+		m_strDeathVOSound = soundevent:"Generated.Nano.Hero.Death.VO"
+		m_strHeroSearchName = "#hero_nano_search"
+		m_hGameSoundEventScript = resource_name:"soundevents/hero/nano.vsndevts"
+		m_strRosterSelectedSound = soundevent:"Generated.Nano.Hero.Pick.VO"
+		m_strIconHeroCard = panorama:"file://{images}/heroes/nano_card.psd"
+		m_strRosterRemovedSound = soundevent:"Generated.Nano.Hero.Remove.VO"
+		m_strUIPortraitMap = "maps/ui/hero_prefabs/nano.vmap"
+		m_strTopBarVertical = panorama:"file://{images}/heroes/nano_vertical.psd"
+		m_strPostGameVictorySound = soundevent:"Nano.Progession.Page.Win.VO"
+		m_strPostGameDefeatSound = soundevent:"Nano.Progession.Page.Lose.VO"
+		m_vecHeroTags = 
+		[
+			"#Citadel_Nano_HeroTag_1",
+			"#Citadel_Nano_HeroTag_2",
+			"#Citadel_Nano_HeroTag_3",
+		]
+		m_strGunTag = "#Attribute_EWeaponAttribute_Spreadshot"
+		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Ava"
+		m_eHeroType = "ECitadelHeroType_Assassin"
+		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_nano.vsndevts"
+		m_strIconHeroCardCritical = panorama:"file://{images}/heroes/nano_card_critical.psd"
+		m_strIconHeroCardGloat = panorama:"file://{images}/heroes/nano_card_gloat.psd"
 	}
 }
