@@ -185,63 +185,33 @@
 			[
 				
 				{
-					nGoldThreshold = 800
-					flBonus = 84
-					flPercentOnGraph = 8
+					m_nTier = 1
+					m_strValue = "7"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 				
 				{
-					nGoldThreshold = 1600
-					flBonus = 140
-					flPercentOnGraph = 8
+					m_nTier = 2
+					m_strValue = "8"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 				
 				{
-					nGoldThreshold = 2400
-					flBonus = 224
-					flPercentOnGraph = 9
+					m_nTier = 3
+					m_strValue = "9"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 				
 				{
-					nGoldThreshold = 3200
-					flBonus = 308
-					flPercentOnGraph = 9
+					m_nTier = 4
+					m_strValue = "10"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 				
 				{
-					nGoldThreshold = 4800
-					flBonus = 588
-					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 7200
-					flBonus = 700
-					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 9600
-					flBonus = 840
-					flPercentOnGraph = 11
-				},
-				
-				{
-					nGoldThreshold = 16000
-					flBonus = 1120
-					flPercentOnGraph = 11
-				},
-				
-				{
-					nGoldThreshold = 22400
-					flBonus = 1344
-					flPercentOnGraph = 12
-				},
-				
-				{
-					nGoldThreshold = 28800
-					flBonus = 1568
-					flPercentOnGraph = 12
+					m_nTier = 5
+					m_strValue = "11"
+					m_ValueType = "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
 				},
 			]
 			EItemSlotType_Tech = 
@@ -776,7 +746,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.165000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 50 
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 55 
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
