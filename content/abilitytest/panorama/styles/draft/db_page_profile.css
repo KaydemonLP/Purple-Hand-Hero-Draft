@@ -1,0 +1,49 @@
+.hero_violet #HeroRowBackground
+{
+	background-color: violetColor;
+}
+
+.hero_violet #StatsTitle
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( violetColor&10 ), to( violetColor&00 ) );
+}
+
+.hero_kingy #HeroRowBackground
+{
+	background-color: kingyColor;
+}
+
+.hero_kingy #StatsTitle
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( kingyColor&10 ), to( kingyColor&00 ) );
+}
+
+.hero_fathom #HeroRowBackground
+{
+	background-color: fathomColor;
+}
+
+.hero_fathom #StatsTitle
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( fathomColor&10 ), to( fathomColor&00 ) );
+}
+
+.hero_keller #HeroRowBackground
+{
+	background-color: kellerColor;
+}
+
+.hero_keller #StatsTitle
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( kellerColor&10 ), to( kellerColor&00 ) );
+}
+
+.hero_ramattra #HeroRowBackground
+{
+	background-color: ramattraColor;
+}
+
+.hero_ramattra #StatsTitle
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( ramattraColor&10 ), to( ramattraColor&00 ) );
+}

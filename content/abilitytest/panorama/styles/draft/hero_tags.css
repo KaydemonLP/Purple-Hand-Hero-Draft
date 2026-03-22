@@ -1,0 +1,29 @@
+.hero_violet CitadelHeroTags .heroTag .tagBacker
+{
+	background-color: violetColor;
+	box-shadow: 0px 0px 1px violetColor;
+}
+
+.hero_kingy CitadelHeroTags .heroTag .tagBacker
+{
+	background-color: kingyColor;
+	box-shadow: 0px 0px 1px kingyColor;
+}
+
+.hero_fathom CitadelHeroTags .heroTag .tagBacker
+{
+	background-color: fathomColor;
+	box-shadow: 0px 0px 1px fathomColor;
+}
+
+.hero_keller CitadelHeroTags .heroTag .tagBacker
+{
+	background-color: kellerColor;
+	box-shadow: 0px 0px 1px kellerColor;
+}
+
+.hero_ramattra CitadelHeroTags .heroTag .tagBacker
+{
+	background-color: ramattraColor;
+	box-shadow: 0px 0px 1px ramattraColor;
+}

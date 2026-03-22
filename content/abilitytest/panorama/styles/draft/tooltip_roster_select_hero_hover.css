@@ -1,0 +1,24 @@
+.hero_violet .InRoster #HeroCard
+{
+	wash-color: violetColor;
+}
+
+.hero_kingy .InRoster #HeroCard
+{
+	wash-color: kingyColor;
+}
+
+.hero_fathom .InRoster #HeroCard
+{
+	wash-color: fathomColor;
+}
+
+.hero_keller .InRoster #HeroCard
+{
+	wash-color: kellerColor;
+}
+
+.hero_ramattra .InRoster #HeroCard
+{
+	wash-color: ramattraColor;
+}

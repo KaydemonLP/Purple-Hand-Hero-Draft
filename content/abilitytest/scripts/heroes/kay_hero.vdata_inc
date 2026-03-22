@@ -1206,7 +1206,7 @@
 		m_strIconImageSmall = panorama:"file://{images}/heroes/violet_card.png"
 		m_strMinimapImage = panorama:"file://{images}/heroes/violet_card.png"
 		m_bUseMainOnlyModelForExperimental = false
-		m_strDeathVOSound = soundevent:"Generated.Yamato.Hero.Death.VO"
+		m_strDeathVOSound = soundevent:"Generated.Violet.Hero.Death.VO"
 		m_strHeroSearchName = "violet mist"
 		m_hGameSoundEventScript = resource_name:"soundevents/hero/yamato.vsndevts"
 		m_strRosterSelectedSound = soundevent:"Generated.Yamato.Hero.Pick.VO"
