@@ -794,7 +794,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -2690,7 +2689,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -4617,7 +4615,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -6551,7 +6548,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -8480,7 +8476,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -10405,7 +10400,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -12336,7 +12330,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -14264,7 +14257,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -16192,7 +16184,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -18120,7 +18111,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -20044,7 +20034,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -21973,7 +21962,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -23899,7 +23887,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -25071,7 +25058,7 @@
 			EWeaponPowerScale = 1
 			EProcBuildUpRateScale = 1
 			EStamina = 3
-			EBaseHealthRegen = 1.500000
+			EBaseHealthRegen = 2.500000
 			EStaminaRegenPerSecond = 0.181818
 			EAbilityResourceMax = 0
 			EAbilityResourceRegenPerSecond = 0
@@ -25823,7 +25810,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -27750,7 +27736,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -29683,7 +29668,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -31607,7 +31591,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -33537,7 +33520,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -35461,7 +35443,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -37385,7 +37366,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -39296,7 +39276,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -41225,7 +41204,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -43150,7 +43128,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -45074,7 +45051,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -46999,7 +46975,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -48898,7 +48873,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -50798,7 +50772,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -52698,7 +52671,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -54600,7 +54572,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -56505,7 +56476,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -58408,7 +58378,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -60329,7 +60298,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -62231,7 +62199,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -64155,7 +64122,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -66058,7 +66024,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -67958,7 +67923,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -69859,7 +69823,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -71755,7 +71718,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -73658,7 +73620,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -75583,7 +75544,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -77495,7 +77455,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -79419,7 +79378,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -81325,7 +81283,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -83230,7 +83187,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -85155,7 +85111,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -87089,7 +87044,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -88271,8 +88225,8 @@
 			ETechDuration = 1
 			ETechRange = 1
 			ECritDamageBonusScale = 1.000000
-			EHeroSpiritLifestealEffectiveness = 0.700000
-			EHeroBulletLifestealEffectiveness = 0.700000
+			EHeroSpiritLifestealEffectiveness = 1.000000
+			EHeroBulletLifestealEffectiveness = 1.000000
 			EGroundDashDistanceInMeters = 10.000000
 			EGroundDashDuration = 0.700000
 			EAirDashDistanceInMeters = 8.000000
@@ -88975,7 +88929,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.330000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 55.000000
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 46
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -89020,7 +88974,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -90949,7 +90902,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -92875,7 +92827,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -94785,7 +94736,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -96714,7 +96664,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -98621,7 +98570,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -100528,7 +100476,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -102452,7 +102399,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -104358,7 +104304,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -106277,7 +106222,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -108199,7 +108143,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -110125,7 +110068,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -112050,7 +111992,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -113958,7 +113899,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -115831,7 +115771,7 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.120600
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.124000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.819000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 39.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
@@ -115878,7 +115818,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -117054,7 +116993,7 @@
 			EWeaponPowerScale = 1
 			EProcBuildUpRateScale = 1
 			EStamina = 4
-			EBaseHealthRegen = 2.000000
+			EBaseHealthRegen = 1
 			EStaminaRegenPerSecond = 0.222222
 			EAbilityResourceMax = 0
 			EAbilityResourceRegenPerSecond = 0
@@ -117806,7 +117745,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -119729,7 +119667,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",
@@ -121627,7 +121564,6 @@
 					"EBaseHealthRegen",
 					"EHealingOutput",
 					"EOOCHealthRegen",
-					"EHeroSpiritLifestealEffectiveness",
 					"EBulletArmorDamageReduction",
 					"ETechArmorDamageReduction",
 					"EMeleeResist",

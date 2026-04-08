@@ -112,7 +112,7 @@
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
 			ESlot_Cosmetic_1 = "ability_kay_cooldown_reduction"
 			ESlot_Signature_1 = "ability_kay_magic_bomb"
-			ESlot_Signature_2 = "ability_kay_whirlwind"
+			ESlot_Signature_2 = "ability_kay_protect"
 			ESlot_Signature_3 = "ability_kay_grab_dash"
 			ESlot_Signature_4 = "ability_kay_return_aura"
 		}

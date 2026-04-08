@@ -113,7 +113,7 @@
 			ESlot_Signature_1 = "ability_testgirl_transformtest"
 			ESlot_Signature_2 = "testgirl_shield"
 			ESlot_Signature_3 = "imbue_test"
-			ESlot_Signature_4 = "ability_bookworm_knightcharge"
+			ESlot_Signature_4 = "ability_testgirl_teleport"
 		}
 		m_mapItemSlotInfo = 
 		{
