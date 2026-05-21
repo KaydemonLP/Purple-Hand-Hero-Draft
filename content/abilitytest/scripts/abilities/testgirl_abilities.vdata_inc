@@ -1315,9 +1315,9 @@
 		m_strCastSound = soundevent:"Bookworm.Conjure.Dragon.Cast"
 		
 		m_additionalAbilities = 
-		[
-			"ability_bookworm_aoemagic"
-		]
+		{
+			ability_bookworm_aoemagic = null
+		}
 		
 		m_vecAbilityUpgrades = 
 		[
@@ -3327,5 +3327,4 @@
 		m_ChannelParticle = resource_name:"particles/abilities/wrecker/wrecker_teleport_channel.vpcf"
 		m_CastParticle = resource_name:"particles/abilities/wrecker/wrecker_teleport_cast.vpcf"
 	}
-
 }

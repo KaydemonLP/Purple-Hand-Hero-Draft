@@ -1,0 +1,14 @@
+.kay_laceration_buildup #StatusEffectInner,.kay_laceration #StatusEffectInner
+{
+	wash-color: #6602fa;
+}
+
+.kay_laceration .statusEffectImage
+{
+	background-image: url("s2r://panorama/images/hud/modifiers/icon_toxic.vsvg");
+}
+
+.kay_laceration .statusEffectImage
+{
+	background-image: url("s2r://panorama/images/hud/modifiers/icon_toxic.vsvg");
+}

@@ -746,7 +746,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.165000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 55 
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 48 
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -827,19 +827,82 @@
 				
 				{
 					nGoldThreshold = 800
-					flBonus = 7
-					flPercentOnGraph = 8
-				},
-				
-				{
-					nGoldThreshold = 1600
 					flBonus = 9
 					flPercentOnGraph = 8
 				},
 				
 				{
+					nGoldThreshold = 1600
+					flBonus = 12
+					flPercentOnGraph = 8
+				},
+				
+				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 15
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 3200
+					flBonus = 18
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 4800
+					flBonus = 46
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 7200
+					flBonus = 55
+					flPercentOnGraph = 10
+				},
+				
+				{
+					nGoldThreshold = 9600
+					flBonus = 70
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 16000
+					flBonus = 85
+					flPercentOnGraph = 11
+				},
+				
+				{
+					nGoldThreshold = 22400
+					flBonus = 100
+					flPercentOnGraph = 12
+				},
+				
+				{
+					nGoldThreshold = 28800
+					flBonus = 115
+					flPercentOnGraph = 12
+				},
+			]
+			EItemSlotType_Armor = 
+			[
+				
+				{
+					nGoldThreshold = 800
+					flBonus = 9
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 1600
+					flBonus = 12
+					flPercentOnGraph = 8
+				},
+				
+				{
+					nGoldThreshold = 2400
+					flBonus = 15
 					flPercentOnGraph = 9
 				},
 				
@@ -851,100 +914,37 @@
 				
 				{
 					nGoldThreshold = 4800
-					flBonus = 49
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 60
+					flBonus = 42
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 80
+					flBonus = 46
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 95
+					flBonus = 50
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 115
+					flBonus = 56
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 135
-					flPercentOnGraph = 12
-				},
-			]
-			EItemSlotType_Armor = 
-			[
-				
-				{
-					nGoldThreshold = 800
-					flBonus = 75
-					flPercentOnGraph = 8
-				},
-				
-				{
-					nGoldThreshold = 1600
-					flBonus = 125
-					flPercentOnGraph = 8
-				},
-				
-				{
-					nGoldThreshold = 2400
-					flBonus = 200
-					flPercentOnGraph = 9
-				},
-				
-				{
-					nGoldThreshold = 3200
-					flBonus = 275
-					flPercentOnGraph = 9
-				},
-				
-				{
-					nGoldThreshold = 4800
-					flBonus = 525
-					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 7200
-					flBonus = 625
-					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 9600
-					flBonus = 750
-					flPercentOnGraph = 11
-				},
-				
-				{
-					nGoldThreshold = 16000
-					flBonus = 1000
-					flPercentOnGraph = 11
-				},
-				
-				{
-					nGoldThreshold = 22400
-					flBonus = 1200
-					flPercentOnGraph = 12
-				},
-				
-				{
-					nGoldThreshold = 28800
-					flBonus = 1400
+					flBonus = 62
 					flPercentOnGraph = 12
 				},
 			]
@@ -983,31 +983,31 @@
 				
 				{
 					nGoldThreshold = 7200
-					flBonus = 52
+					flBonus = 48
 					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 9600
-					flBonus = 64
+					flBonus = 57
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 76
+					flBonus = 66
 					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 89
+					flBonus = 75
 					flPercentOnGraph = 12
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 101
+					flBonus = 100
 					flPercentOnGraph = 12
 				},
 			]
