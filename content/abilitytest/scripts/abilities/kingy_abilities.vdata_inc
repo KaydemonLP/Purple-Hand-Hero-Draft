@@ -151,7 +151,7 @@
 			TechArmorDamageReduction = 
 			{
 				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_RESIST"
 				m_strCSSClass = "tech_armor_down"
 			}
 			TargetingConeAngle = 
@@ -2799,7 +2799,7 @@
 			BuffBaseWeaponPct = 
 			{
 				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 			ClipSizeBonus = 

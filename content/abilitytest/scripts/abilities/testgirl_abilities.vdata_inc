@@ -1176,7 +1176,7 @@
 			TechArmorDamageReduction = 
 			{
 				m_strValue = "0"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_RESIST"
 				m_strCSSClass = "tech_armor_down"
 			}
 			DebuffDuration = 

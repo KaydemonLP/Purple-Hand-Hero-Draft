@@ -2341,7 +2341,7 @@
 				m_strValue = "-50"
 				m_eDisplayType = "EBaseMeleeDamageIncrease"
 				m_strCSSClass = "melee_damage"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BASE_MELEE_DAMAGE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE"
 				m_eStatsUsageFlags = ""
 			}
 			LightMeleeCooldownMult = 
@@ -5154,7 +5154,7 @@
 				m_strValue = "22"
 				m_strCSSClass = "bullet_armor_down"
 				m_eDisplayType = "EMeleeResist"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_MELEE_RESIST_REDUCTION"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 			MeleeResistReductionDuration = 
@@ -5559,7 +5559,7 @@
 			{
 				m_strValue = "15"
 				m_strCSSClass = "damage"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_DAMAGE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_ALL_DAMAGE_MULTIPLIER"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 			RageDrainDelayDuration = 
@@ -5936,7 +5936,7 @@
 			SpiritResist = 
 			{
 				m_strValue = "40"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_RESIST"
 				m_eDisplayType = "ETechArmorDamageReduction"
 				m_strCSSClass = "tech_armor_up"
 			}

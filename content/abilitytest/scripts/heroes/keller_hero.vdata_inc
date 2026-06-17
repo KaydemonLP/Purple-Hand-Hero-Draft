@@ -154,31 +154,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -413,7 +413,7 @@
 			}
 			"19" = 
 			{
-				m_unRequiredGold = 15000
+				m_unRequiredGold = 14500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -422,7 +422,7 @@
 			}
 			"20" = 
 			{
-				m_unRequiredGold = 17000
+				m_unRequiredGold = 16000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -431,7 +431,7 @@
 			}
 			"21" = 
 			{
-				m_unRequiredGold = 19000
+				m_unRequiredGold = 17500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -440,7 +440,7 @@
 			}
 			"22" = 
 			{
-				m_unRequiredGold = 21000
+				m_unRequiredGold = 19000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -449,7 +449,7 @@
 			}
 			"23" = 
 			{
-				m_unRequiredGold = 23000
+				m_unRequiredGold = 20500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -458,7 +458,7 @@
 			}
 			"24" = 
 			{
-				m_unRequiredGold = 25000
+				m_unRequiredGold = 22000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -467,7 +467,7 @@
 			}
 			"25" = 
 			{
-				m_unRequiredGold = 27000
+				m_unRequiredGold = 23500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -476,7 +476,7 @@
 			}
 			"26" = 
 			{
-				m_unRequiredGold = 29000
+				m_unRequiredGold = 25000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -485,7 +485,7 @@
 			}
 			"27" = 
 			{
-				m_unRequiredGold = 31000
+				m_unRequiredGold = 26500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -494,7 +494,7 @@
 			}
 			"28" = 
 			{
-				m_unRequiredGold = 33000
+				m_unRequiredGold = 28000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -503,7 +503,7 @@
 			}
 			"29" = 
 			{
-				m_unRequiredGold = 35000
+				m_unRequiredGold = 29500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -512,7 +512,7 @@
 			}
 			"30" = 
 			{
-				m_unRequiredGold = 37000
+				m_unRequiredGold = 31000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -521,7 +521,7 @@
 			}
 			"31" = 
 			{
-				m_unRequiredGold = 39000
+				m_unRequiredGold = 32500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -530,7 +530,7 @@
 			}
 			"32" = 
 			{
-				m_unRequiredGold = 41000
+				m_unRequiredGold = 34000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -539,7 +539,7 @@
 			}
 			"33" = 
 			{
-				m_unRequiredGold = 43000
+				m_unRequiredGold = 35500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -548,7 +548,7 @@
 			}
 			"34" = 
 			{
-				m_unRequiredGold = 45000
+				m_unRequiredGold = 37000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -557,7 +557,7 @@
 			}
 			"35" = 
 			{
-				m_unRequiredGold = 47000
+				m_unRequiredGold = 38500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -566,7 +566,7 @@
 			}
 			"36" = 
 			{
-				m_unRequiredGold = 49000
+				m_unRequiredGold = 40000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -751,8 +751,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER  = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -828,61 +828,67 @@
 				{
 					nGoldThreshold = 800
 					flBonus = 9
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 1600
 					flBonus = 12
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 2400
 					flBonus = 15
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 3200
 					flBonus = 18
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 4800
 					flBonus = 46
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 6400
+					flBonus = 54
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 8000
+					flBonus = 62
 					flPercentOnGraph = 10
 				},
 				
 				{
-					nGoldThreshold = 7200
-					flBonus = 55
+					nGoldThreshold = 11200
+					flBonus = 74
 					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 9600
-					flBonus = 70
-					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 85
-					flPercentOnGraph = 11
+					flBonus = 86
+					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 22400
 					flBonus = 100
-					flPercentOnGraph = 12
+					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 28800
 					flBonus = 115
-					flPercentOnGraph = 12
+					flPercentOnGraph = 11
 				},
 			]
 			EItemSlotType_Armor = 
@@ -891,61 +897,67 @@
 				{
 					nGoldThreshold = 800
 					flBonus = 9
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 1600
 					flBonus = 12
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 2400
 					flBonus = 15
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 3200
 					flBonus = 20
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 4800
 					flBonus = 38
-					flPercentOnGraph = 10
+					flPercentOnGraph = 9
 				},
 				
 				{
-					nGoldThreshold = 7200
+					nGoldThreshold = 6400
 					flBonus = 42
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 8000
+					flBonus = 46
 					flPercentOnGraph = 10
 				},
 				
 				{
-					nGoldThreshold = 9600
-					flBonus = 46
-					flPercentOnGraph = 11
+					nGoldThreshold = 11200
+					flBonus = 50
+					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 16000
-					flBonus = 50
-					flPercentOnGraph = 11
+					flBonus = 54
+					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 22400
-					flBonus = 56
-					flPercentOnGraph = 12
+					flBonus = 60
+					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 28800
-					flBonus = 62
-					flPercentOnGraph = 12
+					flBonus = 66
+					flPercentOnGraph = 11
 				},
 			]
 			EItemSlotType_Tech = 
@@ -954,61 +966,67 @@
 				{
 					nGoldThreshold = 800
 					flBonus = 7
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 1600
 					flBonus = 11
-					flPercentOnGraph = 8
+					flPercentOnGraph = 7
 				},
 				
 				{
 					nGoldThreshold = 2400
 					flBonus = 15
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 3200
 					flBonus = 19
-					flPercentOnGraph = 9
+					flPercentOnGraph = 8
 				},
 				
 				{
 					nGoldThreshold = 4800
 					flBonus = 38
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 6400
+					flBonus = 45
+					flPercentOnGraph = 9
+				},
+				
+				{
+					nGoldThreshold = 8000
+					flBonus = 52
 					flPercentOnGraph = 10
 				},
 				
 				{
-					nGoldThreshold = 7200
-					flBonus = 48
+					nGoldThreshold = 11200
+					flBonus = 59
 					flPercentOnGraph = 10
-				},
-				
-				{
-					nGoldThreshold = 9600
-					flBonus = 57
-					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 16000
 					flBonus = 66
-					flPercentOnGraph = 11
+					flPercentOnGraph = 10
 				},
 				
 				{
 					nGoldThreshold = 22400
 					flBonus = 75
-					flPercentOnGraph = 12
+					flPercentOnGraph = 11
 				},
 				
 				{
 					nGoldThreshold = 28800
 					flBonus = 100
-					flPercentOnGraph = 12
+					flPercentOnGraph = 11
 				},
 			]
 		}
@@ -1022,12 +1040,12 @@
 			}
 			upgrade_ability_refresher = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_absorbing_armor = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_acolytes_glove = 
@@ -1067,12 +1085,12 @@
 			}
 			upgrade_arcane_extension = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_arcane_surge = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_arctic_blast = 
@@ -1087,7 +1105,7 @@
 			}
 			upgrade_berserker = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_blitz_bullets = 
@@ -1102,27 +1120,27 @@
 			}
 			upgrade_boundless_spirit = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_boxing_glove = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_bullet_armor_reduction_aura = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_bullet_resist_shredder = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_bulletshredimbue = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_burst_fire = 
@@ -1137,7 +1155,7 @@
 			}
 			upgrade_cardio_calibrator = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_celestial_guidance = 
@@ -1177,22 +1195,22 @@
 			}
 			upgrade_close_quarter_combat = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_close_range = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_cold_front = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_colossus = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_containment = 
@@ -1202,7 +1220,7 @@
 			}
 			upgrade_cooldown_reduction = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_counterspell = 
@@ -1217,12 +1235,12 @@
 			}
 			upgrade_critshot = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_crushing_fists = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_damage_recycler = 
@@ -1232,12 +1250,12 @@
 			}
 			upgrade_debuff_reducer = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_deflecting_armor = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_discord = 
@@ -1252,7 +1270,7 @@
 			}
 			upgrade_diviners_kevlar = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_dps_aura = 
@@ -1272,7 +1290,7 @@
 			}
 			upgrade_enchanted_holsters = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_endurance = 
@@ -1282,7 +1300,7 @@
 			}
 			upgrade_escalating_exposure = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_eternal_gift = 
@@ -1292,27 +1310,27 @@
 			}
 			upgrade_ethereal_bullets = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_express_shot = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_extra_charge = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_fervor = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_fleetfoot_boots = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_focus_lens = 
@@ -1327,7 +1345,7 @@
 			}
 			upgrade_glass_cannon = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_glitch = 
@@ -1367,17 +1385,17 @@
 			}
 			upgrade_healbane = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_healbuff = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_healing_booster = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_health = 
@@ -1392,7 +1410,7 @@
 			}
 			upgrade_health_stealing_magic = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_health_stimpak = 
@@ -1407,7 +1425,7 @@
 			}
 			upgrade_hollow_point_rounds = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_icarus_wings = 
@@ -1417,7 +1435,7 @@
 			}
 			upgrade_imbued_duration_extender = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_improved_bullet_armor = 
@@ -1427,7 +1445,7 @@
 			}
 			upgrade_improved_spirit = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_improved_stamina = 
@@ -1442,12 +1460,12 @@
 			}
 			upgrade_infuser = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_inhibitor = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_intensifying_clip = 
@@ -1457,7 +1475,7 @@
 			}
 			upgrade_juggernaut = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_kinetic_sash = 
@@ -1467,7 +1485,7 @@
 			}
 			upgrade_lifestrike_gauntlets = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_long_range = 
@@ -1477,7 +1495,7 @@
 			}
 			upgrade_magic_burst = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_carpet = 
@@ -1487,47 +1505,47 @@
 			}
 			upgrade_magic_reach = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_shield = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_shock = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_slow = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_storm = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_tempo = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_magic_vulnerability = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_medic_bullets = 
 			{
-				m_strBucket = "Good"
-				m_flWeight = 1.000000
+				m_strBucket = "Normal"
+				m_flWeight = 0.400000
 			}
 			upgrade_melee_charge = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_melee_rebuttal = 
@@ -1542,7 +1560,7 @@
 			}
 			upgrade_mystic_regeneration = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_mystic_reverb = 
@@ -1557,7 +1575,7 @@
 			}
 			upgrade_non_player_bonus = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_non_player_bonus_sacrifice = 
@@ -1582,7 +1600,7 @@
 			}
 			upgrade_phantom_strike = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_prism_blast = 
@@ -1597,17 +1615,17 @@
 			}
 			upgrade_proc_silence = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_quick_silver = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_rapid_recharge = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_rapid_rounds = 
@@ -1627,7 +1645,7 @@
 			}
 			upgrade_regenerating_bullet_shield = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_reinforcing_casings = 
@@ -1642,7 +1660,7 @@
 			}
 			upgrade_resonant_healing = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_restorative_locket = 
@@ -1668,7 +1686,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -1703,7 +1721,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -1712,17 +1730,17 @@
 			}
 			upgrade_slowing_bullets = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_soaring_spirit = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_spellbreaker = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_spellslinger_headshots = 
@@ -1737,7 +1755,7 @@
 			}
 			upgrade_spirit_burn = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_spirit_sap = 
@@ -1747,7 +1765,7 @@
 			}
 			upgrade_spirit_snatch = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_split_shot = 
@@ -1757,7 +1775,7 @@
 			}
 			upgrade_sprint_booster = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_superior_stamina = 
@@ -1772,7 +1790,7 @@
 			}
 			upgrade_surging_power = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_target_stun = 
@@ -1792,7 +1810,7 @@
 			}
 			upgrade_tech_defense_shredders = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_tech_overflow = 
@@ -1807,7 +1825,7 @@
 			}
 			upgrade_tech_range = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_thermal_detonator = 
@@ -1827,12 +1845,12 @@
 			}
 			upgrade_toxic_bullets = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_transcendent_cooldown = 
 			{
-				m_strBucket = "Normal"
+				m_strBucket = "Good"
 				m_flWeight = 1.000000
 			}
 			upgrade_trophy_collector = 
@@ -1852,12 +1870,12 @@
 			}
 			upgrade_unstoppable = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_vampire = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_veil_walker = 
@@ -1872,7 +1890,7 @@
 			}
 			upgrade_warp_stone = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_weapon_backstabber = 
@@ -1887,10 +1905,20 @@
 			}
 			upgrade_weighted_shots = 
 			{
-				m_strBucket = "Good"
+				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
 			upgrade_withering_whip = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000

@@ -522,7 +522,7 @@
 				m_strValue = "5"
 				m_strCSSClass = "bullet_damage"
 				m_eDisplayType = "EBaseWeaponDamageIncrease"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 				m_subclassScaleFunction = subclass:
 				{

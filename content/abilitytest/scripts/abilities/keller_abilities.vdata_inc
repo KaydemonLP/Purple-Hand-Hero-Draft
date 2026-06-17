@@ -521,7 +521,7 @@
 				m_strCSSClass = "bullet_damage"
 				m_eDisplayUnits = "EDisplayUnit_Normal"
 				m_eDisplayType = "EBaseWeaponDamageIncrease"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 		}
@@ -1743,7 +1743,7 @@
 			TechResist = 
 			{
 				m_strValue = "20"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_RESIST"
 			}
 			PushForce = 
 			{
@@ -1982,7 +1982,7 @@
 				m_strValue = "-10"
 				m_strCSSClass = "bullet_armor_down"
 				m_eDisplayType = "EStatsCount"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_BULLET_AND_MELEE_RESIST_REDUCTION"
 				m_eStatsUsageFlags = "ConditionallyApplied"
 			}
 		}
@@ -2777,7 +2777,7 @@
 			SpiritResist = 
 			{
 				m_strValue = "15"
-				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST"
+				m_eProvidedPropertyType = "MODIFIER_VALUE_TECH_RESIST"
 				m_eDisplayType = "ETechArmorDamageReduction"
 				m_strCSSClass = "tech_armor_up"
 			}
