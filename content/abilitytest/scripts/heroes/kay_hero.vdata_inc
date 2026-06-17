@@ -702,7 +702,7 @@
 			ELightMeleeDamage = 
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.300000
+				flScale = 0.3
 			}
 			EHeavyMeleeDamage = 
 			{

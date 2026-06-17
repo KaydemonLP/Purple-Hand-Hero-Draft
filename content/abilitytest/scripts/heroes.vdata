@@ -159,31 +159,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -756,8 +756,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -1724,7 +1724,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -1921,6 +1921,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 	}
 	hero_inferno = 
@@ -2075,31 +2080,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -2672,8 +2677,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -3642,7 +3647,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -3839,6 +3844,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = true
@@ -4024,31 +4034,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -4614,15 +4624,15 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.337000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.240000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 43.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -5591,7 +5601,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -5788,6 +5798,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = true
@@ -5975,31 +5990,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -6577,8 +6592,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -7547,7 +7562,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -7744,6 +7759,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -7931,31 +7951,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -8528,8 +8548,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -9498,7 +9518,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -9695,6 +9715,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/spectre_sm.psd"
@@ -9876,31 +9901,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -10474,8 +10499,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -11445,7 +11470,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -11642,6 +11667,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strGunTag = "#Citadel_GunTag_Shotgun"
@@ -11825,31 +11855,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -12427,8 +12457,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -13398,7 +13428,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -13595,6 +13625,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -13780,31 +13815,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -14377,8 +14412,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.625000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.625000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -15348,7 +15383,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -15545,6 +15580,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -15731,31 +15771,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -16328,8 +16368,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -17263,7 +17303,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -17298,7 +17338,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -17495,6 +17535,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/chrono_sm.psd"
@@ -17676,31 +17721,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -18278,8 +18323,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.625000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -19213,7 +19258,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -19248,7 +19293,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -19445,6 +19490,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -19627,31 +19677,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -20224,8 +20274,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.625000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.625000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.300000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -21159,7 +21209,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -21194,7 +21244,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -21391,6 +21441,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -21573,31 +21628,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -22175,8 +22230,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 0.500000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -23145,7 +23200,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -23342,6 +23397,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = true
@@ -23526,31 +23586,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -24123,8 +24183,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -25093,7 +25153,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -25290,6 +25350,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/astro_sm.psd"
@@ -25471,31 +25536,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -26068,8 +26133,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 59
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.300000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -27039,7 +27104,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -27236,6 +27301,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -27421,31 +27491,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -28018,8 +28088,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -28988,7 +29058,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -29185,6 +29255,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/nano_sm.psd"
@@ -29367,31 +29442,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -29967,15 +30042,15 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 1.001000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.850000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 40.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.600000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -30944,7 +31019,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -31141,6 +31216,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bLaneTestingRecommended = true
@@ -31323,31 +31403,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -31920,8 +32000,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -32890,7 +32970,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -33087,6 +33167,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -33276,31 +33361,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -33873,8 +33958,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -34843,7 +34928,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -35040,6 +35125,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/shiv_sm.psd"
@@ -35222,31 +35312,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -35819,8 +35909,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.200000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -36789,7 +36879,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -36986,6 +37076,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/tengu_sm.psd"
@@ -37170,31 +37265,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -37767,8 +37862,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -38735,7 +38830,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -38932,6 +39027,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/kali_sm.psd"
@@ -39091,31 +39191,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -39698,8 +39798,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -40668,7 +40768,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -40865,6 +40965,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/warden_sm.psd"
@@ -41047,31 +41152,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -41649,8 +41754,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -42619,7 +42724,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -42816,6 +42921,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/yamato_sm.psd"
@@ -42999,31 +43109,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -43596,8 +43706,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -44566,7 +44676,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -44763,6 +44873,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/lash_sm.psd"
@@ -44945,31 +45060,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -45542,8 +45657,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.300000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -46512,7 +46627,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -46709,6 +46824,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/viscous_sm.psd"
@@ -46894,31 +47014,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -47491,8 +47611,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -48459,7 +48579,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -48656,6 +48776,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/gunslinger_sm.psd"
@@ -48815,31 +48940,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -49412,8 +49537,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -50380,7 +50505,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -50577,6 +50702,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/yakuza_sm.psd"
@@ -50737,31 +50867,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -51334,8 +51464,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -52302,7 +52432,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -52499,6 +52629,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/genericperson_sm.psd"
@@ -52659,31 +52794,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -53256,8 +53391,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -54224,7 +54359,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -54421,6 +54556,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/tokamak_sm.psd"
@@ -54582,31 +54722,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -55179,8 +55319,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -56148,7 +56288,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -56345,6 +56485,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/wrecker_sm.psd"
@@ -56510,31 +56655,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -57107,8 +57252,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -58075,7 +58220,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -58272,6 +58417,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconHeroCard = panorama:"file://{images}/heroes/rutger_card.psd"
@@ -58433,31 +58583,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -59023,15 +59173,15 @@
 		}
 		m_mapStandardLevelUpUpgrades = 
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.200000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.160000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 38.000000
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -60000,7 +60150,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -60197,6 +60347,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconHeroCard = panorama:"file://{images}/heroes/synth_card.psd"
@@ -60378,31 +60533,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -60975,8 +61130,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -61943,7 +62098,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -62140,6 +62295,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/thumper_sm.psd"
@@ -62300,31 +62460,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -62897,8 +63057,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -63867,7 +64027,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -64064,6 +64224,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconHeroCard = panorama:"file://{images}/heroes/mirage_card.psd"
@@ -64246,31 +64411,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -64843,8 +65008,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -65813,7 +65978,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -66010,6 +66175,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/slork_sm.psd"
@@ -66173,31 +66343,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -66770,8 +66940,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -67738,7 +67908,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -67935,6 +68105,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/cadence_sm.psd"
@@ -68095,31 +68270,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -68692,8 +68867,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -69660,7 +69835,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -69853,6 +70028,11 @@
 				m_flWeight = 1.000000
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
@@ -70018,31 +70198,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -70615,8 +70795,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -71583,7 +71763,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -71776,6 +71956,11 @@
 				m_flWeight = 1.000000
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
@@ -71936,31 +72121,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -72533,8 +72718,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -73501,7 +73686,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -73698,6 +73883,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strHeroSearchName = "#hero_shieldguy_search"
@@ -73854,31 +74044,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -74456,8 +74646,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -75426,7 +75616,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -75623,6 +75813,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/kali_sm.psd"
@@ -75806,31 +76001,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -76403,8 +76598,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -77373,7 +77568,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -77570,6 +77765,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/vandal_sm.psd"
@@ -77735,31 +77935,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -78337,8 +78537,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.300000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -79307,7 +79507,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -79504,6 +79704,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/magician_sm.psd"
@@ -79686,31 +79891,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -80283,8 +80488,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -81253,7 +81458,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -81450,6 +81655,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/trapper_sm.psd"
@@ -81615,31 +81825,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -82212,8 +82422,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -83181,7 +83391,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -83378,6 +83588,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/operative_sm.psd"
@@ -83542,31 +83757,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -84139,8 +84354,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -85109,7 +85324,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -85306,6 +85521,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/vampirebat_sm.psd"
@@ -85489,31 +85709,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -86086,8 +86306,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -87056,7 +87276,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -87253,6 +87473,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/drifter_sm.psd"
@@ -87435,31 +87660,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -88042,8 +88267,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -89012,7 +89237,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -89209,6 +89434,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/priest_sm.psd"
@@ -89393,31 +89623,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -89995,8 +90225,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -90965,7 +91195,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -91162,6 +91392,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/frank_sm.psd"
@@ -91344,31 +91579,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -91946,8 +92181,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -92881,7 +93116,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -92916,7 +93151,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -93113,6 +93348,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -93297,31 +93537,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -93894,8 +94134,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -94864,7 +95104,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -95061,6 +95301,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -95229,31 +95474,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -95826,8 +96071,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -96796,7 +97041,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -96993,6 +97238,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -97180,31 +97430,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -97777,8 +98027,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -98747,7 +98997,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -98944,6 +99194,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/skyrunner_sm.psd"
@@ -99109,31 +99364,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -99706,8 +99961,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -100676,7 +100931,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -100873,6 +101128,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/swan_sm.psd"
@@ -101038,31 +101298,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -101635,8 +101895,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -102605,7 +102865,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -102802,6 +103062,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -102986,31 +103251,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -103583,8 +103848,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -104551,7 +104816,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -104748,6 +105013,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_nReadability = 4
@@ -104912,31 +105182,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -105509,8 +105779,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -106479,7 +106749,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -106676,6 +106946,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/graf_sm.psd"
@@ -106847,31 +107122,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -107449,8 +107724,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -108420,7 +108695,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -108617,6 +108892,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/fortuna_sm.psd"
@@ -108797,31 +109077,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -109394,8 +109674,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -110364,7 +110644,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -110561,6 +110841,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/necro_sm.psd"
@@ -110745,31 +111030,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -111342,8 +111627,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -112312,7 +112597,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -112509,6 +112794,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/fencer_sm.psd"
@@ -112692,31 +112982,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -113289,8 +113579,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_Rage"
@@ -114259,7 +114549,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -114456,6 +114746,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/chrono_sm.psd"
@@ -114622,31 +114917,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -115219,8 +115514,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -116154,7 +116449,7 @@
 			upgrade_runed_gauntlets = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 1.000000
+				m_flWeight = 0.400000
 			}
 			upgrade_rupture = 
 			{
@@ -116189,7 +116484,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -116386,6 +116681,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/familiar_sm.psd"
@@ -116565,31 +116865,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -117162,8 +117462,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -118132,7 +118432,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -118329,6 +118629,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_bNewPlayerRecommended = false
@@ -118514,31 +118819,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -119111,8 +119416,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -120081,7 +120386,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -120278,6 +120583,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strIconImageSmall = panorama:"file://{images}/heroes/unicorn_sm.psd"
@@ -120461,31 +120771,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -121058,8 +121368,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -122026,7 +122336,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -122223,6 +122533,11 @@
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
 			}
+			upgrade_grit = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
 		}
 		_base = "hero_base"
 		m_strHeroSearchName = "#hero_opera_search"
@@ -122379,31 +122694,31 @@
 				{
 					m_nTier = 1
 					m_strValue = "4"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 2
 					m_strValue = "8"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 3
 					m_strValue = "13"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 4
 					m_strValue = "18"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 				
 				{
 					m_nTier = 5
 					m_strValue = "23"
-					m_ValueType = "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+					m_ValueType = "MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE"
 				},
 			]
 			EItemSlotType_Armor = 
@@ -122976,8 +123291,8 @@
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST = 0.000000
-			MODIFIER_VALUE_TECH_DAMAGE_PERCENT = 0.000000
+			MODIFIER_VALUE_TECH_RESIST = 0.000000
+			MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER = 0.000000
 			MODIFIER_VALUE_TECH_POWER = 1.100000
 		}
 		m_eAbilityResourceType = "EResourceType_None"
@@ -123946,7 +124261,7 @@
 			upgrade_shrink_ray = 
 			{
 				m_strBucket = "Normal"
-				m_flWeight = 0.300000
+				m_flWeight = 0.400000
 			}
 			upgrade_siphon_bullets = 
 			{
@@ -124139,6 +124454,11 @@
 				m_flWeight = 1.000000
 			}
 			upgrade_auto_cleanse = 
+			{
+				m_strBucket = "Normal"
+				m_flWeight = 1.000000
+			}
+			upgrade_grit = 
 			{
 				m_strBucket = "Normal"
 				m_flWeight = 1.000000
