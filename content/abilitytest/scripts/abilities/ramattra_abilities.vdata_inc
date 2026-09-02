@@ -1029,7 +1029,7 @@
 		m_strSelectedSound = soundevent:"Ivy.Kudzu.Bomb.Select"
 		m_strSelectedLoopSound = soundevent:"Ivy.Kudzu.Bomb.Select.Lp"
 		m_strCastDelaySound = soundevent:"Ivy.Kudzu.Bomb.Cast"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/tengu/tengu_storm_flask.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/ramattra_abilityvortex.png"
 		m_strMoviePreviewPath = "file://{resources}/videos/hero_abilities/tengu_urn.webm"
 		m_vecAbilityUpgrades = 
 		[
@@ -1381,7 +1381,7 @@
 		m_iUpdateTime = 1633571723
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_PRESS"
 		m_eAbilityTargetingLocation = "CITADEL_ABILITY_TARGETING_LOCATION_DEPLOYED_OBJECT"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/chrono/chrono_time_wall.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/Ramattra_abilityBarrier.png"
 		m_strCastAnimGraphParam = "e_CastChronoSphere"
 		m_HudSharedStyle = resource_name:"panorama/styles/ability_hud_elements/abilities_chrono.vcss"
 		
@@ -1831,7 +1831,7 @@
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
 		m_AbilityBehaviorsBits = ""
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/haze/haze_fixation.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/Ramattra_abilityForm.png"
 		m_vecAbilityUpgrades = 
 		[
 		]
@@ -2112,7 +2112,7 @@
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY"
 		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT"
 		m_strCSSClass = "detentionRounds"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/werewolf/werewolf_lycancurse.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/Ramattra_abilityForm.png"
 		m_HudSharedStyle = resource_name:"panorama/styles/ability_hud_elements/abilities_werewolf.vcss"
 		m_vecAbilityUpgrades = 
 		[
@@ -2611,7 +2611,7 @@
 		m_eAbilityActivation = "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST"
 		m_AbilityBehaviorsBits = ""
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_ALL_FRIENDLY"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/haze/haze_fixation.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/ramattra_abilityannihilate.png"
 		m_vecAbilityUpgrades = 
 		[
 		]
@@ -2891,7 +2891,7 @@
 		m_nAbilityTargetTypes = "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY"
 		m_AbilityBehaviorsBits = "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT"
 		m_strCSSClass = "detentionRounds"
-		m_strAbilityImage = panorama:"file://{images}/hud/abilities/werewolf/werewolf_lycancurse.psd"
+		m_strAbilityImage = panorama:"file://{images}/hud/abilities/ramattra/ramattra_abilityannihilate.png"
 		m_HudSharedStyle = resource_name:"panorama/styles/ability_hud_elements/abilities_werewolf.vcss"
 		m_vecAbilityUpgrades = 
 		[

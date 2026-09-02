@@ -259,7 +259,7 @@
 			}
 			"2" = 
 			{
-				m_unRequiredGold = 300
+				m_unRequiredGold = 200
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -268,7 +268,7 @@
 			}
 			"3" = 
 			{
-				m_unRequiredGold = 600
+				m_unRequiredGold = 500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -286,7 +286,7 @@
 			}
 			"5" = 
 			{
-				m_unRequiredGold = 1500
+				m_unRequiredGold = 1400
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -295,7 +295,7 @@
 			}
 			"6" = 
 			{
-				m_unRequiredGold = 2200
+				m_unRequiredGold = 2000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -304,25 +304,25 @@
 			}
 			"7" = 
 			{
-				m_unRequiredGold = 3000
-				m_bUseStandardUpgrade = true
-				m_mapBonusCurrencies = 
-				{
-					EAbilityUnlocks = 1
-				}
-			}
-			"8" = 
-			{
-				m_unRequiredGold = 3800
+				m_unRequiredGold = 2600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
 					EAbilityPoints = 1
 				}
 			}
+			"8" = 
+			{
+				m_unRequiredGold = 3200
+				m_bUseStandardUpgrade = true
+				m_mapBonusCurrencies = 
+				{
+					EAbilityUnlocks = 1
+				}
+			}
 			"9" = 
 			{
-				m_unRequiredGold = 4600
+				m_unRequiredGold = 3900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -331,7 +331,7 @@
 			}
 			"10" = 
 			{
-				m_unRequiredGold = 5400
+				m_unRequiredGold = 4600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -340,7 +340,7 @@
 			}
 			"11" = 
 			{
-				m_unRequiredGold = 6200
+				m_unRequiredGold = 5300
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -349,7 +349,7 @@
 			}
 			"12" = 
 			{
-				m_unRequiredGold = 7100
+				m_unRequiredGold = 6000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -358,7 +358,7 @@
 			}
 			"13" = 
 			{
-				m_unRequiredGold = 8000
+				m_unRequiredGold = 6800
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -367,7 +367,7 @@
 			}
 			"14" = 
 			{
-				m_unRequiredGold = 9000
+				m_unRequiredGold = 7600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -376,7 +376,7 @@
 			}
 			"15" = 
 			{
-				m_unRequiredGold = 10000
+				m_unRequiredGold = 8400
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -385,7 +385,7 @@
 			}
 			"16" = 
 			{
-				m_unRequiredGold = 11000
+				m_unRequiredGold = 9200
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -394,7 +394,7 @@
 			}
 			"17" = 
 			{
-				m_unRequiredGold = 12000
+				m_unRequiredGold = 10100
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -403,7 +403,7 @@
 			}
 			"18" = 
 			{
-				m_unRequiredGold = 13200
+				m_unRequiredGold = 11000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -412,7 +412,7 @@
 			}
 			"19" = 
 			{
-				m_unRequiredGold = 14500
+				m_unRequiredGold = 11900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -421,7 +421,7 @@
 			}
 			"20" = 
 			{
-				m_unRequiredGold = 16000
+				m_unRequiredGold = 12800
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -430,7 +430,7 @@
 			}
 			"21" = 
 			{
-				m_unRequiredGold = 17500
+				m_unRequiredGold = 13800
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -439,7 +439,7 @@
 			}
 			"22" = 
 			{
-				m_unRequiredGold = 19000
+				m_unRequiredGold = 14900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -448,7 +448,7 @@
 			}
 			"23" = 
 			{
-				m_unRequiredGold = 20500
+				m_unRequiredGold = 16100
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -457,7 +457,7 @@
 			}
 			"24" = 
 			{
-				m_unRequiredGold = 22000
+				m_unRequiredGold = 17400
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -466,7 +466,7 @@
 			}
 			"25" = 
 			{
-				m_unRequiredGold = 23500
+				m_unRequiredGold = 18900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -475,7 +475,7 @@
 			}
 			"26" = 
 			{
-				m_unRequiredGold = 25000
+				m_unRequiredGold = 20600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -484,7 +484,7 @@
 			}
 			"27" = 
 			{
-				m_unRequiredGold = 26500
+				m_unRequiredGold = 22500
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -493,7 +493,7 @@
 			}
 			"28" = 
 			{
-				m_unRequiredGold = 28000
+				m_unRequiredGold = 24600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -502,7 +502,7 @@
 			}
 			"29" = 
 			{
-				m_unRequiredGold = 29500
+				m_unRequiredGold = 26900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -511,7 +511,7 @@
 			}
 			"30" = 
 			{
-				m_unRequiredGold = 31000
+				m_unRequiredGold = 29400
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -520,7 +520,7 @@
 			}
 			"31" = 
 			{
-				m_unRequiredGold = 32500
+				m_unRequiredGold = 32100
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -529,7 +529,7 @@
 			}
 			"32" = 
 			{
-				m_unRequiredGold = 34000
+				m_unRequiredGold = 35000
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -538,7 +538,7 @@
 			}
 			"33" = 
 			{
-				m_unRequiredGold = 35500
+				m_unRequiredGold = 38100
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -547,7 +547,7 @@
 			}
 			"34" = 
 			{
-				m_unRequiredGold = 37000
+				m_unRequiredGold = 41400
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -556,7 +556,7 @@
 			}
 			"35" = 
 			{
-				m_unRequiredGold = 38500
+				m_unRequiredGold = 44900
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
@@ -565,7 +565,7 @@
 			}
 			"36" = 
 			{
-				m_unRequiredGold = 40000
+				m_unRequiredGold = 48600
 				m_bUseStandardUpgrade = true
 				m_mapBonusCurrencies = 
 				{
