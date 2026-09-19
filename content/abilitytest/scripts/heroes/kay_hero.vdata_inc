@@ -1956,7 +1956,7 @@
 			"Demonic",
 		]
 		m_strGunTag = "Explosive"
-		m_strHideoutRichPresence = "Watching The Amazing Digital Circus - EP 9: Remember in the Hideout"
+		m_strHideoutRichPresence = "Holding onto ruins of ruins of hope in the Hideout"
 		m_eHeroType = "ECitadelHeroType_Mystic"
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_yamato.vsndevts"
 								  
